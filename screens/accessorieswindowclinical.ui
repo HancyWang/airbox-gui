@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AccessoriesWindowClinical</class>
+ <widget class="QDialog" name="AccessoriesWindowClinical">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>480</width>
+    <height>272</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(49, 49, 49);</string>
+  </property>
+  <widget class="QPushButton" name="backAccessories">
+   <property name="geometry">
+    <rect>
+     <x>6</x>
+     <y>25</y>
+     <width>38</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border:none;
+border-radius:3px;
+background-color: rgb(70, 70, 73);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="../rsc/resource.qrc">
+     <normaloff>:/icons/previous.png</normaloff>:/icons/previous.png</iconset>
+   </property>
+  </widget>
+  <widget class="QLabel" name="titleAccessories">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>30</y>
+     <width>171</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Roboto</family>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:#1788c3
+</string>
+   </property>
+   <property name="text">
+    <string>Accessories</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../rsc/resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>

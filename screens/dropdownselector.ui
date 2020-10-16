@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DropDownSelector</class>
+ <widget class="QDialog" name="DropDownSelector">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>123</width>
+    <height>180</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(49, 49, 49);</string>
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>-1</y>
+     <width>121</width>
+     <height>181</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <property name="spacing">
+     <number>1</number>
+    </property>
+    <property name="leftMargin">
+     <number>1</number>
+    </property>
+    <property name="topMargin">
+     <number>1</number>
+    </property>
+    <item>
+     <widget class="QPushButton" name="button1">
+      <property name="focusPolicy">
+       <enum>Qt::NoFocus</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+background-color:#3B3B3B;
+color:#BDBDBD;
+border:none;
+border-radius:3px;
+}
+QPushButton:pressed {
+background-color:#606060;
+color:#BDBDBD;
+border:none;
+border-radius:3px;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>1 Day</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="button2">
+      <property name="focusPolicy">
+       <enum>Qt::NoFocus</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+background-color:#3B3B3B;
+color:#BDBDBD;
+border:none;
+border-radius:3px;
+}
+QPushButton:pressed {
+background-color:#606060;
+color:#BDBDBD;
+border:none;
+border-radius:3px;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>1 Week</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="button3">
+      <property name="focusPolicy">
+       <enum>Qt::NoFocus</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+background-color:#3B3B3B;
+color:#BDBDBD;
+border:none;
+border-radius:3px;
+}
+QPushButton:pressed {
+background-color:#606060;
+color:#BDBDBD;
+border:none;
+border-radius:3px;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>1 Month</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="button4">
+      <property name="focusPolicy">
+       <enum>Qt::NoFocus</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+background-color:#3B3B3B;
+color:#BDBDBD;
+border:none;
+border-radius:3px;
+}
+QPushButton:pressed {
+background-color:#606060;
+color:#BDBDBD;
+border:none;
+border-radius:3px;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>3 Month</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="button5">
+      <property name="focusPolicy">
+       <enum>Qt::NoFocus</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+background-color:#3B3B3B;
+color:#BDBDBD;
+border:none;
+border-radius:3px;
+}
+QPushButton:pressed {
+background-color:#606060;
+color:#BDBDBD;
+border:none;
+border-radius:3px;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>6 Month</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="button6">
+      <property name="focusPolicy">
+       <enum>Qt::NoFocus</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+background-color:#3B3B3B;
+color:#BDBDBD;
+border:none;
+border-radius:3px;
+}
+QPushButton:pressed {
+background-color:#606060;
+color:#BDBDBD;
+border:none;
+border-radius:3px;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>1 Year</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

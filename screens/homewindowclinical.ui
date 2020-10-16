@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>HomeWindowClinical</class>
+ <widget class="QDialog" name="HomeWindowClinical">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>480</width>
+    <height>272</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(49, 49, 49);</string>
+  </property>
+  <widget class="QPushButton" name="frescaLogo">
+   <property name="geometry">
+    <rect>
+     <x>135</x>
+     <y>30</y>
+     <width>210</width>
+     <height>67</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border:none;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="../rsc/resource.qrc">
+     <normaloff>:/icons/somnera.png</normaloff>:/icons/somnera.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>210</width>
+     <height>65</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QLabel" name="clinicalMenuTitle">
+   <property name="geometry">
+    <rect>
+     <x>24</x>
+     <y>111</y>
+     <width>150</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Roboto</family>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:#1788c3
+</string>
+   </property>
+   <property name="text">
+    <string>Clinical Menu</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../rsc/resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>

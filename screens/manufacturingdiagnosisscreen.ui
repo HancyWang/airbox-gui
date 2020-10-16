@@ -1,0 +1,964 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ManufacturingDiagnosisScreen</class>
+ <widget class="QDialog" name="ManufacturingDiagnosisScreen">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>480</width>
+    <height>272</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(49, 49, 49);</string>
+  </property>
+  <widget class="QLabel" name="titleManufacturingDiagnosis">
+   <property name="geometry">
+    <rect>
+     <x>83</x>
+     <y>29</y>
+     <width>271</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Roboto</family>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:#1788c3
+</string>
+   </property>
+   <property name="text">
+    <string>Manufacturing Diagnosis</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="backManufacturingDiagnosis">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>24</y>
+     <width>38</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border:none;
+border-radius:3px;
+background-color: rgb(70, 70, 73);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="../rsc/resource.qrc">
+     <normaloff>:/icons/previous.png</normaloff>:/icons/previous.png</iconset>
+   </property>
+  </widget>
+  <widget class="QScrollArea" name="scrollAreaDiagnosis">
+   <property name="geometry">
+    <rect>
+     <x>243</x>
+     <y>57</y>
+     <width>237</width>
+     <height>215</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"> QScrollBar:vertical {
+     border: none;
+     width: 5px;
+ }
+ QScrollBar::handle:vertical {
+     background:#1788c3;
+     min-height: 20px;
+ }
+ QScrollBar::up-arrow:vertical, QScrollBar::down-arrow:vertical {
+     border: 2px #1788c3;
+     width: 5px;
+     height: 5px;
+     background: #1788c3;
+ }</string>
+   </property>
+   <property name="verticalScrollBarPolicy">
+    <enum>Qt::ScrollBarAlwaysOn</enum>
+   </property>
+   <property name="widgetResizable">
+    <bool>true</bool>
+   </property>
+   <widget class="QWidget" name="scrollAreaWidgetContentsDiagnosis">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>221</width>
+      <height>213</height>
+     </rect>
+    </property>
+    <widget class="QWidget" name="verticalLayoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>9</x>
+       <y>9</y>
+       <width>461</width>
+       <height>201</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayoutDiagnosis" stretch="0,0,0,0,0,0,0">
+      <property name="spacing">
+       <number>5</number>
+      </property>
+      <property name="leftMargin">
+       <number>5</number>
+      </property>
+      <property name="topMargin">
+       <number>5</number>
+      </property>
+      <property name="rightMargin">
+       <number>5</number>
+      </property>
+      <property name="bottomMargin">
+       <number>5</number>
+      </property>
+      <item>
+       <widget class="QFrame" name="pressureFrame">
+        <property name="styleSheet">
+         <string notr="true">background-color:#3D3D3D;
+border-radius:3px;
+</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <widget class="QLabel" name="pressureTitle">
+         <property name="geometry">
+          <rect>
+           <x>3</x>
+           <y>2</y>
+           <width>81</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Roboto Light</family>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color:#BDBDBD</string>
+         </property>
+         <property name="text">
+          <string>Pressure</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="pressureValue">
+         <property name="geometry">
+          <rect>
+           <x>62</x>
+           <y>0</y>
+           <width>151</width>
+           <height>35</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Roboto</family>
+           <pointsize>18</pointsize>
+           <italic>false</italic>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color:#2196F3</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+        <widget class="QLabel" name="pressureUnit">
+         <property name="geometry">
+          <rect>
+           <x>3</x>
+           <y>20</y>
+           <width>61</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Roboto Light</family>
+           <pointsize>7</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color:#616161</string>
+         </property>
+         <property name="text">
+          <string>ADC/cmH&lt;sub&gt;2&lt;/sub&gt;O</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+         </property>
+        </widget>
+       </widget>
+      </item>
+      <item>
+       <widget class="QFrame" name="flowFrame">
+        <property name="styleSheet">
+         <string notr="true">background-color:#3D3D3D;
+border-radius:3px;
+</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <widget class="QLabel" name="floTitle">
+         <property name="geometry">
+          <rect>
+           <x>3</x>
+           <y>2</y>
+           <width>81</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Roboto Light</family>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color:#BDBDBD</string>
+         </property>
+         <property name="text">
+          <string>Flow</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="flowValue">
+         <property name="geometry">
+          <rect>
+           <x>62</x>
+           <y>0</y>
+           <width>151</width>
+           <height>35</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Roboto</family>
+           <pointsize>18</pointsize>
+           <italic>false</italic>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color:#2196F3</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+        <widget class="QLabel" name="flowUnit">
+         <property name="geometry">
+          <rect>
+           <x>3</x>
+           <y>20</y>
+           <width>61</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Roboto Light</family>
+           <pointsize>7</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color:#616161</string>
+         </property>
+         <property name="text">
+          <string>ADC/LPM</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+         </property>
+        </widget>
+       </widget>
+      </item>
+      <item>
+       <widget class="QFrame" name="blowerSpeedFBFrame">
+        <property name="styleSheet">
+         <string notr="true">background-color:#3D3D3D;
+border-radius:3px;
+</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <widget class="QLabel" name="blowerFBTitle">
+         <property name="geometry">
+          <rect>
+           <x>3</x>
+           <y>2</y>
+           <width>71</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Roboto Light</family>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color:#BDBDBD</string>
+         </property>
+         <property name="text">
+          <string>Speed FB</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="blowerFBValue">
+         <property name="geometry">
+          <rect>
+           <x>72</x>
+           <y>0</y>
+           <width>141</width>
+           <height>35</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Roboto</family>
+           <pointsize>18</pointsize>
+           <italic>false</italic>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color:#2196F3</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+        <widget class="QLabel" name="blowerFBUnit">
+         <property name="geometry">
+          <rect>
+           <x>3</x>
+           <y>20</y>
+           <width>61</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Roboto Light</family>
+           <pointsize>7</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color:#616161</string>
+         </property>
+         <property name="text">
+          <string>kHz/RPM</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+         </property>
+        </widget>
+       </widget>
+      </item>
+      <item>
+       <widget class="QFrame" name="motorTemFrame">
+        <property name="styleSheet">
+         <string notr="true">background-color:#3D3D3D;
+border-radius:3px;
+</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <widget class="QLabel" name="motorTempTitle">
+         <property name="geometry">
+          <rect>
+           <x>3</x>
+           <y>2</y>
+           <width>81</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Roboto Light</family>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color:#BDBDBD</string>
+         </property>
+         <property name="text">
+          <string>Motor Temp.</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="motorTempValue">
+         <property name="geometry">
+          <rect>
+           <x>82</x>
+           <y>0</y>
+           <width>131</width>
+           <height>35</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Roboto</family>
+           <pointsize>18</pointsize>
+           <italic>false</italic>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color:#2196F3</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+        <widget class="QLabel" name="motorTempUnit">
+         <property name="geometry">
+          <rect>
+           <x>3</x>
+           <y>20</y>
+           <width>41</width>
+           <height>12</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Roboto Light</family>
+           <pointsize>7</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color:#616161</string>
+         </property>
+         <property name="text">
+          <string>ADC/`C</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+         </property>
+        </widget>
+       </widget>
+      </item>
+      <item>
+       <widget class="QFrame" name="voltageInputFrame">
+        <property name="styleSheet">
+         <string notr="true">background-color:#3D3D3D;
+border-radius:3px;
+</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <widget class="QLabel" name="voltageInputTitle">
+         <property name="geometry">
+          <rect>
+           <x>3</x>
+           <y>2</y>
+           <width>81</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Roboto Light</family>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color:#BDBDBD</string>
+         </property>
+         <property name="text">
+          <string>Vin</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="voltageInputValue">
+         <property name="geometry">
+          <rect>
+           <x>82</x>
+           <y>0</y>
+           <width>131</width>
+           <height>35</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Roboto</family>
+           <pointsize>18</pointsize>
+           <italic>false</italic>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color:#2196F3</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+        <widget class="QLabel" name="voltageInputUnit">
+         <property name="geometry">
+          <rect>
+           <x>3</x>
+           <y>20</y>
+           <width>41</width>
+           <height>12</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Roboto Light</family>
+           <pointsize>7</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color:#616161</string>
+         </property>
+         <property name="text">
+          <string>ADC/V</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+         </property>
+        </widget>
+       </widget>
+      </item>
+      <item>
+       <widget class="QFrame" name="bldcCurrentFrame">
+        <property name="styleSheet">
+         <string notr="true">background-color:#3D3D3D;
+border-radius:3px;
+</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <widget class="QLabel" name="bldcCurrentTitle">
+         <property name="geometry">
+          <rect>
+           <x>3</x>
+           <y>2</y>
+           <width>91</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Roboto Light</family>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color:#BDBDBD</string>
+         </property>
+         <property name="text">
+          <string>BLDC Current</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="bldcCurrentValue">
+         <property name="geometry">
+          <rect>
+           <x>82</x>
+           <y>0</y>
+           <width>131</width>
+           <height>35</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Roboto</family>
+           <pointsize>18</pointsize>
+           <italic>false</italic>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color:#2196F3</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+        <widget class="QLabel" name="bldcCurrentUnit">
+         <property name="geometry">
+          <rect>
+           <x>3</x>
+           <y>20</y>
+           <width>41</width>
+           <height>12</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Roboto Light</family>
+           <pointsize>7</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color:#616161</string>
+         </property>
+         <property name="text">
+          <string>ADC/A</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+         </property>
+        </widget>
+       </widget>
+      </item>
+      <item>
+       <widget class="QFrame" name="lightIntensityFrame">
+        <property name="styleSheet">
+         <string notr="true">background-color:#3D3D3D;
+border-radius:3px;
+</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <widget class="QLabel" name="lightIntensityTitle">
+         <property name="geometry">
+          <rect>
+           <x>3</x>
+           <y>2</y>
+           <width>91</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Roboto Light</family>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color:#BDBDBD</string>
+         </property>
+         <property name="text">
+          <string>Light Intensity</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="lightIntensityValue">
+         <property name="geometry">
+          <rect>
+           <x>92</x>
+           <y>0</y>
+           <width>121</width>
+           <height>35</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Roboto</family>
+           <pointsize>18</pointsize>
+           <italic>false</italic>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color:#2196F3</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+        <widget class="QLabel" name="lightIntensityUnit">
+         <property name="geometry">
+          <rect>
+           <x>3</x>
+           <y>20</y>
+           <width>41</width>
+           <height>12</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Roboto Light</family>
+           <pointsize>7</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color:#616161</string>
+         </property>
+         <property name="text">
+          <string>lux</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+         </property>
+        </widget>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="startBlowerButton">
+   <property name="geometry">
+    <rect>
+     <x>51</x>
+     <y>126</y>
+     <width>70</width>
+     <height>87</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+background-color:#3B3B3B;
+color:#BDBDBD;
+border:none;
+border-radius:3px;
+}
+QPushButton:pressed {
+background-color:#606060;
+color:#BDBDBD;
+border:none;
+border-radius:3px;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Start</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="incrementBlowerSpeed">
+   <property name="geometry">
+    <rect>
+     <x>133</x>
+     <y>126</y>
+     <width>70</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+background-color:#3B3B3B;
+color:#BDBDBD;
+border:none;
+border-radius:3px;
+}
+QPushButton:pressed {
+background-color:#606060;
+color:#BDBDBD;
+border:none;
+border-radius:3px;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>+</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="decrementBlowerSpeed">
+   <property name="geometry">
+    <rect>
+     <x>133</x>
+     <y>173</y>
+     <width>70</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+background-color:#3B3B3B;
+color:#BDBDBD;
+border:none;
+border-radius:3px;
+}
+QPushButton:pressed {
+background-color:#606060;
+color:#BDBDBD;
+border:none;
+border-radius:3px;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>-</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="faultManufacturingDiagnosis">
+   <property name="geometry">
+    <rect>
+     <x>3</x>
+     <y>245</y>
+     <width>235</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Roboto</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:#FFFFFF;
+background-color: rgb(192, 36, 37);
+</string>
+   </property>
+   <property name="text">
+    <string>Fault Condition</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="titleBlowerSpeed">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>87</y>
+     <width>115</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Roboto</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:#BDBDBD
+</string>
+   </property>
+   <property name="text">
+    <string>Blower Speed</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="valueBlowerSpeed">
+   <property name="geometry">
+    <rect>
+     <x>141</x>
+     <y>80</y>
+     <width>61</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Roboto</family>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:#1788c3
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="unitBlowerSpeed">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>85</y>
+     <width>31</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Roboto</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:#666666
+</string>
+   </property>
+   <property name="text">
+    <string>rpm</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../rsc/resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>

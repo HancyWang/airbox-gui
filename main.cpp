@@ -69,7 +69,7 @@ int main(int argc, char *argv[])
 
     QLoggingCategory::setFilterRules(QStringLiteral("qt.bluetooth* = true"));
     QApplication a(argc, argv);
-    globalVar.app=&a;
+    //globalVar.app=&a;
 //    qInstallMessageHandler(myMessageHandler);
 
     // Create the DataValidation Object - this will load the global variables

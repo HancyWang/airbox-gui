@@ -238,7 +238,7 @@ struct flowSensorDara {
 };
 
 struct ApplicationVariables {
-    QApplication* app;
+    //QApplication* app;
     QStringList titleTextList_choose;
     bool b_enable_compile_airbox_arm_code;
     QTranslator* nTranslator;

@@ -9,7 +9,15 @@ DataValidation::DataValidation(QObject * parent)
 {
     updateMinMaxOtherVariables();
 
-    eeprom = new QFile("/sys/bus/i2c/devices/0-0050/eeprom");
+    if(globalVar.b_enable_compile_airbox_arm_code)
+    {
+        eeprom = new QFile("/sys/bus/i2c/devices/0-0050/eeprom");
+    }
+    else
+    {
+        eeprom = new QFile("/home/book/Desktop/eeprom");  //debugs
+    }
+
 
     memset(eepromData,0,sizeof eepromData);
 

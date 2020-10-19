@@ -88,7 +88,7 @@ int main(int argc, char *argv[])
 
 
     // TODO Delete Debug Test
-    globalVar.language = language_english;
+    //globalVar.language = language_english;
     QString qm_str;
 
     // Setup the translations and fonts based on the language

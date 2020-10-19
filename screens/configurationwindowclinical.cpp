@@ -108,6 +108,7 @@ ConfigurationWindowClinical::ConfigurationWindowClinical(QWidget *parent,
 
     timeUpdateTimer = new QTimer(this);
     connect(timeUpdateTimer, SIGNAL(timeout()), this, SLOT(timeUpdateTimerTimeout()));
+    updateText();
 }
 
 ConfigurationWindowClinical::~ConfigurationWindowClinical()

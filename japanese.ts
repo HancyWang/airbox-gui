@@ -932,7 +932,7 @@ Erase All Data?</source>
         <location filename="screens/homewindowbasic.cpp" line="66"/>
         <location filename="screens/homewindowbasic.cpp" line="180"/>
         <source> Therapy</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">治療</translation>
     </message>
     <message>
         <location filename="screens/homewindowbasic.cpp" line="67"/>
@@ -2097,7 +2097,7 @@ Snooz?</source>
     <message>
         <location filename="screens/therapywindowbasic.ui" line="40"/>
         <source>Therapy</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">治療</translation>
     </message>
     <message>
         <location filename="screens/therapywindowbasic.ui" line="106"/>
@@ -2182,7 +2182,7 @@ Parameter</source>
     <message>
         <location filename="screens/therapywindowclinical.ui" line="39"/>
         <source>Therapy</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">治療</translation>
     </message>
 </context>
 <context>

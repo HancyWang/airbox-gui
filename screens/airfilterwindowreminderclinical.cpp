@@ -154,6 +154,7 @@ void AirFilterWindowReminderClinical::changeEvent(QEvent* e)
 {
     switch (e->type()) {
     case QEvent::LanguageChange:
+        updateAirFilterRemindersBeforeShowProcess();
         ui->retranslateUi(this);
         break;
     default:

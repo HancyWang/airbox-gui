@@ -241,9 +241,9 @@ void SelectLanguageWindowClinical::updateLanguageAfterSelected()
         // Do nothing
         /* Add Fonts in Application */
         // Latin Languages
-//        QFontDatabase::addApplicationFont(":/fonts/Roboto/Roboto-Light.ttf");
-//        QFontDatabase::addApplicationFont(":/fonts/Roboto/Roboto-Regular.ttf");
-//        QFontDatabase::addApplicationFont(":/fonts/Roboto/Roboto-Thin.ttf");
+        QFontDatabase::addApplicationFont(":/fonts/Roboto/Roboto-Light.ttf");
+        QFontDatabase::addApplicationFont(":/fonts/Roboto/Roboto-Regular.ttf");
+        QFontDatabase::addApplicationFont(":/fonts/Roboto/Roboto-Thin.ttf");
 
         qDebug() << "select language: Set English";
         bTranslationLoaded = true;

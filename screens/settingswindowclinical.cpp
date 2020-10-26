@@ -80,7 +80,7 @@ void SettingsWindowClinical::addButtons(void)
     updateButton1Details(remindersButton     ,Providers::getTitleTextString(REMINDERS_STR),Providers::getIconString(REMINDERS_ICON),Providers::getNavigationIconString());
     updateButton1Details(configurationButton ,Providers::getTitleTextString(CONFIGURATION_STR),Providers::getIconString(CONFIGURATION_ICON),Providers::getNavigationIconString());
     updateButton1Details(deviceInfoButton    ,Providers::getTitleTextString(DEVICE_INFO_STR),Providers::getIconString(DEVICE_INFO_ICON),Providers::getNavigationIconString());
-    updateButton1Details(menufacturingOptionsButton    ,"Manufacturing Options",Providers::getIconString(MANUFACTURING_DIAGNOSIS),Providers::getNavigationIconString());
+    updateButton1Details(menufacturingOptionsButton    ,Providers::getTitleTextString(MANUFACTURING_OPTION_STR),Providers::getIconString(MANUFACTURING_DIAGNOSIS),Providers::getNavigationIconString());
 
     //Enable Scrolling mechanism for scroll area
     QScroller::grabGesture(ui->scrollAreaSettings->viewport(),QScroller::LeftMouseButtonGesture);

@@ -545,28 +545,12 @@ void SettingsWindowBasic::on_pushButton_pressed()
 
 void SettingsWindowBasic::updateText()
 {
-//    updateButton2Details(goToSleepButton        ,Providers::getTitleTextString(GO_TO_SLEEP_STR),
-//                         Providers::getIconString(GO_TO_SLEEP_ICON));
-//    updateButton2Details(rampButton             ,Providers::getTitleTextString(RAMP_STR),
-//                         Providers::getIconString(RAMP_ICON));
-//    updateButton2Details(autoTherapyButton      ,Providers::getTitleTextString(AUTO_START_THERAPY_STR),
-//                         Providers::getIconString(AUTO_START_THERAPY_ICON));
-//    updateButton1Details(maskButton             ,Providers::getTitleTextString(MASK_STR),
-//                         Providers::getIconString(MASK_ICON),Providers::getNavigationIconString());
-//    updateButton1Details(tubeButton             ,Providers::getTitleTextString(TUBE_STR),
-//                         Providers::getIconString(TUBE_ICON),NULL);
-//    updateButton2Details(airplaneModeButton     ,Providers::getTitleTextString(AIRPLANE_MODE_STR),
-//                         Providers::getIconString(AIRPLANE_MODE_ICON));
-//    updateButton2Details(bluetoothButton        ,Providers::getTitleTextString(BLUETOOTH_STR),
-//                         Providers::getIconString(BLUETOOTH_ICON));
-//    updateButton2Details(snoozeButton           ,Providers::getTitleTextString(SNOOZE_STR),
-//                         Providers::getIconString(SNOOZE_ICON));
-//    updateButton2Details(powerSavingsButton     ,Providers::getTitleTextString(POWER_SAVINGS_STR),
-//                         Providers::getIconString(POWER_SAVINGS_ICON));
-//    updateButton1Details(displaySettingsButton  ,Providers::getTitleTextString(DISPLAY_SETTINGS_STR),
-//                         Providers::getIconString(DISPLAY_SETTINGS_ICON),Providers::getNavigationIconString());
-//    updateButton1Details(deviceInfoButton       ,Providers::getTitleTextString(DEVICE_INFO_STR),
-//                         Providers::getIconString(DEVICE_INFO_ICON),Providers::getNavigationIconString());
+
+    updateSnoozeSettings();
+    updateGoToSleepSettings();
+    updateRampTimeSettings();
+    updateMaskButton();
+
 
     QFont settingsFontTitle("Roboto-Light", 8);
 

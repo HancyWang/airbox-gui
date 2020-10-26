@@ -24,8 +24,8 @@ DEFINES += ENABLE_PASSWORD
 TARGET = airbox_gui
 TEMPLATE = app
 
-TRANSLATIONS = chinese.ts \
-                japanese.ts \
+#TRANSLATIONS = chinese.ts \
+#                japanese.ts \
 
 SOURCES += main.cpp \
     screens/backgroundwindow.cpp \

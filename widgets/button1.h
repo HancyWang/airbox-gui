@@ -23,6 +23,7 @@ public:
     void updateUnitText(const QString &unitText);
     void setUnitVisibility(bool vis);
 
+//    void updateSubTitleText(const QChar *s);
 protected:
     void paintEvent(QPaintEvent*) override;
     void mouseReleaseEvent(QMouseEvent*) override;

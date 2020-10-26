@@ -125,6 +125,8 @@ void AccessoriesWindowClinical::updateText()
 {
     updateButton1Details(airTubeButton    ,Providers::getTitleTextString(AIR_TUBE_STR),Providers::getIconString(AIR_TUBE_ICON),NULL);
     updateButton1Details(airFilterButton    ,Providers::getTitleTextString(AIR_FILTER_STR),Providers::getIconString(AIR_FILTER_ICON),Providers::getNavigationIconString());
+
+    airFilterButton->updateSubTitleText(Providers::getAirFilterTypeString(globalVar.airFilter));
 }
 
 void AccessoriesWindowClinical::changeEvent(QEvent* e)

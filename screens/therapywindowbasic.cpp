@@ -534,6 +534,8 @@ void TherapyWindowBasic::updateText()
     QFont fontTitle("Roboto-Light", 8);
     startStopTherapyButton->setTitle(tr("Start Therapy"),fontTitle,QColor(0xFFFFFF));
 
+    QFont presBarfontTitle("Roboto-Light", 8);
+    therapyPressure->setTitleProperties(tr("Set Pressure"),presBarfontTitle,QStringLiteral("color:#BDBDBD;"));
     //startStopTherapyButton->setText(tr("Start Therapy"));
 }
 

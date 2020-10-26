@@ -11,7 +11,7 @@
     <message>
         <location filename="screens/accessorieswindowclinical.ui" line="64"/>
         <source>Accessories</source>
-        <translation type="unfinished">部品</translation>
+        <translation>部品</translation>
     </message>
 </context>
 <context>
@@ -24,37 +24,37 @@
     <message>
         <location filename="screens/activereminderscreen.ui" line="50"/>
         <source>Remind Later</source>
-        <translation type="unfinished">後で思い出させる</translation>
+        <translation>後で思い出させる</translation>
     </message>
     <message>
         <location filename="screens/activereminderscreen.ui" line="72"/>
         <source>Reminders</source>
-        <translation type="unfinished">思い出させる</translation>
+        <translation>思い出させる</translation>
     </message>
     <message>
         <location filename="screens/activereminderscreen.ui" line="114"/>
         <source>Please change the following</source>
-        <translation type="unfinished">次のように変更してください</translation>
+        <translation>次のように変更してください</translation>
     </message>
     <message>
         <location filename="screens/activereminderscreen.ui" line="136"/>
         <source>Air Filter</source>
-        <translation type="unfinished">エアフィルタ</translation>
+        <translation>エアフィルタ</translation>
     </message>
     <message>
         <location filename="screens/activereminderscreen.ui" line="158"/>
         <source>Hose</source>
-        <translation type="unfinished">パイプライン</translation>
+        <translation>パイプライン</translation>
     </message>
     <message>
         <location filename="screens/activereminderscreen.ui" line="180"/>
         <source>Mask</source>
-        <translation type="unfinished">マスク</translation>
+        <translation>マスク</translation>
     </message>
     <message>
         <location filename="screens/activereminderscreen.ui" line="218"/>
         <source>Reset Reminder</source>
-        <translation type="unfinished">リマインダーをリセット</translation>
+        <translation>リマインダーをリセット</translation>
     </message>
 </context>
 <context>
@@ -67,27 +67,27 @@
     <message>
         <location filename="screens/airfilterwindowclinical.ui" line="35"/>
         <source>Standard</source>
-        <translation type="unfinished">標準</translation>
+        <translation>標準</translation>
     </message>
     <message>
         <location filename="screens/airfilterwindowclinical.ui" line="72"/>
         <source>Cancel</source>
-        <translation type="unfinished">キャンセル</translation>
+        <translation>キャンセル</translation>
     </message>
     <message>
         <location filename="screens/airfilterwindowclinical.ui" line="94"/>
         <source>Air Filter</source>
-        <translation type="unfinished">エアフィルタ</translation>
+        <translation>エアフィルタ</translation>
     </message>
     <message>
         <location filename="screens/airfilterwindowclinical.ui" line="134"/>
         <source>Accept</source>
-        <translation type="unfinished">受け入れて</translation>
+        <translation>受け入れて</translation>
     </message>
     <message>
         <location filename="screens/airfilterwindowclinical.ui" line="153"/>
         <source>HEPA</source>
-        <translation type="unfinished">HEPA</translation>
+        <translation>HEPA</translation>
     </message>
 </context>
 <context>
@@ -100,37 +100,37 @@
     <message>
         <location filename="screens/airfilterwindowreminderclinical.ui" line="53"/>
         <source>Accept</source>
-        <translation type="unfinished">受け入れて</translation>
+        <translation>受け入れて</translation>
     </message>
     <message>
         <location filename="screens/airfilterwindowreminderclinical.ui" line="75"/>
         <source>Air Filter</source>
-        <translation type="unfinished">エアフィルタ</translation>
+        <translation>エアフィルタ</translation>
     </message>
     <message>
         <location filename="screens/airfilterwindowreminderclinical.ui" line="115"/>
         <source>Cancel</source>
-        <translation type="unfinished">キャンセル</translation>
+        <translation>キャンセル</translation>
     </message>
     <message>
         <location filename="screens/airfilterwindowreminderclinical.ui" line="152"/>
         <source>-</source>
-        <translation type="unfinished">-</translation>
+        <translation>-</translation>
     </message>
     <message>
         <location filename="screens/airfilterwindowreminderclinical.ui" line="189"/>
         <source>+</source>
-        <translation type="unfinished">+</translation>
+        <translation>+</translation>
     </message>
     <message>
         <location filename="screens/airfilterwindowreminderclinical.ui" line="211"/>
         <source>Set Start Date</source>
-        <translation type="unfinished">開始時間を設定する</translation>
+        <translation>開始時間を設定する</translation>
     </message>
     <message>
         <location filename="screens/airfilterwindowreminderclinical.ui" line="233"/>
         <source>Set Duration</source>
-        <translation type="unfinished">期間を設定する</translation>
+        <translation>期間を設定する</translation>
     </message>
     <message>
         <location filename="screens/airfilterwindowreminderclinical.ui" line="255"/>
@@ -140,7 +140,7 @@
     <message>
         <location filename="screens/airfilterwindowreminderclinical.ui" line="277"/>
         <source>Weeks</source>
-        <translation type="unfinished">週間</translation>
+        <translation>週間</translation>
     </message>
     <message>
         <location filename="screens/airfilterwindowreminderclinical.ui" line="314"/>
@@ -158,7 +158,7 @@
     <message>
         <location filename="screens/airtubewindowreminderclinical.ui" line="38"/>
         <source>months</source>
-        <translation type="unfinished">月</translation>
+        <translation>月</translation>
     </message>
     <message>
         <location filename="screens/airtubewindowreminderclinical.ui" line="75"/>
@@ -168,7 +168,7 @@
     <message>
         <location filename="screens/airtubewindowreminderclinical.ui" line="97"/>
         <source>Set Duration</source>
-        <translation type="unfinished">期間を設定する</translation>
+        <translation>期間を設定する</translation>
     </message>
     <message>
         <location filename="screens/airtubewindowreminderclinical.ui" line="119"/>
@@ -178,12 +178,12 @@
     <message>
         <location filename="screens/airtubewindowreminderclinical.ui" line="141"/>
         <source>Set Start Date</source>
-        <translation type="unfinished">開始時間を設定する</translation>
+        <translation>開始時間を設定する</translation>
     </message>
     <message>
         <location filename="screens/airtubewindowreminderclinical.ui" line="178"/>
         <source>Accept</source>
-        <translation type="unfinished">受け入れて</translation>
+        <translation>受け入れて</translation>
     </message>
     <message>
         <location filename="screens/airtubewindowreminderclinical.ui" line="215"/>
@@ -193,12 +193,12 @@
     <message>
         <location filename="screens/airtubewindowreminderclinical.ui" line="252"/>
         <source>Cancel</source>
-        <translation type="unfinished">キャンセル</translation>
+        <translation>キャンセル</translation>
     </message>
     <message>
         <location filename="screens/airtubewindowreminderclinical.ui" line="274"/>
         <source>Hose</source>
-        <translation type="unfinished">パイプライン</translation>
+        <translation>パイプライン</translation>
     </message>
     <message>
         <location filename="screens/airtubewindowreminderclinical.ui" line="314"/>
@@ -244,7 +244,7 @@
     <message>
         <location filename="screens/blowertestapplication.ui" line="177"/>
         <source>BLOWER OFF</source>
-        <translation type="unfinished">ファンオフ</translation>
+        <translation>ファンオフ</translation>
     </message>
     <message>
         <location filename="screens/blowertestapplication.ui" line="205"/>
@@ -266,17 +266,17 @@
     <message>
         <location filename="screens/blowertestapplication.ui" line="408"/>
         <source>Flow</source>
-        <translation type="unfinished">フロー</translation>
+        <translation>フロー</translation>
     </message>
     <message>
         <location filename="screens/blowertestapplication.ui" line="438"/>
         <source>Light</source>
-        <translation type="unfinished">光</translation>
+        <translation>光</translation>
     </message>
     <message>
         <location filename="screens/blowertestapplication.ui" line="468"/>
         <source>START</source>
-        <translation type="unfinished">開始</translation>
+        <translation>開始</translation>
     </message>
     <message>
         <location filename="screens/blowertestapplication.ui" line="665"/>
@@ -292,12 +292,12 @@
     <message>
         <location filename="screens/blowertestapplication.ui" line="720"/>
         <source>Pressure</source>
-        <translation type="unfinished">圧力</translation>
+        <translation>圧力</translation>
     </message>
     <message>
         <location filename="screens/blowertestapplication.ui" line="742"/>
         <source>Exit</source>
-        <translation type="unfinished">脱落</translation>
+        <translation>脱落</translation>
     </message>
     <message>
         <location filename="screens/blowertestapplication.ui" line="818"/>
@@ -325,7 +325,7 @@
     <message>
         <location filename="screens/bluetoothdebugscreen.ui" line="39"/>
         <source>Bluetooth Debug Screen</source>
-        <translation type="unfinished">Bluetoothデバッグインターフェイス</translation>
+        <translation>Bluetoothデバッグインターフェイス</translation>
     </message>
     <message>
         <location filename="screens/bluetoothdebugscreen.ui" line="109"/>
@@ -353,17 +353,17 @@
     <message>
         <location filename="screens/bluetoothsettingsbasic.ui" line="38"/>
         <source>Paired Device Name</source>
-        <translation type="unfinished">ペアリングされたデバイス名</translation>
+        <translation>ペアリングされたデバイス名</translation>
     </message>
     <message>
         <location filename="screens/bluetoothsettingsbasic.ui" line="78"/>
         <source>Cancel</source>
-        <translation type="unfinished">キャンセル</translation>
+        <translation>キャンセル</translation>
     </message>
     <message>
         <location filename="screens/bluetoothsettingsbasic.ui" line="115"/>
         <source>Accept</source>
-        <translation type="unfinished">受け入れて</translation>
+        <translation>受け入れて</translation>
     </message>
 </context>
 <context>
@@ -376,27 +376,27 @@
     <message>
         <location filename="screens/brightnessadjustbrightnesssettingsbasic.ui" line="38"/>
         <source>Brightness Adjustment</source>
-        <translation type="unfinished">調光</translation>
+        <translation>調光</translation>
     </message>
     <message>
         <location filename="screens/brightnessadjustbrightnesssettingsbasic.ui" line="78"/>
         <source>Cancel</source>
-        <translation type="unfinished">キャンセル</translation>
+        <translation>キャンセル</translation>
     </message>
     <message>
         <location filename="screens/brightnessadjustbrightnesssettingsbasic.ui" line="100"/>
         <source>Brightness Level</source>
-        <translation type="unfinished">明るさのレベル</translation>
+        <translation>明るさのレベル</translation>
     </message>
     <message>
         <location filename="screens/brightnessadjustbrightnesssettingsbasic.ui" line="137"/>
         <source>Accept</source>
-        <translation type="unfinished">受け入れて</translation>
+        <translation>受け入れて</translation>
     </message>
     <message>
         <location filename="screens/brightnessadjustbrightnesssettingsbasic.ui" line="173"/>
         <source>Auto</source>
-        <translation type="unfinished">自動</translation>
+        <translation>自動</translation>
     </message>
     <message>
         <location filename="screens/brightnessadjustbrightnesssettingsbasic.ui" line="249"/>
@@ -424,12 +424,12 @@
     <message>
         <location filename="screens/brightnessoffsetscreen.ui" line="104"/>
         <source>Brightness Offset</source>
-        <translation type="unfinished">明るさのオフセット</translation>
+        <translation>明るさのオフセット</translation>
     </message>
     <message>
         <location filename="screens/brightnessoffsetscreen.ui" line="141"/>
         <source>Cancel</source>
-        <translation type="unfinished">キャンセル</translation>
+        <translation>キャンセル</translation>
     </message>
     <message>
         <location filename="screens/brightnessoffsetscreen.ui" line="178"/>
@@ -444,7 +444,7 @@
     <message>
         <location filename="screens/brightnessoffsetscreen.ui" line="252"/>
         <source>Accept</source>
-        <translation type="unfinished">受け入れて</translation>
+        <translation>受け入れて</translation>
     </message>
     <message>
         <location filename="screens/brightnessoffsetscreen.ui" line="268"/>
@@ -462,7 +462,7 @@
     <message>
         <location filename="screens/comfortwindowclinical.ui" line="39"/>
         <source>Comfort</source>
-        <translation type="unfinished">快適</translation>
+        <translation>快適</translation>
     </message>
 </context>
 <context>
@@ -475,7 +475,7 @@
     <message>
         <location filename="screens/configurationwindowclinical.ui" line="64"/>
         <source>Configuration</source>
-        <translation type="unfinished">構成</translation>
+        <translation>構成</translation>
     </message>
 </context>
 <context>
@@ -488,17 +488,17 @@
     <message>
         <location filename="screens/datewindowclinical.ui" line="38"/>
         <source>Date</source>
-        <translation type="unfinished">日付</translation>
+        <translation>日付</translation>
     </message>
     <message>
         <location filename="screens/datewindowclinical.ui" line="75"/>
         <source>Accept</source>
-        <translation type="unfinished">受け入れて</translation>
+        <translation>受け入れて</translation>
     </message>
     <message>
         <location filename="screens/datewindowclinical.ui" line="112"/>
         <source>Cancel</source>
-        <translation type="unfinished">キャンセル</translation>
+        <translation>キャンセル</translation>
     </message>
 </context>
 <context>
@@ -511,12 +511,12 @@
     <message>
         <location filename="screens/deviceinfosettingsbasic.ui" line="44"/>
         <source>Device Info</source>
-        <translation type="unfinished">デバイス情報</translation>
+        <translation>デバイス情報</translation>
     </message>
     <message>
         <location filename="screens/deviceinfosettingsbasic.ui" line="162"/>
         <source>Device Name</source>
-        <translation type="unfinished">機器名</translation>
+        <translation>機器名</translation>
     </message>
     <message>
         <location filename="screens/deviceinfosettingsbasic.ui" line="182"/>
@@ -530,12 +530,12 @@
     <message>
         <location filename="screens/deviceinfosettingsbasic.ui" line="219"/>
         <source>Device Run Hours</source>
-        <translation type="unfinished">設備稼動時間数</translation>
+        <translation>設備稼動時間数</translation>
     </message>
     <message>
         <location filename="screens/deviceinfosettingsbasic.ui" line="238"/>
         <source>Hours</source>
-        <translation type="unfinished">パイプライン</translation>
+        <translation>パイプライン</translation>
     </message>
     <message>
         <location filename="screens/deviceinfosettingsbasic.ui" line="258"/>
@@ -545,22 +545,22 @@
     <message>
         <location filename="screens/deviceinfosettingsbasic.ui" line="289"/>
         <source>Serial Number</source>
-        <translation type="unfinished">製造番号</translation>
+        <translation>製造番号</translation>
     </message>
     <message>
         <location filename="screens/deviceinfosettingsbasic.ui" line="340"/>
         <source>HW Version</source>
-        <translation type="unfinished">ファームウェアバージョン</translation>
+        <translation>ファームウェアバージョン</translation>
     </message>
     <message>
         <location filename="screens/deviceinfosettingsbasic.ui" line="391"/>
         <source>FW Version</source>
-        <translation type="unfinished">ファームウェアバージョン</translation>
+        <translation>ファームウェアバージョン</translation>
     </message>
     <message>
         <location filename="screens/deviceinfosettingsbasic.ui" line="442"/>
         <source>SW Version</source>
-        <translation type="unfinished">ソフトウェアバージョン</translation>
+        <translation>ソフトウェアバージョン</translation>
     </message>
 </context>
 <context>
@@ -573,27 +573,27 @@
     <message>
         <location filename="screens/diagnosticdatascreen.ui" line="53"/>
         <source>Accept</source>
-        <translation type="unfinished">受け入れて</translation>
+        <translation>受け入れて</translation>
     </message>
     <message>
         <location filename="screens/diagnosticdatascreen.ui" line="75"/>
         <source>Off</source>
-        <translation type="unfinished">オフ</translation>
+        <translation>オフ</translation>
     </message>
     <message>
         <location filename="screens/diagnosticdatascreen.ui" line="94"/>
         <source>On</source>
-        <translation type="unfinished">開いた</translation>
+        <translation>開いた</translation>
     </message>
     <message>
         <location filename="screens/diagnosticdatascreen.ui" line="116"/>
         <source>Display Diagnostic Data</source>
-        <translation type="unfinished">診断データを表示する</translation>
+        <translation>診断データを表示する</translation>
     </message>
     <message>
         <location filename="screens/diagnosticdatascreen.ui" line="153"/>
         <source>Cancel</source>
-        <translation type="unfinished">キャンセル</translation>
+        <translation>キャンセル</translation>
     </message>
 </context>
 <context>
@@ -606,22 +606,22 @@
     <message>
         <location filename="screens/displaydimbrightnesssettingsbasic.ui" line="53"/>
         <source>Accept</source>
-        <translation type="unfinished">受け入れて</translation>
+        <translation>受け入れて</translation>
     </message>
     <message>
         <location filename="screens/displaydimbrightnesssettingsbasic.ui" line="69"/>
         <source>min</source>
-        <translation type="unfinished">一番小さい</translation>
+        <translation>一番小さい</translation>
     </message>
     <message>
         <location filename="screens/displaydimbrightnesssettingsbasic.ui" line="109"/>
         <source>Cancel</source>
-        <translation type="unfinished">キャンセル</translation>
+        <translation>キャンセル</translation>
     </message>
     <message>
         <location filename="screens/displaydimbrightnesssettingsbasic.ui" line="131"/>
         <source>Display Dim Duration</source>
-        <translation type="unfinished">自動ロック</translation>
+        <translation>自動ロック</translation>
     </message>
     <message>
         <location filename="screens/displaydimbrightnesssettingsbasic.ui" line="206"/>
@@ -649,7 +649,7 @@
     <message>
         <location filename="screens/displaysettingssettingsbasic.ui" line="63"/>
         <source>Display Settings</source>
-        <translation type="unfinished">表示設定</translation>
+        <translation>表示設定</translation>
     </message>
 </context>
 <context>
@@ -662,32 +662,32 @@
     <message>
         <location filename="screens/dropdownselector.ui" line="59"/>
         <source>1 Day</source>
-        <translation type="unfinished">1 天</translation>
+        <translation>1 天</translation>
     </message>
     <message>
         <location filename="screens/dropdownselector.ui" line="84"/>
         <source>1 Week</source>
-        <translation type="unfinished">1 週間</translation>
+        <translation>1 週間</translation>
     </message>
     <message>
         <location filename="screens/dropdownselector.ui" line="109"/>
         <source>1 Month</source>
-        <translation type="unfinished">1 月</translation>
+        <translation>1 月</translation>
     </message>
     <message>
         <location filename="screens/dropdownselector.ui" line="134"/>
         <source>3 Month</source>
-        <translation type="unfinished">3个月</translation>
+        <translation>3个月</translation>
     </message>
     <message>
         <location filename="screens/dropdownselector.ui" line="159"/>
         <source>6 Month</source>
-        <translation type="unfinished">6个月</translation>
+        <translation>6个月</translation>
     </message>
     <message>
         <location filename="screens/dropdownselector.ui" line="184"/>
         <source>1 Year</source>
-        <translation type="unfinished">1 年</translation>
+        <translation>1 年</translation>
     </message>
 </context>
 <context>
@@ -750,22 +750,22 @@
     <message>
         <location filename="screens/enterserialnumber.ui" line="440"/>
         <source>Cancel</source>
-        <translation type="unfinished">キャンセル</translation>
+        <translation>キャンセル</translation>
     </message>
     <message>
         <location filename="screens/enterserialnumber.ui" line="524"/>
         <source>Invalid Serial Number</source>
-        <translation type="unfinished">製造番号が無効です</translation>
+        <translation>製造番号が無効です</translation>
     </message>
     <message>
         <location filename="screens/enterserialnumber.ui" line="565"/>
         <source>Accept</source>
-        <translation type="unfinished">受け入れて</translation>
+        <translation>受け入れて</translation>
     </message>
     <message>
         <location filename="screens/enterserialnumber.ui" line="587"/>
         <source>Enter 16-digit Serial Number</source>
-        <translation type="unfinished">16桁の製造番号を入力してください</translation>
+        <translation>16桁の製造番号を入力してください</translation>
     </message>
 </context>
 <context>
@@ -778,23 +778,23 @@
     <message>
         <location filename="screens/erasedataconfigurationclinical.ui" line="38"/>
         <source>Erase Data</source>
-        <translation type="unfinished">データを消去する</translation>
+        <translation>データを消去する</translation>
     </message>
     <message>
         <location filename="screens/erasedataconfigurationclinical.ui" line="75"/>
         <source>No</source>
-        <translation type="unfinished">しない</translation>
+        <translation>しない</translation>
     </message>
     <message>
         <location filename="screens/erasedataconfigurationclinical.ui" line="91"/>
         <source>Do You Really Want to 
 Erase All Data?</source>
-        <translation type="unfinished">すべてのデータを削除しますか？</translation>
+        <translation>すべてのデータを削除しますか？</translation>
     </message>
     <message>
         <location filename="screens/erasedataconfigurationclinical.ui" line="132"/>
         <source>Yes</source>
-        <translation type="unfinished">はい</translation>
+        <translation>はい</translation>
     </message>
 </context>
 <context>
@@ -807,17 +807,17 @@ Erase All Data?</source>
     <message>
         <location filename="screens/exhalepressurecomfortlevel.ui" line="38"/>
         <source>Exhale Pressure Comfort Level</source>
-        <translation type="unfinished">呼気圧の快適さ</translation>
+        <translation>呼気圧の快適さ</translation>
     </message>
     <message>
         <location filename="screens/exhalepressurecomfortlevel.ui" line="75"/>
         <source>Cancel</source>
-        <translation type="unfinished">キャンセル</translation>
+        <translation>キャンセル</translation>
     </message>
     <message>
         <location filename="screens/exhalepressurecomfortlevel.ui" line="112"/>
         <source>Accept</source>
-        <translation type="unfinished">受け入れて</translation>
+        <translation>受け入れて</translation>
     </message>
     <message>
         <location filename="screens/exhalepressurecomfortlevel.ui" line="154"/>
@@ -845,7 +845,7 @@ Erase All Data?</source>
     <message>
         <location filename="screens/flowslopscreen.ui" line="50"/>
         <source>Cancel</source>
-        <translation type="unfinished">キャンセル</translation>
+        <translation>キャンセル</translation>
     </message>
     <message>
         <location filename="screens/flowslopscreen.ui" line="72"/>
@@ -865,12 +865,12 @@ Erase All Data?</source>
     <message>
         <location filename="screens/flowslopscreen.ui" line="192"/>
         <source>Flow Slop</source>
-        <translation type="unfinished">フローランプ</translation>
+        <translation>フローランプ</translation>
     </message>
     <message>
         <location filename="screens/flowslopscreen.ui" line="229"/>
         <source>Accept</source>
-        <translation type="unfinished">受け入れて</translation>
+        <translation>受け入れて</translation>
     </message>
 </context>
 <context>
@@ -883,22 +883,22 @@ Erase All Data?</source>
     <message>
         <location filename="screens/gotosleepsettingsbasic.ui" line="38"/>
         <source>GoTo Sleep Time</source>
-        <translation type="unfinished">眠りに落ちる</translation>
+        <translation>眠りに落ちる</translation>
     </message>
     <message>
         <location filename="screens/gotosleepsettingsbasic.ui" line="75"/>
         <source>Accept</source>
-        <translation type="unfinished">受け入れて</translation>
+        <translation>受け入れて</translation>
     </message>
     <message>
         <location filename="screens/gotosleepsettingsbasic.ui" line="112"/>
         <source>Cancel</source>
-        <translation type="unfinished">キャンセル</translation>
+        <translation>キャンセル</translation>
     </message>
     <message>
         <location filename="screens/gotosleepsettingsbasic.ui" line="128"/>
         <source>Smart Start</source>
-        <translation type="unfinished">スマートスタート</translation>
+        <translation>スマートスタート</translation>
     </message>
     <message>
         <location filename="screens/gotosleepsettingsbasic.ui" line="165"/>
@@ -932,7 +932,7 @@ Erase All Data?</source>
         <location filename="screens/homewindowbasic.cpp" line="66"/>
         <location filename="screens/homewindowbasic.cpp" line="177"/>
         <source> Therapy</source>
-        <translation type="unfinished">治療</translation>
+        <translation>治療</translation>
     </message>
     <message>
         <location filename="screens/homewindowbasic.cpp" line="67"/>
@@ -963,7 +963,7 @@ Erase All Data?</source>
     <message>
         <location filename="screens/homewindowclinical.ui" line="68"/>
         <source>Clinical Menu</source>
-        <translation type="unfinished">臨床メニュー</translation>
+        <translation>臨床メニュー</translation>
     </message>
 </context>
 <context>
@@ -976,12 +976,12 @@ Erase All Data?</source>
     <message>
         <location filename="screens/manufacturingdiagnosisscreen.ui" line="39"/>
         <source>Manufacturing Diagnosis</source>
-        <translation type="unfinished">製造診断</translation>
+        <translation>製造診断</translation>
     </message>
     <message>
         <location filename="screens/manufacturingdiagnosisscreen.ui" line="164"/>
         <source>Pressure</source>
-        <translation type="unfinished">圧力</translation>
+        <translation>圧力</translation>
     </message>
     <message>
         <location filename="screens/manufacturingdiagnosisscreen.ui" line="212"/>
@@ -991,7 +991,7 @@ Erase All Data?</source>
     <message>
         <location filename="screens/manufacturingdiagnosisscreen.ui" line="252"/>
         <source>Flow</source>
-        <translation type="unfinished">フロー</translation>
+        <translation>フロー</translation>
     </message>
     <message>
         <location filename="screens/manufacturingdiagnosisscreen.ui" line="300"/>
@@ -1011,7 +1011,7 @@ Erase All Data?</source>
     <message>
         <location filename="screens/manufacturingdiagnosisscreen.ui" line="428"/>
         <source>Motor Temp.</source>
-        <translation type="unfinished">モーター温度</translation>
+        <translation>モーター温度</translation>
     </message>
     <message>
         <location filename="screens/manufacturingdiagnosisscreen.ui" line="476"/>
@@ -1041,7 +1041,7 @@ Erase All Data?</source>
     <message>
         <location filename="screens/manufacturingdiagnosisscreen.ui" line="692"/>
         <source>Light Intensity</source>
-        <translation type="unfinished">輝度</translation>
+        <translation>輝度</translation>
     </message>
     <message>
         <location filename="screens/manufacturingdiagnosisscreen.ui" line="740"/>
@@ -1051,7 +1051,7 @@ Erase All Data?</source>
     <message>
         <location filename="screens/manufacturingdiagnosisscreen.ui" line="785"/>
         <source>Start</source>
-        <translation type="unfinished">開始</translation>
+        <translation>開始</translation>
     </message>
     <message>
         <location filename="screens/manufacturingdiagnosisscreen.ui" line="821"/>
@@ -1066,12 +1066,12 @@ Erase All Data?</source>
     <message>
         <location filename="screens/manufacturingdiagnosisscreen.ui" line="881"/>
         <source>Fault Condition</source>
-        <translation type="unfinished">障害状態</translation>
+        <translation>障害状態</translation>
     </message>
     <message>
         <location filename="screens/manufacturingdiagnosisscreen.ui" line="907"/>
         <source>Blower Speed</source>
-        <translation type="unfinished">ファン回転速度</translation>
+        <translation>ファン回転速度</translation>
     </message>
     <message>
         <location filename="screens/manufacturingdiagnosisscreen.ui" line="956"/>
@@ -1089,7 +1089,7 @@ Erase All Data?</source>
     <message>
         <location filename="screens/manufacturingoptionsscreen.ui" line="39"/>
         <source>Manufacturing Options</source>
-        <translation type="unfinished">製造オプション</translation>
+        <translation>製造オプション</translation>
     </message>
 </context>
 <context>
@@ -1102,7 +1102,7 @@ Erase All Data?</source>
     <message>
         <location filename="screens/manufacturingsetupscreen.ui" line="64"/>
         <source>Manufacturing Setup</source>
-        <translation type="unfinished">製造設定</translation>
+        <translation>製造設定</translation>
     </message>
 </context>
 <context>
@@ -1115,17 +1115,17 @@ Erase All Data?</source>
     <message>
         <location filename="screens/maskdryoptionsbasic.ui" line="38"/>
         <source>Mask Dry</source>
-        <translation type="unfinished">マスクを乾かす</translation>
+        <translation>マスクを乾かす</translation>
     </message>
     <message>
         <location filename="screens/maskdryoptionsbasic.ui" line="75"/>
         <source>Exit</source>
-        <translation type="unfinished">脱落</translation>
+        <translation>脱落</translation>
     </message>
     <message>
         <location filename="screens/maskdryoptionsbasic.ui" line="112"/>
         <source>Start</source>
-        <translation type="unfinished">開始</translation>
+        <translation>開始</translation>
     </message>
 </context>
 <context>
@@ -1138,17 +1138,17 @@ Erase All Data?</source>
     <message>
         <location filename="screens/maskfittestoptionsbasic.ui" line="38"/>
         <source>Mask Fit Test</source>
-        <translation type="unfinished">ユーザーインターフェイスマッチングテスト</translation>
+        <translation>ユーザーインターフェイスマッチングテスト</translation>
     </message>
     <message>
         <location filename="screens/maskfittestoptionsbasic.ui" line="75"/>
         <source>Exit</source>
-        <translation type="unfinished">脱落</translation>
+        <translation>脱落</translation>
     </message>
     <message>
         <location filename="screens/maskfittestoptionsbasic.ui" line="112"/>
         <source>Start Test</source>
-        <translation type="unfinished">テストを開始します</translation>
+        <translation>テストを開始します</translation>
     </message>
 </context>
 <context>
@@ -1161,7 +1161,7 @@ Erase All Data?</source>
     <message>
         <location filename="screens/maskoptionsbasic.ui" line="64"/>
         <source>Mask Options</source>
-        <translation type="unfinished">マスクのオプション</translation>
+        <translation>マスクのオプション</translation>
     </message>
 </context>
 <context>
@@ -1174,27 +1174,27 @@ Erase All Data?</source>
     <message>
         <location filename="screens/maskoptionstherapywindowclinical.ui" line="50"/>
         <source>Accept</source>
-        <translation type="unfinished">受け入れて</translation>
+        <translation>受け入れて</translation>
     </message>
     <message>
         <location filename="screens/maskoptionstherapywindowclinical.ui" line="72"/>
         <source>Mask</source>
-        <translation type="unfinished">マスク</translation>
+        <translation>マスク</translation>
     </message>
     <message>
         <location filename="screens/maskoptionstherapywindowclinical.ui" line="109"/>
         <source>Cancel</source>
-        <translation type="unfinished">キャンセル</translation>
+        <translation>キャンセル</translation>
     </message>
     <message>
         <location filename="screens/maskoptionstherapywindowclinical.ui" line="151"/>
         <source>Nasal Pillows</source>
-        <translation type="unfinished">ノーズマスク</translation>
+        <translation>ノーズマスク</translation>
     </message>
     <message>
         <location filename="screens/maskoptionstherapywindowclinical.ui" line="164"/>
         <source>Nasal Mask</source>
-        <translation type="unfinished">マスク</translation>
+        <translation>マスク</translation>
     </message>
 </context>
 <context>
@@ -1207,12 +1207,12 @@ Erase All Data?</source>
     <message>
         <location filename="screens/maskwindowreminderclinical.ui" line="53"/>
         <source>Accept</source>
-        <translation type="unfinished">受け入れて</translation>
+        <translation>受け入れて</translation>
     </message>
     <message>
         <location filename="screens/maskwindowreminderclinical.ui" line="75"/>
         <source>months</source>
-        <translation type="unfinished">月</translation>
+        <translation>月</translation>
     </message>
     <message>
         <location filename="screens/maskwindowreminderclinical.ui" line="112"/>
@@ -1222,7 +1222,7 @@ Erase All Data?</source>
     <message>
         <location filename="screens/maskwindowreminderclinical.ui" line="134"/>
         <source>Set Duration</source>
-        <translation type="unfinished">期間を設定する</translation>
+        <translation>期間を設定する</translation>
     </message>
     <message>
         <location filename="screens/maskwindowreminderclinical.ui" line="171"/>
@@ -1232,12 +1232,12 @@ Erase All Data?</source>
     <message>
         <location filename="screens/maskwindowreminderclinical.ui" line="193"/>
         <source>Mask</source>
-        <translation type="unfinished">マスク</translation>
+        <translation>マスク</translation>
     </message>
     <message>
         <location filename="screens/maskwindowreminderclinical.ui" line="233"/>
         <source>Cancel</source>
-        <translation type="unfinished">キャンセル</translation>
+        <translation>キャンセル</translation>
     </message>
     <message>
         <location filename="screens/maskwindowreminderclinical.ui" line="255"/>
@@ -1247,7 +1247,7 @@ Erase All Data?</source>
     <message>
         <location filename="screens/maskwindowreminderclinical.ui" line="277"/>
         <source>Set Start Date</source>
-        <translation type="unfinished">開始日を設定する</translation>
+        <translation>開始日を設定する</translation>
     </message>
     <message>
         <location filename="screens/maskwindowreminderclinical.ui" line="314"/>
@@ -1265,17 +1265,17 @@ Erase All Data?</source>
     <message>
         <location filename="screens/modewindowtherapyclinical.ui" line="50"/>
         <source>Accept</source>
-        <translation type="unfinished">受け入れて</translation>
+        <translation>受け入れて</translation>
     </message>
     <message>
         <location filename="screens/modewindowtherapyclinical.ui" line="87"/>
         <source>Cancel</source>
-        <translation type="unfinished">キャンセル</translation>
+        <translation>キャンセル</translation>
     </message>
     <message>
         <location filename="screens/modewindowtherapyclinical.ui" line="109"/>
         <source>Mode</source>
-        <translation type="unfinished">モード</translation>
+        <translation>モード</translation>
     </message>
     <message>
         <location filename="screens/modewindowtherapyclinical.ui" line="151"/>
@@ -1298,17 +1298,17 @@ Erase All Data?</source>
     <message>
         <location filename="screens/notificationtray.ui" line="50"/>
         <source>Date</source>
-        <translation type="unfinished">日付</translation>
+        <translation>日付</translation>
     </message>
     <message>
         <location filename="screens/notificationtray.ui" line="60"/>
         <source>Time</source>
-        <translation type="unfinished">時間</translation>
+        <translation>時間</translation>
     </message>
     <message>
         <location filename="screens/notificationtray.ui" line="70"/>
         <source>Flow</source>
-        <translation type="unfinished">フロー</translation>
+        <translation>フロー</translation>
     </message>
 </context>
 <context>
@@ -1321,7 +1321,7 @@ Erase All Data?</source>
     <message>
         <location filename="screens/optionswindowclinical.ui" line="64"/>
         <source>Options</source>
-        <translation type="unfinished">オプション</translation>
+        <translation>オプション</translation>
     </message>
 </context>
 <context>
@@ -1334,7 +1334,7 @@ Erase All Data?</source>
     <message>
         <location filename="screens/parametertunningscreen.ui" line="64"/>
         <source>Parameter Tuning Screen</source>
-        <translation type="unfinished">パラメータ調整インターフェース</translation>
+        <translation>パラメータ調整インターフェース</translation>
     </message>
     <message>
         <location filename="screens/parametertunningscreen.ui" line="101"/>
@@ -1354,12 +1354,12 @@ Erase All Data?</source>
     <message>
         <location filename="screens/parametertunningscreen.ui" line="185"/>
         <source>Snooze Time</source>
-        <translation type="unfinished">休眠時間</translation>
+        <translation>休眠時間</translation>
     </message>
     <message>
         <location filename="screens/parametertunningscreen.ui" line="204"/>
         <source>min</source>
-        <translation type="unfinished">分</translation>
+        <translation>分</translation>
     </message>
 </context>
 <context>
@@ -1422,17 +1422,17 @@ Erase All Data?</source>
     <message>
         <location filename="screens/passwordcheckscreen.ui" line="440"/>
         <source>Cancel</source>
-        <translation type="unfinished">キャンセル</translation>
+        <translation>キャンセル</translation>
     </message>
     <message>
         <location filename="screens/passwordcheckscreen.ui" line="524"/>
         <source>Invalid Password</source>
-        <translation type="unfinished">無効なパスワード</translation>
+        <translation>無効なパスワード</translation>
     </message>
     <message>
         <location filename="screens/passwordcheckscreen.ui" line="565"/>
         <source>Accept</source>
-        <translation type="unfinished">受け入れて</translation>
+        <translation>受け入れて</translation>
     </message>
     <message>
         <location filename="screens/passwordcheckscreen.ui" line="587"/>
@@ -1450,7 +1450,7 @@ Erase All Data?</source>
     <message>
         <location filename="screens/poweroffoptions.ui" line="71"/>
         <source>Cancel</source>
-        <translation type="unfinished">キャンセル</translation>
+        <translation>キャンセル</translation>
     </message>
 </context>
 <context>
@@ -1463,17 +1463,17 @@ Erase All Data?</source>
     <message>
         <location filename="screens/pressureoffsetscreen.ui" line="35"/>
         <source>Pressure Offset</source>
-        <translation type="unfinished">圧力オフセット</translation>
+        <translation>圧力オフセット</translation>
     </message>
     <message>
         <location filename="screens/pressureoffsetscreen.ui" line="72"/>
         <source>Accept</source>
-        <translation type="unfinished">受け入れて</translation>
+        <translation>受け入れて</translation>
     </message>
     <message>
         <location filename="screens/pressureoffsetscreen.ui" line="129"/>
         <source>Get New Offset</source>
-        <translation type="unfinished">新しいオフセットを取得</translation>
+        <translation>新しいオフセットを取得</translation>
     </message>
     <message>
         <location filename="screens/pressureoffsetscreen.ui" line="166"/>
@@ -1488,7 +1488,7 @@ Erase All Data?</source>
     <message>
         <location filename="screens/pressureoffsetscreen.ui" line="241"/>
         <source>Cancel</source>
-        <translation type="unfinished">キャンセル</translation>
+        <translation>キャンセル</translation>
     </message>
     <message>
         <location filename="screens/pressureoffsetscreen.ui" line="263"/>
@@ -1506,7 +1506,7 @@ Erase All Data?</source>
     <message>
         <location filename="screens/pressureunitconfigurationclinical.ui" line="53"/>
         <source>Accept</source>
-        <translation type="unfinished">受け入れて</translation>
+        <translation>受け入れて</translation>
     </message>
     <message>
         <location filename="screens/pressureunitconfigurationclinical.ui" line="80"/>
@@ -1521,12 +1521,12 @@ Erase All Data?</source>
     <message>
         <location filename="screens/pressureunitconfigurationclinical.ui" line="121"/>
         <source>Pressure Unit</source>
-        <translation type="unfinished">圧力ユニット</translation>
+        <translation>圧力ユニット</translation>
     </message>
     <message>
         <location filename="screens/pressureunitconfigurationclinical.ui" line="158"/>
         <source>Cancel</source>
-        <translation type="unfinished">キャンセル</translation>
+        <translation>キャンセル</translation>
     </message>
 </context>
 <context>
@@ -1544,7 +1544,7 @@ Erase All Data?</source>
     <message>
         <location filename="screens/rampstartsettingsbasic.ui" line="63"/>
         <source>Ramp Time</source>
-        <translation type="unfinished">登る時間</translation>
+        <translation>登る時間</translation>
     </message>
     <message>
         <location filename="screens/rampstartsettingsbasic.ui" line="100"/>
@@ -1554,12 +1554,12 @@ Erase All Data?</source>
     <message>
         <location filename="screens/rampstartsettingsbasic.ui" line="116"/>
         <source>Smart Start</source>
-        <translation type="unfinished">スマートスタート</translation>
+        <translation>スマートスタート</translation>
     </message>
     <message>
         <location filename="screens/rampstartsettingsbasic.ui" line="153"/>
         <source>Cancel</source>
-        <translation type="unfinished">キャンセル</translation>
+        <translation>キャンセル</translation>
     </message>
     <message>
         <location filename="screens/rampstartsettingsbasic.ui" line="190"/>
@@ -1569,7 +1569,7 @@ Erase All Data?</source>
     <message>
         <location filename="screens/rampstartsettingsbasic.ui" line="227"/>
         <source>Accept</source>
-        <translation type="unfinished">受け入れて</translation>
+        <translation>受け入れて</translation>
     </message>
     <message>
         <location filename="screens/rampstartsettingsbasic.ui" line="243"/>
@@ -1587,7 +1587,7 @@ Erase All Data?</source>
     <message>
         <location filename="screens/reminderwindowsettingsclinical.ui" line="39"/>
         <source>Reminders</source>
-        <translation type="unfinished">思い出させる</translation>
+        <translation>思い出させる</translation>
     </message>
 </context>
 <context>
@@ -1600,37 +1600,37 @@ Erase All Data?</source>
     <message>
         <location filename="screens/resetreminderwarning.ui" line="55"/>
         <source>Do you want to reset reminders</source>
-        <translation type="unfinished">リマインダーをリセットするかどうか？</translation>
+        <translation>リマインダーをリセットするかどうか？</translation>
     </message>
     <message>
         <location filename="screens/resetreminderwarning.ui" line="77"/>
         <source>Air Filter</source>
-        <translation type="unfinished">エアフィルタ</translation>
+        <translation>エアフィルタ</translation>
     </message>
     <message>
         <location filename="screens/resetreminderwarning.ui" line="99"/>
         <source>Hose</source>
-        <translation type="unfinished">パイプライン</translation>
+        <translation>パイプライン</translation>
     </message>
     <message>
         <location filename="screens/resetreminderwarning.ui" line="121"/>
         <source>Mask</source>
-        <translation type="unfinished">マスク</translation>
+        <translation>マスク</translation>
     </message>
     <message>
         <location filename="screens/resetreminderwarning.ui" line="158"/>
         <source>No</source>
-        <translation type="unfinished">しない</translation>
+        <translation>しない</translation>
     </message>
     <message>
         <location filename="screens/resetreminderwarning.ui" line="195"/>
         <source>Yes</source>
-        <translation type="unfinished">はい</translation>
+        <translation>はい</translation>
     </message>
     <message>
         <location filename="screens/resetreminderwarning.ui" line="218"/>
         <source>Reset Reminders</source>
-        <translation type="unfinished">リマインダーをリセット</translation>
+        <translation>リマインダーをリセット</translation>
     </message>
 </context>
 <context>
@@ -1643,23 +1643,23 @@ Erase All Data?</source>
     <message>
         <location filename="screens/restoredefaultswindowclinical.ui" line="53"/>
         <source>No</source>
-        <translation type="unfinished">しない</translation>
+        <translation>しない</translation>
     </message>
     <message>
         <location filename="screens/restoredefaultswindowclinical.ui" line="75"/>
         <source>Restore Defaults</source>
-        <translation type="unfinished">デフォルト設定に戻す</translation>
+        <translation>デフォルト設定に戻す</translation>
     </message>
     <message>
         <location filename="screens/restoredefaultswindowclinical.ui" line="112"/>
         <source>Yes</source>
-        <translation type="unfinished">はい</translation>
+        <translation>はい</translation>
     </message>
     <message>
         <location filename="screens/restoredefaultswindowclinical.ui" line="128"/>
         <source>Do You Really Want to 
 Restore Factory Defaults?</source>
-        <translation type="unfinished">工場出荷時の設定に戻しますか？</translation>
+        <translation>工場出荷時の設定に戻しますか？</translation>
     </message>
 </context>
 <context>
@@ -1674,12 +1674,12 @@ Restore Factory Defaults?</source>
         <source>Please format the 
 SD card 
 and insert again</source>
-        <translation type="unfinished">SDカードをフォーマットして、もう一度挿入してください</translation>
+        <translation>SDカードをフォーマットして、もう一度挿入してください</translation>
     </message>
     <message>
         <location filename="screens/sdcardformatscreen.ui" line="100"/>
         <source>Close</source>
-        <translation type="unfinished">シャットダウン</translation>
+        <translation>シャットダウン</translation>
     </message>
 </context>
 <context>
@@ -1692,33 +1692,33 @@ and insert again</source>
     <message>
         <location filename="screens/selectlanguagewindowclinical.ui" line="53"/>
         <source>Accept</source>
-        <translation type="unfinished">受け入れて</translation>
+        <translation>受け入れて</translation>
     </message>
     <message>
         <location filename="screens/selectlanguagewindowclinical.ui" line="75"/>
         <source>Select Language</source>
-        <translation type="unfinished">言語を選択してください</translation>
+        <translation>言語を選択してください</translation>
     </message>
     <message>
         <location filename="screens/selectlanguagewindowclinical.ui" line="112"/>
         <source>Cancel</source>
-        <translation type="unfinished">キャンセル</translation>
+        <translation>キャンセル</translation>
     </message>
     <message>
         <location filename="screens/selectlanguagewindowclinical.ui" line="154"/>
         <source>English</source>
-        <translation type="unfinished">英語</translation>
+        <translation>英語</translation>
     </message>
     <message>
         <location filename="screens/selectlanguagewindowclinical.ui" line="167"/>
         <source>Chinese</source>
-        <translation type="unfinished">中国語</translation>
+        <translation>中国語</translation>
     </message>
     <message>
         <location filename="screens/selectlanguagewindowclinical.ui" line="180"/>
         <source>Japanese</source>
         <oldsource>Spanish</oldsource>
-        <translation type="unfinished">日本語</translation>
+        <translation>日本語</translation>
     </message>
 </context>
 <context>
@@ -1746,7 +1746,7 @@ and insert again</source>
     <message>
         <location filename="screens/setmaxpressureclinical.ui" line="148"/>
         <source>Reached to Set Min Pressure Limit</source>
-        <translation type="unfinished">最小圧力制限を設定します</translation>
+        <translation>最小圧力制限を設定します</translation>
     </message>
     <message>
         <location filename="screens/setmaxpressureclinical.ui" line="167"/>
@@ -1756,12 +1756,12 @@ and insert again</source>
     <message>
         <location filename="screens/setmaxpressureclinical.ui" line="208"/>
         <source>Accept</source>
-        <translation type="unfinished">受け入れて</translation>
+        <translation>受け入れて</translation>
     </message>
     <message>
         <location filename="screens/setmaxpressureclinical.ui" line="245"/>
         <source>Cancel</source>
-        <translation type="unfinished">キャンセル</translation>
+        <translation>キャンセル</translation>
     </message>
     <message>
         <location filename="screens/setmaxpressureclinical.ui" line="297"/>
@@ -1771,7 +1771,7 @@ and insert again</source>
     <message>
         <location filename="screens/setmaxpressureclinical.ui" line="322"/>
         <source>Set Max Pressure</source>
-        <translation type="unfinished">最大圧力を設定する</translation>
+        <translation>最大圧力を設定する</translation>
     </message>
 </context>
 <context>
@@ -1784,7 +1784,7 @@ and insert again</source>
     <message>
         <location filename="screens/setminpressureclinical.ui" line="50"/>
         <source>Accept</source>
-        <translation type="unfinished">受け入れて</translation>
+        <translation>受け入れて</translation>
     </message>
     <message>
         <location filename="screens/setminpressureclinical.ui" line="66"/>
@@ -1799,12 +1799,12 @@ and insert again</source>
     <message>
         <location filename="screens/setminpressureclinical.ui" line="132"/>
         <source>Cancel</source>
-        <translation type="unfinished">キャンセル</translation>
+        <translation>キャンセル</translation>
     </message>
     <message>
         <location filename="screens/setminpressureclinical.ui" line="174"/>
         <source>Reached to Set Max Pressure Limit</source>
-        <translation type="unfinished">最大圧力制限を設定します</translation>
+        <translation>最大圧力制限を設定します</translation>
     </message>
     <message>
         <location filename="screens/setminpressureclinical.ui" line="193"/>
@@ -1814,7 +1814,7 @@ and insert again</source>
     <message>
         <location filename="screens/setminpressureclinical.ui" line="221"/>
         <source>Set Min Pressure</source>
-        <translation type="unfinished">最小圧力を設定する</translation>
+        <translation>最小圧力を設定する</translation>
     </message>
     <message>
         <location filename="screens/setminpressureclinical.ui" line="287"/>
@@ -1842,7 +1842,7 @@ and insert again</source>
     <message>
         <location filename="screens/setpressureclinical.ui" line="107"/>
         <source>Set Pressure</source>
-        <translation type="unfinished">設定圧力</translation>
+        <translation>設定圧力</translation>
     </message>
     <message>
         <location filename="screens/setpressureclinical.ui" line="129"/>
@@ -1852,7 +1852,7 @@ and insert again</source>
     <message>
         <location filename="screens/setpressureclinical.ui" line="169"/>
         <source>Accept</source>
-        <translation type="unfinished">受け入れて</translation>
+        <translation>受け入れて</translation>
     </message>
     <message>
         <location filename="screens/setpressureclinical.ui" line="185"/>
@@ -1867,7 +1867,7 @@ and insert again</source>
     <message>
         <location filename="screens/setpressureclinical.ui" line="262"/>
         <source>Cancel</source>
-        <translation type="unfinished">キャンセル</translation>
+        <translation>キャンセル</translation>
     </message>
 </context>
 <context>
@@ -1880,7 +1880,7 @@ and insert again</source>
     <message>
         <location filename="screens/settingswindowbasic.ui" line="64"/>
         <source>Settings</source>
-        <translation type="unfinished">設定</translation>
+        <translation>設定</translation>
     </message>
     <message>
         <location filename="screens/settingswindowbasic.ui" line="152"/>
@@ -1911,19 +1911,19 @@ and insert again</source>
     <message>
         <location filename="screens/sleepreportmorewindowbasic.ui" line="86"/>
         <source>Sleep Report</source>
-        <translation type="unfinished">睡眠レポート</translation>
+        <translation>睡眠レポート</translation>
     </message>
     <message>
         <location filename="screens/sleepreportmorewindowbasic.ui" line="128"/>
         <source>Days Used</source>
-        <translation type="unfinished">使用日数</translation>
+        <translation>使用日数</translation>
     </message>
     <message>
         <location filename="screens/sleepreportmorewindowbasic.ui" line="175"/>
         <location filename="screens/sleepreportmorewindowbasic.ui" line="268"/>
         <location filename="screens/sleepreportmorewindowbasic.ui" line="641"/>
         <source>Period</source>
-        <translation type="unfinished">限目</translation>
+        <translation>限目</translation>
     </message>
     <message>
         <location filename="screens/sleepreportmorewindowbasic.ui" line="221"/>
@@ -1933,23 +1933,23 @@ and insert again</source>
     <message>
         <location filename="screens/sleepreportmorewindowbasic.ui" line="314"/>
         <source>Average Usage</source>
-        <translation type="unfinished">平均使用時間</translation>
+        <translation>平均使用時間</translation>
     </message>
     <message>
         <location filename="screens/sleepreportmorewindowbasic.ui" line="361"/>
         <location filename="screens/sleepreportmorewindowbasic.ui" line="454"/>
         <source>Hours</source>
-        <translation type="unfinished">時間</translation>
+        <translation>時間</translation>
     </message>
     <message>
         <location filename="screens/sleepreportmorewindowbasic.ui" line="407"/>
         <source>Used Hours</source>
-        <translation type="unfinished">使用時間</translation>
+        <translation>使用時間</translation>
     </message>
     <message>
         <location filename="screens/sleepreportmorewindowbasic.ui" line="500"/>
         <source>Leak</source>
-        <translation type="unfinished">空気漏れ</translation>
+        <translation>空気漏れ</translation>
     </message>
     <message>
         <location filename="screens/sleepreportmorewindowbasic.ui" line="547"/>
@@ -1964,7 +1964,7 @@ and insert again</source>
     <message>
         <location filename="screens/sleepreportmorewindowbasic.ui" line="678"/>
         <source>Send Sleep Report</source>
-        <translation type="unfinished">睡眠レポートを送信する</translation>
+        <translation>睡眠レポートを送信する</translation>
     </message>
 </context>
 <context>
@@ -1972,17 +1972,17 @@ and insert again</source>
     <message>
         <location filename="screens/sleepreportwindowbasic.ui" line="14"/>
         <source>Form</source>
-        <translation type="unfinished">フォーマット</translation>
+        <translation>フォーマット</translation>
     </message>
     <message>
         <location filename="screens/sleepreportwindowbasic.ui" line="111"/>
         <source>Sleep Report</source>
-        <translation type="unfinished">睡眠レポート</translation>
+        <translation>睡眠レポート</translation>
     </message>
     <message>
         <location filename="screens/sleepreportwindowbasic.ui" line="156"/>
         <source>Last Recorded Therapy</source>
-        <translation type="unfinished">最後に記録された治療</translation>
+        <translation>最後に記録された治療</translation>
     </message>
     <message>
         <location filename="screens/sleepreportwindowbasic.ui" line="178"/>
@@ -1992,7 +1992,7 @@ and insert again</source>
     <message>
         <location filename="screens/sleepreportwindowbasic.ui" line="218"/>
         <source>Usage Hours</source>
-        <translation type="unfinished">使用時間</translation>
+        <translation>使用時間</translation>
     </message>
     <message>
         <location filename="screens/sleepreportwindowbasic.ui" line="285"/>
@@ -2002,7 +2002,7 @@ and insert again</source>
     <message>
         <location filename="screens/sleepreportwindowbasic.ui" line="325"/>
         <source>Events ( A H I ) Per Hour</source>
-        <translation type="unfinished">毎時のイベント（A H I）</translation>
+        <translation>毎時のイベント（A H I）</translation>
     </message>
     <message>
         <location filename="screens/sleepreportwindowbasic.ui" line="392"/>
@@ -2012,7 +2012,7 @@ and insert again</source>
     <message>
         <location filename="screens/sleepreportwindowbasic.ui" line="432"/>
         <source>Mask Fit</source>
-        <translation type="unfinished">ユーザーインターフェイスのマッチング</translation>
+        <translation>ユーザーインターフェイスのマッチング</translation>
     </message>
 </context>
 <context>
@@ -2025,23 +2025,23 @@ and insert again</source>
     <message>
         <location filename="screens/snoozeexitscreenbasic.ui" line="53"/>
         <source>Yes</source>
-        <translation type="unfinished">はい</translation>
+        <translation>はい</translation>
     </message>
     <message>
         <location filename="screens/snoozeexitscreenbasic.ui" line="75"/>
         <source>Snooze</source>
-        <translation type="unfinished">休眠</translation>
+        <translation>休眠</translation>
     </message>
     <message>
         <location filename="screens/snoozeexitscreenbasic.ui" line="112"/>
         <source>No</source>
-        <translation type="unfinished">しない</translation>
+        <translation>しない</translation>
     </message>
     <message>
         <location filename="screens/snoozeexitscreenbasic.ui" line="128"/>
         <source>Do You really want to Exit 
 Snooz?</source>
-        <translation type="unfinished">休止状態を終了しますか？</translation>
+        <translation>休止状態を終了しますか？</translation>
     </message>
 </context>
 <context>
@@ -2054,7 +2054,7 @@ Snooz?</source>
     <message>
         <location filename="screens/snoozetimesettingsbasic.ui" line="53"/>
         <source>Accept</source>
-        <translation type="unfinished">受け入れて</translation>
+        <translation>受け入れて</translation>
     </message>
     <message>
         <location filename="screens/snoozetimesettingsbasic.ui" line="69"/>
@@ -2064,7 +2064,7 @@ Snooz?</source>
     <message>
         <location filename="screens/snoozetimesettingsbasic.ui" line="94"/>
         <source>Snooze Time</source>
-        <translation type="unfinished">休眠時間</translation>
+        <translation>休眠時間</translation>
     </message>
     <message>
         <location filename="screens/snoozetimesettingsbasic.ui" line="154"/>
@@ -2074,7 +2074,7 @@ Snooz?</source>
     <message>
         <location filename="screens/snoozetimesettingsbasic.ui" line="191"/>
         <source>Cancel</source>
-        <translation type="unfinished">キャンセル</translation>
+        <translation>キャンセル</translation>
     </message>
     <message>
         <location filename="screens/snoozetimesettingsbasic.ui" line="228"/>
@@ -2097,12 +2097,12 @@ Snooz?</source>
     <message>
         <location filename="screens/therapywindowbasic.ui" line="40"/>
         <source>Therapy</source>
-        <translation type="unfinished">治療</translation>
+        <translation>治療</translation>
     </message>
     <message>
         <location filename="screens/therapywindowbasic.ui" line="106"/>
         <source>Ramp Time</source>
-        <translation type="unfinished">登る時間</translation>
+        <translation>登る時間</translation>
     </message>
     <message>
         <location filename="screens/therapywindowbasic.ui" line="128"/>
@@ -2125,18 +2125,18 @@ Snooz?</source>
     <message>
         <location filename="screens/therapywindowbasic.ui" line="220"/>
         <source>Go To Sleep</source>
-        <translation type="unfinished">眠りに落ちる</translation>
+        <translation>眠りに落ちる</translation>
     </message>
     <message>
         <location filename="screens/therapywindowbasic.ui" line="334"/>
         <source>Snooze Active</source>
-        <translation type="unfinished">休止状態をアクティブにする</translation>
+        <translation>休止状態をアクティブにする</translation>
     </message>
     <message>
         <location filename="screens/therapywindowbasic.ui" line="404"/>
         <source>Change 
 Parameter</source>
-        <translation type="unfinished">パラメータを変更する</translation>
+        <translation>パラメータを変更する</translation>
     </message>
     <message>
         <location filename="screens/therapywindowbasic.ui" line="429"/>
@@ -2156,7 +2156,7 @@ Parameter</source>
     <message>
         <location filename="screens/therapywindowbasic.cpp" line="132"/>
         <source>Set Pressure</source>
-        <translation type="unfinished">設定圧力</translation>
+        <translation>設定圧力</translation>
     </message>
     <message>
         <location filename="screens/therapywindowbasic.cpp" line="148"/>
@@ -2164,13 +2164,13 @@ Parameter</source>
         <location filename="screens/therapywindowbasic.cpp" line="312"/>
         <location filename="screens/therapywindowbasic.cpp" line="535"/>
         <source>Start Therapy</source>
-        <translation type="unfinished">治療を開始します</translation>
+        <translation>治療を開始します</translation>
     </message>
     <message>
         <location filename="screens/therapywindowbasic.cpp" line="176"/>
         <location filename="screens/therapywindowbasic.cpp" line="306"/>
         <source>Stop Therapy</source>
-        <translation type="unfinished">治療をやめる</translation>
+        <translation>治療をやめる</translation>
     </message>
 </context>
 <context>
@@ -2183,7 +2183,7 @@ Parameter</source>
     <message>
         <location filename="screens/therapywindowclinical.ui" line="39"/>
         <source>Therapy</source>
-        <translation type="unfinished">治療</translation>
+        <translation>治療</translation>
     </message>
 </context>
 <context>
@@ -2196,17 +2196,17 @@ Parameter</source>
     <message>
         <location filename="screens/timewindowclinical.ui" line="53"/>
         <source>Accept</source>
-        <translation type="unfinished">受け入れて</translation>
+        <translation>受け入れて</translation>
     </message>
     <message>
         <location filename="screens/timewindowclinical.ui" line="90"/>
         <source>Cancel</source>
-        <translation type="unfinished">キャンセル</translation>
+        <translation>キャンセル</translation>
     </message>
     <message>
         <location filename="screens/timewindowclinical.ui" line="112"/>
         <source>Time</source>
-        <translation type="unfinished">時間</translation>
+        <translation>時間</translation>
     </message>
 </context>
 <context>
@@ -2219,7 +2219,7 @@ Parameter</source>
     <message>
         <location filename="screens/warninginfoscreen.ui" line="98"/>
         <source>Close</source>
-        <translation type="unfinished">シャットダウン</translation>
+        <translation>シャットダウン</translation>
     </message>
 </context>
 </TS>

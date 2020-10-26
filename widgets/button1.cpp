@@ -134,6 +134,12 @@ void Button1::updateSubTitleText(const QString &subTitleText)
     SubTitleText = subTitleText;
     update();
 }
+//void Button1::updateSubTitleText(const QChar* s)
+//{
+//    SubTitleText=QString(s);
+//    update();
+//}
+
 void Button1::updateUnitText(const QString &unitText)
 {
     UnitText = unitText;

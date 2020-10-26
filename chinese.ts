@@ -11,7 +11,7 @@
     <message>
         <location filename="screens/accessorieswindowclinical.ui" line="64"/>
         <source>Accessories</source>
-        <translation type="unfinished">配件</translation>
+        <translation>配件</translation>
     </message>
 </context>
 <context>
@@ -24,27 +24,27 @@
     <message>
         <location filename="screens/activereminderscreen.ui" line="50"/>
         <source>Remind Later</source>
-        <translation type="unfinished">稍后提醒</translation>
+        <translation>稍后提醒</translation>
     </message>
     <message>
         <location filename="screens/activereminderscreen.ui" line="72"/>
         <source>Reminders</source>
-        <translation type="unfinished">提醒</translation>
+        <translation>提醒</translation>
     </message>
     <message>
         <location filename="screens/activereminderscreen.ui" line="114"/>
         <source>Please change the following</source>
-        <translation type="unfinished">请更改如下</translation>
+        <translation>请更改如下</translation>
     </message>
     <message>
         <location filename="screens/activereminderscreen.ui" line="136"/>
         <source>Air Filter</source>
-        <translation type="unfinished">空气过滤器</translation>
+        <translation>空气过滤器</translation>
     </message>
     <message>
         <location filename="screens/activereminderscreen.ui" line="158"/>
         <source>Hose</source>
-        <translation type="unfinished">管路</translation>
+        <translation>管路</translation>
     </message>
     <message>
         <location filename="screens/activereminderscreen.ui" line="180"/>
@@ -67,12 +67,12 @@
     <message>
         <location filename="screens/airfilterwindowclinical.ui" line="35"/>
         <source>Standard</source>
-        <translation type="unfinished">标准</translation>
+        <translation>标准</translation>
     </message>
     <message>
         <location filename="screens/airfilterwindowclinical.ui" line="72"/>
         <source>Cancel</source>
-        <translation type="unfinished">取消</translation>
+        <translation>取消</translation>
     </message>
     <message>
         <location filename="screens/airfilterwindowclinical.ui" line="94"/>
@@ -87,7 +87,7 @@
     <message>
         <location filename="screens/airfilterwindowclinical.ui" line="153"/>
         <source>HEPA</source>
-        <translation type="unfinished">HEPA</translation>
+        <translation>HEPA</translation>
     </message>
 </context>
 <context>
@@ -140,7 +140,7 @@
     <message>
         <location filename="screens/airfilterwindowreminderclinical.ui" line="277"/>
         <source>Weeks</source>
-        <translation type="unfinished">周</translation>
+        <translation>周</translation>
     </message>
     <message>
         <location filename="screens/airfilterwindowreminderclinical.ui" line="314"/>
@@ -168,7 +168,7 @@
     <message>
         <location filename="screens/airtubewindowreminderclinical.ui" line="97"/>
         <source>Set Duration</source>
-        <translation type="unfinished">设置间隔</translation>
+        <translation>设置间隔</translation>
     </message>
     <message>
         <location filename="screens/airtubewindowreminderclinical.ui" line="119"/>
@@ -178,7 +178,7 @@
     <message>
         <location filename="screens/airtubewindowreminderclinical.ui" line="141"/>
         <source>Set Start Date</source>
-        <translation type="unfinished">设置开始日期</translation>
+        <translation>设置开始日期</translation>
     </message>
     <message>
         <location filename="screens/airtubewindowreminderclinical.ui" line="178"/>
@@ -198,7 +198,7 @@
     <message>
         <location filename="screens/airtubewindowreminderclinical.ui" line="274"/>
         <source>Hose</source>
-        <translation type="unfinished">管路</translation>
+        <translation>管路</translation>
     </message>
     <message>
         <location filename="screens/airtubewindowreminderclinical.ui" line="314"/>
@@ -244,7 +244,7 @@
     <message>
         <location filename="screens/blowertestapplication.ui" line="177"/>
         <source>BLOWER OFF</source>
-        <translation type="unfinished">关闭风机</translation>
+        <translation>关闭风机</translation>
     </message>
     <message>
         <location filename="screens/blowertestapplication.ui" line="205"/>
@@ -254,7 +254,7 @@
     <message>
         <location filename="screens/blowertestapplication.ui" line="349"/>
         <source>Brake</source>
-        <translation type="unfinished"></translation>
+        <translation>减速</translation>
     </message>
     <message>
         <location filename="screens/blowertestapplication.ui" line="377"/>
@@ -266,17 +266,17 @@
     <message>
         <location filename="screens/blowertestapplication.ui" line="408"/>
         <source>Flow</source>
-        <translation type="unfinished">流量</translation>
+        <translation>流量</translation>
     </message>
     <message>
         <location filename="screens/blowertestapplication.ui" line="438"/>
         <source>Light</source>
-        <translation type="unfinished">亮度</translation>
+        <translation>亮度</translation>
     </message>
     <message>
         <location filename="screens/blowertestapplication.ui" line="468"/>
         <source>START</source>
-        <translation type="unfinished">开始</translation>
+        <translation>开始</translation>
     </message>
     <message>
         <location filename="screens/blowertestapplication.ui" line="665"/>
@@ -292,12 +292,12 @@
     <message>
         <location filename="screens/blowertestapplication.ui" line="720"/>
         <source>Pressure</source>
-        <translation type="unfinished">压力</translation>
+        <translation>压力</translation>
     </message>
     <message>
         <location filename="screens/blowertestapplication.ui" line="742"/>
         <source>Exit</source>
-        <translation type="unfinished">退出</translation>
+        <translation>退出</translation>
     </message>
     <message>
         <location filename="screens/blowertestapplication.ui" line="818"/>
@@ -325,7 +325,7 @@
     <message>
         <location filename="screens/bluetoothdebugscreen.ui" line="39"/>
         <source>Bluetooth Debug Screen</source>
-        <translation type="unfinished">蓝牙调试界面</translation>
+        <translation>蓝牙调试界面</translation>
     </message>
     <message>
         <location filename="screens/bluetoothdebugscreen.ui" line="109"/>
@@ -353,7 +353,7 @@
     <message>
         <location filename="screens/bluetoothsettingsbasic.ui" line="38"/>
         <source>Paired Device Name</source>
-        <translation type="unfinished">配对的设备名称</translation>
+        <translation>配对的设备名称</translation>
     </message>
     <message>
         <location filename="screens/bluetoothsettingsbasic.ui" line="78"/>
@@ -376,7 +376,7 @@
     <message>
         <location filename="screens/brightnessadjustbrightnesssettingsbasic.ui" line="38"/>
         <source>Brightness Adjustment</source>
-        <translation type="unfinished">调节亮度</translation>
+        <translation>调节亮度</translation>
     </message>
     <message>
         <location filename="screens/brightnessadjustbrightnesssettingsbasic.ui" line="78"/>
@@ -386,7 +386,7 @@
     <message>
         <location filename="screens/brightnessadjustbrightnesssettingsbasic.ui" line="100"/>
         <source>Brightness Level</source>
-        <translation type="unfinished">亮度等级</translation>
+        <translation>亮度等级</translation>
     </message>
     <message>
         <location filename="screens/brightnessadjustbrightnesssettingsbasic.ui" line="137"/>
@@ -396,7 +396,7 @@
     <message>
         <location filename="screens/brightnessadjustbrightnesssettingsbasic.ui" line="173"/>
         <source>Auto</source>
-        <translation type="unfinished">自动</translation>
+        <translation>自动</translation>
     </message>
     <message>
         <location filename="screens/brightnessadjustbrightnesssettingsbasic.ui" line="249"/>
@@ -424,7 +424,7 @@
     <message>
         <location filename="screens/brightnessoffsetscreen.ui" line="104"/>
         <source>Brightness Offset</source>
-        <translation type="unfinished">亮度偏移量</translation>
+        <translation>亮度偏移量</translation>
     </message>
     <message>
         <location filename="screens/brightnessoffsetscreen.ui" line="141"/>
@@ -462,7 +462,7 @@
     <message>
         <location filename="screens/comfortwindowclinical.ui" line="39"/>
         <source>Comfort</source>
-        <translation type="unfinished">舒适</translation>
+        <translation>舒适</translation>
     </message>
 </context>
 <context>
@@ -488,7 +488,7 @@
     <message>
         <location filename="screens/datewindowclinical.ui" line="38"/>
         <source>Date</source>
-        <translation type="unfinished">日期</translation>
+        <translation>日期</translation>
     </message>
     <message>
         <location filename="screens/datewindowclinical.ui" line="75"/>
@@ -530,7 +530,7 @@
     <message>
         <location filename="screens/deviceinfosettingsbasic.ui" line="219"/>
         <source>Device Run Hours</source>
-        <translation type="unfinished">设备运行小时数</translation>
+        <translation>设备运行小时数</translation>
     </message>
     <message>
         <location filename="screens/deviceinfosettingsbasic.ui" line="238"/>
@@ -545,7 +545,7 @@
     <message>
         <location filename="screens/deviceinfosettingsbasic.ui" line="289"/>
         <source>Serial Number</source>
-        <translation type="unfinished">序列号</translation>
+        <translation>序列号</translation>
     </message>
     <message>
         <location filename="screens/deviceinfosettingsbasic.ui" line="340"/>
@@ -588,7 +588,7 @@
     <message>
         <location filename="screens/diagnosticdatascreen.ui" line="116"/>
         <source>Display Diagnostic Data</source>
-        <translation type="unfinished"></translation>
+        <translation>显示诊断数据</translation>
     </message>
     <message>
         <location filename="screens/diagnosticdatascreen.ui" line="153"/>
@@ -611,7 +611,7 @@
     <message>
         <location filename="screens/displaydimbrightnesssettingsbasic.ui" line="69"/>
         <source>min</source>
-        <translation type="unfinished">分钟</translation>
+        <translation>分钟</translation>
     </message>
     <message>
         <location filename="screens/displaydimbrightnesssettingsbasic.ui" line="109"/>
@@ -621,7 +621,7 @@
     <message>
         <location filename="screens/displaydimbrightnesssettingsbasic.ui" line="131"/>
         <source>Display Dim Duration</source>
-        <translation type="unfinished">自动锁定</translation>
+        <translation>自动锁定</translation>
     </message>
     <message>
         <location filename="screens/displaydimbrightnesssettingsbasic.ui" line="206"/>
@@ -649,7 +649,7 @@
     <message>
         <location filename="screens/displaysettingssettingsbasic.ui" line="63"/>
         <source>Display Settings</source>
-        <translation type="unfinished">显示设置</translation>
+        <translation>显示设置</translation>
     </message>
 </context>
 <context>
@@ -750,22 +750,22 @@
     <message>
         <location filename="screens/enterserialnumber.ui" line="440"/>
         <source>Cancel</source>
-        <translation type="unfinished">取消</translation>
+        <translation>取消</translation>
     </message>
     <message>
         <location filename="screens/enterserialnumber.ui" line="524"/>
         <source>Invalid Serial Number</source>
-        <translation type="unfinished">无效的序列号</translation>
+        <translation>无效的序列号</translation>
     </message>
     <message>
         <location filename="screens/enterserialnumber.ui" line="565"/>
         <source>Accept</source>
-        <translation type="unfinished">接受</translation>
+        <translation>接受</translation>
     </message>
     <message>
         <location filename="screens/enterserialnumber.ui" line="587"/>
         <source>Enter 16-digit Serial Number</source>
-        <translation type="unfinished">输入16位序列号</translation>
+        <translation>输入16位序列号</translation>
     </message>
 </context>
 <context>
@@ -778,7 +778,7 @@
     <message>
         <location filename="screens/erasedataconfigurationclinical.ui" line="38"/>
         <source>Erase Data</source>
-        <translation type="unfinished">清除数据</translation>
+        <translation>清除数据</translation>
     </message>
     <message>
         <location filename="screens/erasedataconfigurationclinical.ui" line="75"/>
@@ -787,14 +787,13 @@
     </message>
     <message>
         <location filename="screens/erasedataconfigurationclinical.ui" line="91"/>
-        <source>Do You Really Want to 
-Erase All Data?</source>
-        <translation type="unfinished">是否删除所有数据？</translation>
+        <source>Do You Really Want to Erase All Data?</source>
+        <translation>是否删除所有数据？</translation>
     </message>
     <message>
         <location filename="screens/erasedataconfigurationclinical.ui" line="132"/>
         <source>Yes</source>
-        <translation type="unfinished"></translation>
+        <translation>是</translation>
     </message>
 </context>
 <context>
@@ -807,7 +806,7 @@ Erase All Data?</source>
     <message>
         <location filename="screens/exhalepressurecomfortlevel.ui" line="38"/>
         <source>Exhale Pressure Comfort Level</source>
-        <translation type="unfinished">呼气压力舒适等级</translation>
+        <translation>呼气压力舒适等级</translation>
     </message>
     <message>
         <location filename="screens/exhalepressurecomfortlevel.ui" line="75"/>
@@ -822,17 +821,17 @@ Erase All Data?</source>
     <message>
         <location filename="screens/exhalepressurecomfortlevel.ui" line="154"/>
         <source>Level 1</source>
-        <translation type="unfinished"></translation>
+        <translation>等级 1</translation>
     </message>
     <message>
         <location filename="screens/exhalepressurecomfortlevel.ui" line="167"/>
         <source>Level 2</source>
-        <translation type="unfinished"></translation>
+        <translation>等级 2</translation>
     </message>
     <message>
         <location filename="screens/exhalepressurecomfortlevel.ui" line="180"/>
         <source>Level 3</source>
-        <translation type="unfinished"></translation>
+        <translation>等级 3</translation>
     </message>
 </context>
 <context>
@@ -865,7 +864,7 @@ Erase All Data?</source>
     <message>
         <location filename="screens/flowslopscreen.ui" line="192"/>
         <source>Flow Slop</source>
-        <translation type="unfinished">流量斜率</translation>
+        <translation>流量斜率</translation>
     </message>
     <message>
         <location filename="screens/flowslopscreen.ui" line="229"/>
@@ -883,7 +882,7 @@ Erase All Data?</source>
     <message>
         <location filename="screens/gotosleepsettingsbasic.ui" line="38"/>
         <source>GoTo Sleep Time</source>
-        <translation type="unfinished">入睡时间</translation>
+        <translation>入睡时间</translation>
     </message>
     <message>
         <location filename="screens/gotosleepsettingsbasic.ui" line="75"/>
@@ -898,7 +897,7 @@ Erase All Data?</source>
     <message>
         <location filename="screens/gotosleepsettingsbasic.ui" line="128"/>
         <source>Smart Start</source>
-        <translation type="unfinished">智能启动</translation>
+        <translation>智能启动</translation>
     </message>
     <message>
         <location filename="screens/gotosleepsettingsbasic.ui" line="165"/>
@@ -965,7 +964,7 @@ Erase All Data?</source>
     <message>
         <location filename="screens/homewindowclinical.ui" line="68"/>
         <source>Clinical Menu</source>
-        <translation type="unfinished">临床菜单</translation>
+        <translation>临床菜单</translation>
     </message>
 </context>
 <context>
@@ -978,7 +977,7 @@ Erase All Data?</source>
     <message>
         <location filename="screens/manufacturingdiagnosisscreen.ui" line="39"/>
         <source>Manufacturing Diagnosis</source>
-        <translation type="unfinished">生产诊断</translation>
+        <translation>生产诊断</translation>
     </message>
     <message>
         <location filename="screens/manufacturingdiagnosisscreen.ui" line="164"/>
@@ -1013,7 +1012,7 @@ Erase All Data?</source>
     <message>
         <location filename="screens/manufacturingdiagnosisscreen.ui" line="428"/>
         <source>Motor Temp.</source>
-        <translation type="unfinished">马达温度</translation>
+        <translation>马达温度</translation>
     </message>
     <message>
         <location filename="screens/manufacturingdiagnosisscreen.ui" line="476"/>
@@ -1033,7 +1032,7 @@ Erase All Data?</source>
     <message>
         <location filename="screens/manufacturingdiagnosisscreen.ui" line="604"/>
         <source>BLDC Current</source>
-        <translation type="unfinished">无刷直流电机电流</translation>
+        <translation>无刷直流电机电流</translation>
     </message>
     <message>
         <location filename="screens/manufacturingdiagnosisscreen.ui" line="652"/>
@@ -1043,17 +1042,17 @@ Erase All Data?</source>
     <message>
         <location filename="screens/manufacturingdiagnosisscreen.ui" line="692"/>
         <source>Light Intensity</source>
-        <translation type="unfinished">光强度</translation>
+        <translation>光强度</translation>
     </message>
     <message>
         <location filename="screens/manufacturingdiagnosisscreen.ui" line="740"/>
         <source>lux</source>
-        <translation type="unfinished">勒克斯</translation>
+        <translation>勒克斯</translation>
     </message>
     <message>
         <location filename="screens/manufacturingdiagnosisscreen.ui" line="785"/>
         <source>Start</source>
-        <translation type="unfinished">开始</translation>
+        <translation>开始</translation>
     </message>
     <message>
         <location filename="screens/manufacturingdiagnosisscreen.ui" line="821"/>
@@ -1068,12 +1067,12 @@ Erase All Data?</source>
     <message>
         <location filename="screens/manufacturingdiagnosisscreen.ui" line="881"/>
         <source>Fault Condition</source>
-        <translation type="unfinished">故障状态</translation>
+        <translation>故障状态</translation>
     </message>
     <message>
         <location filename="screens/manufacturingdiagnosisscreen.ui" line="907"/>
         <source>Blower Speed</source>
-        <translation type="unfinished">风机转速</translation>
+        <translation>风机转速</translation>
     </message>
     <message>
         <location filename="screens/manufacturingdiagnosisscreen.ui" line="956"/>
@@ -1091,7 +1090,7 @@ Erase All Data?</source>
     <message>
         <location filename="screens/manufacturingoptionsscreen.ui" line="39"/>
         <source>Manufacturing Options</source>
-        <translation type="unfinished">生产选项</translation>
+        <translation>生产选项</translation>
     </message>
 </context>
 <context>
@@ -1104,7 +1103,7 @@ Erase All Data?</source>
     <message>
         <location filename="screens/manufacturingsetupscreen.ui" line="64"/>
         <source>Manufacturing Setup</source>
-        <translation type="unfinished">生产设置</translation>
+        <translation>生产设置</translation>
     </message>
 </context>
 <context>
@@ -1140,17 +1139,17 @@ Erase All Data?</source>
     <message>
         <location filename="screens/maskfittestoptionsbasic.ui" line="38"/>
         <source>Mask Fit Test</source>
-        <translation type="unfinished">面罩适配性测试</translation>
+        <translation>面罩适配性测试</translation>
     </message>
     <message>
         <location filename="screens/maskfittestoptionsbasic.ui" line="75"/>
         <source>Exit</source>
-        <translation type="unfinished">退出</translation>
+        <translation>退出</translation>
     </message>
     <message>
         <location filename="screens/maskfittestoptionsbasic.ui" line="112"/>
         <source>Start Test</source>
-        <translation type="unfinished">开始测试</translation>
+        <translation>开始测试</translation>
     </message>
 </context>
 <context>
@@ -1163,7 +1162,7 @@ Erase All Data?</source>
     <message>
         <location filename="screens/maskoptionsbasic.ui" line="64"/>
         <source>Mask Options</source>
-        <translation type="unfinished">面罩选项</translation>
+        <translation>面罩选项</translation>
     </message>
 </context>
 <context>
@@ -1176,27 +1175,27 @@ Erase All Data?</source>
     <message>
         <location filename="screens/maskoptionstherapywindowclinical.ui" line="50"/>
         <source>Accept</source>
-        <translation type="unfinished">接受</translation>
+        <translation>接受</translation>
     </message>
     <message>
         <location filename="screens/maskoptionstherapywindowclinical.ui" line="72"/>
         <source>Mask</source>
-        <translation type="unfinished">面罩</translation>
+        <translation>面罩</translation>
     </message>
     <message>
         <location filename="screens/maskoptionstherapywindowclinical.ui" line="109"/>
         <source>Cancel</source>
-        <translation type="unfinished">取消</translation>
+        <translation>取消</translation>
     </message>
     <message>
         <location filename="screens/maskoptionstherapywindowclinical.ui" line="151"/>
         <source>Nasal Pillows</source>
-        <translation type="unfinished">鼻罩</translation>
+        <translation>鼻罩</translation>
     </message>
     <message>
         <location filename="screens/maskoptionstherapywindowclinical.ui" line="164"/>
         <source>Nasal Mask</source>
-        <translation type="unfinished">面罩</translation>
+        <translation>面罩</translation>
     </message>
 </context>
 <context>
@@ -1209,12 +1208,12 @@ Erase All Data?</source>
     <message>
         <location filename="screens/maskwindowreminderclinical.ui" line="53"/>
         <source>Accept</source>
-        <translation type="unfinished">接受</translation>
+        <translation>接受</translation>
     </message>
     <message>
         <location filename="screens/maskwindowreminderclinical.ui" line="75"/>
         <source>months</source>
-        <translation type="unfinished"></translation>
+        <translation>月</translation>
     </message>
     <message>
         <location filename="screens/maskwindowreminderclinical.ui" line="112"/>
@@ -1224,7 +1223,7 @@ Erase All Data?</source>
     <message>
         <location filename="screens/maskwindowreminderclinical.ui" line="134"/>
         <source>Set Duration</source>
-        <translation type="unfinished">设置间隔时间</translation>
+        <translation>设置间隔时间</translation>
     </message>
     <message>
         <location filename="screens/maskwindowreminderclinical.ui" line="171"/>
@@ -1234,12 +1233,12 @@ Erase All Data?</source>
     <message>
         <location filename="screens/maskwindowreminderclinical.ui" line="193"/>
         <source>Mask</source>
-        <translation type="unfinished">面罩</translation>
+        <translation>面罩</translation>
     </message>
     <message>
         <location filename="screens/maskwindowreminderclinical.ui" line="233"/>
         <source>Cancel</source>
-        <translation type="unfinished">取消</translation>
+        <translation>取消</translation>
     </message>
     <message>
         <location filename="screens/maskwindowreminderclinical.ui" line="255"/>
@@ -1249,7 +1248,7 @@ Erase All Data?</source>
     <message>
         <location filename="screens/maskwindowreminderclinical.ui" line="277"/>
         <source>Set Start Date</source>
-        <translation type="unfinished">设置开始日期</translation>
+        <translation>设置开始日期</translation>
     </message>
     <message>
         <location filename="screens/maskwindowreminderclinical.ui" line="314"/>
@@ -1267,12 +1266,12 @@ Erase All Data?</source>
     <message>
         <location filename="screens/modewindowtherapyclinical.ui" line="50"/>
         <source>Accept</source>
-        <translation type="unfinished">接受</translation>
+        <translation>接受</translation>
     </message>
     <message>
         <location filename="screens/modewindowtherapyclinical.ui" line="87"/>
         <source>Cancel</source>
-        <translation type="unfinished">取消</translation>
+        <translation>取消</translation>
     </message>
     <message>
         <location filename="screens/modewindowtherapyclinical.ui" line="109"/>
@@ -1300,17 +1299,17 @@ Erase All Data?</source>
     <message>
         <location filename="screens/notificationtray.ui" line="50"/>
         <source>Date</source>
-        <translation type="unfinished">日期</translation>
+        <translation>日期</translation>
     </message>
     <message>
         <location filename="screens/notificationtray.ui" line="60"/>
         <source>Time</source>
-        <translation type="unfinished"></translation>
+        <translation>时间</translation>
     </message>
     <message>
         <location filename="screens/notificationtray.ui" line="70"/>
         <source>Flow</source>
-        <translation type="unfinished">流量</translation>
+        <translation>流量</translation>
     </message>
 </context>
 <context>
@@ -1323,7 +1322,7 @@ Erase All Data?</source>
     <message>
         <location filename="screens/optionswindowclinical.ui" line="64"/>
         <source>Options</source>
-        <translation type="unfinished"></translation>
+        <translation>选项</translation>
     </message>
 </context>
 <context>
@@ -1337,7 +1336,7 @@ Erase All Data?</source>
         <location filename="screens/parametertunningscreen.ui" line="64"/>
         <source>Parameter Tuning Screen</source>
         <oldsource>Parameter Tunning Screen</oldsource>
-        <translation type="unfinished">参数调节界面</translation>
+        <translation>参数调节界面</translation>
     </message>
     <message>
         <location filename="screens/parametertunningscreen.ui" line="101"/>
@@ -1357,7 +1356,7 @@ Erase All Data?</source>
     <message>
         <location filename="screens/parametertunningscreen.ui" line="185"/>
         <source>Snooze Time</source>
-        <translation type="unfinished">休眠时间</translation>
+        <translation>休眠时间</translation>
     </message>
     <message>
         <location filename="screens/parametertunningscreen.ui" line="204"/>
@@ -1425,22 +1424,22 @@ Erase All Data?</source>
     <message>
         <location filename="screens/passwordcheckscreen.ui" line="440"/>
         <source>Cancel</source>
-        <translation type="unfinished">取消</translation>
+        <translation>取消</translation>
     </message>
     <message>
         <location filename="screens/passwordcheckscreen.ui" line="524"/>
         <source>Invalid Password</source>
-        <translation type="unfinished">无效密码</translation>
+        <translation>无效密码</translation>
     </message>
     <message>
         <location filename="screens/passwordcheckscreen.ui" line="565"/>
         <source>Accept</source>
-        <translation type="unfinished">接受</translation>
+        <translation>接受</translation>
     </message>
     <message>
         <location filename="screens/passwordcheckscreen.ui" line="587"/>
         <source>Enter Password</source>
-        <translation type="unfinished">输入密码</translation>
+        <translation>输入密码</translation>
     </message>
 </context>
 <context>
@@ -1453,7 +1452,7 @@ Erase All Data?</source>
     <message>
         <location filename="screens/poweroffoptions.ui" line="71"/>
         <source>Cancel</source>
-        <translation type="unfinished">取消</translation>
+        <translation>取消</translation>
     </message>
 </context>
 <context>
@@ -1466,17 +1465,17 @@ Erase All Data?</source>
     <message>
         <location filename="screens/pressureoffsetscreen.ui" line="35"/>
         <source>Pressure Offset</source>
-        <translation type="unfinished">压力偏移量</translation>
+        <translation>压力偏移量</translation>
     </message>
     <message>
         <location filename="screens/pressureoffsetscreen.ui" line="72"/>
         <source>Accept</source>
-        <translation type="unfinished">接受</translation>
+        <translation>接受</translation>
     </message>
     <message>
         <location filename="screens/pressureoffsetscreen.ui" line="129"/>
         <source>Get New Offset</source>
-        <translation type="unfinished">获取新偏移量</translation>
+        <translation>获取新偏移量</translation>
     </message>
     <message>
         <location filename="screens/pressureoffsetscreen.ui" line="166"/>
@@ -1491,7 +1490,7 @@ Erase All Data?</source>
     <message>
         <location filename="screens/pressureoffsetscreen.ui" line="241"/>
         <source>Cancel</source>
-        <translation type="unfinished">取消</translation>
+        <translation>取消</translation>
     </message>
     <message>
         <location filename="screens/pressureoffsetscreen.ui" line="263"/>
@@ -1524,7 +1523,7 @@ Erase All Data?</source>
     <message>
         <location filename="screens/pressureunitconfigurationclinical.ui" line="121"/>
         <source>Pressure Unit</source>
-        <translation type="unfinished">压力单位</translation>
+        <translation>压力单位</translation>
     </message>
     <message>
         <location filename="screens/pressureunitconfigurationclinical.ui" line="158"/>
@@ -1547,7 +1546,7 @@ Erase All Data?</source>
     <message>
         <location filename="screens/rampstartsettingsbasic.ui" line="63"/>
         <source>Ramp Time</source>
-        <translation type="unfinished">斜坡时间</translation>
+        <translation>斜坡时间</translation>
     </message>
     <message>
         <location filename="screens/rampstartsettingsbasic.ui" line="100"/>
@@ -1557,12 +1556,12 @@ Erase All Data?</source>
     <message>
         <location filename="screens/rampstartsettingsbasic.ui" line="116"/>
         <source>Smart Start</source>
-        <translation type="unfinished">智能启动</translation>
+        <translation>智能启动</translation>
     </message>
     <message>
         <location filename="screens/rampstartsettingsbasic.ui" line="153"/>
         <source>Cancel</source>
-        <translation type="unfinished">取消</translation>
+        <translation>取消</translation>
     </message>
     <message>
         <location filename="screens/rampstartsettingsbasic.ui" line="190"/>
@@ -1572,12 +1571,12 @@ Erase All Data?</source>
     <message>
         <location filename="screens/rampstartsettingsbasic.ui" line="227"/>
         <source>Accept</source>
-        <translation type="unfinished">接受</translation>
+        <translation>接受</translation>
     </message>
     <message>
         <location filename="screens/rampstartsettingsbasic.ui" line="243"/>
         <source>min</source>
-        <translation type="unfinished">分钟</translation>
+        <translation>分钟</translation>
     </message>
 </context>
 <context>
@@ -1590,7 +1589,7 @@ Erase All Data?</source>
     <message>
         <location filename="screens/reminderwindowsettingsclinical.ui" line="39"/>
         <source>Reminders</source>
-        <translation type="unfinished">提醒</translation>
+        <translation>提醒</translation>
     </message>
 </context>
 <context>
@@ -1603,37 +1602,37 @@ Erase All Data?</source>
     <message>
         <location filename="screens/resetreminderwarning.ui" line="55"/>
         <source>Do you want to reset reminders</source>
-        <translation type="unfinished">是否重置提醒</translation>
+        <translation>是否重置提醒</translation>
     </message>
     <message>
         <location filename="screens/resetreminderwarning.ui" line="77"/>
         <source>Air Filter</source>
-        <translation type="unfinished">空气过滤器</translation>
+        <translation>空气过滤器</translation>
     </message>
     <message>
         <location filename="screens/resetreminderwarning.ui" line="99"/>
         <source>Hose</source>
-        <translation type="unfinished">管路</translation>
+        <translation>管路</translation>
     </message>
     <message>
         <location filename="screens/resetreminderwarning.ui" line="121"/>
         <source>Mask</source>
-        <translation type="unfinished">面罩</translation>
+        <translation>面罩</translation>
     </message>
     <message>
         <location filename="screens/resetreminderwarning.ui" line="158"/>
         <source>No</source>
-        <translation type="unfinished"></translation>
+        <translation>否</translation>
     </message>
     <message>
         <location filename="screens/resetreminderwarning.ui" line="195"/>
         <source>Yes</source>
-        <translation type="unfinished"></translation>
+        <translation>是</translation>
     </message>
     <message>
         <location filename="screens/resetreminderwarning.ui" line="218"/>
         <source>Reset Reminders</source>
-        <translation type="unfinished">重置提醒</translation>
+        <translation>重置提醒</translation>
     </message>
 </context>
 <context>
@@ -1646,23 +1645,22 @@ Erase All Data?</source>
     <message>
         <location filename="screens/restoredefaultswindowclinical.ui" line="53"/>
         <source>No</source>
-        <translation type="unfinished"></translation>
+        <translation>否</translation>
     </message>
     <message>
         <location filename="screens/restoredefaultswindowclinical.ui" line="75"/>
         <source>Restore Defaults</source>
-        <translation type="unfinished">恢复默认设置</translation>
+        <translation>恢复默认设置</translation>
     </message>
     <message>
         <location filename="screens/restoredefaultswindowclinical.ui" line="112"/>
         <source>Yes</source>
-        <translation type="unfinished"></translation>
+        <translation>是</translation>
     </message>
     <message>
         <location filename="screens/restoredefaultswindowclinical.ui" line="128"/>
-        <source>Do You Really Want to 
-Restore Factory Defaults?</source>
-        <translation type="unfinished">是否恢复出厂设置？</translation>
+        <source>Do You Really Want to Restore Factory Defaults?</source>
+        <translation>是否恢复出厂设置？</translation>
     </message>
 </context>
 <context>
@@ -1674,15 +1672,13 @@ Restore Factory Defaults?</source>
     </message>
     <message>
         <location filename="screens/sdcardformatscreen.ui" line="55"/>
-        <source>Please format the 
-SD card 
-and insert again</source>
-        <translation type="unfinished">请格式化SD卡并再次插入</translation>
+        <source>Please format the SD card and insert again</source>
+        <translation>请格式化SD卡并再次插入</translation>
     </message>
     <message>
         <location filename="screens/sdcardformatscreen.ui" line="100"/>
         <source>Close</source>
-        <translation type="unfinished">关闭</translation>
+        <translation>关闭</translation>
     </message>
 </context>
 <context>
@@ -1700,7 +1696,7 @@ and insert again</source>
     <message>
         <location filename="screens/selectlanguagewindowclinical.ui" line="75"/>
         <source>Select Language</source>
-        <translation type="unfinished">选择语言</translation>
+        <translation>选择语言</translation>
     </message>
     <message>
         <location filename="screens/selectlanguagewindowclinical.ui" line="112"/>
@@ -1721,7 +1717,7 @@ and insert again</source>
         <location filename="screens/selectlanguagewindowclinical.ui" line="180"/>
         <source>Japanese</source>
         <oldsource>Spanish</oldsource>
-        <translation type="unfinished">日文</translation>
+        <translation>日文</translation>
     </message>
 </context>
 <context>
@@ -1749,7 +1745,7 @@ and insert again</source>
     <message>
         <location filename="screens/setmaxpressureclinical.ui" line="148"/>
         <source>Reached to Set Min Pressure Limit</source>
-        <translation type="unfinished">设置最低压力限值</translation>
+        <translation>设置最低压力限值</translation>
     </message>
     <message>
         <location filename="screens/setmaxpressureclinical.ui" line="167"/>
@@ -1759,12 +1755,12 @@ and insert again</source>
     <message>
         <location filename="screens/setmaxpressureclinical.ui" line="208"/>
         <source>Accept</source>
-        <translation type="unfinished">接受</translation>
+        <translation>接受</translation>
     </message>
     <message>
         <location filename="screens/setmaxpressureclinical.ui" line="245"/>
         <source>Cancel</source>
-        <translation type="unfinished">取消</translation>
+        <translation>取消</translation>
     </message>
     <message>
         <location filename="screens/setmaxpressureclinical.ui" line="297"/>
@@ -1774,7 +1770,7 @@ and insert again</source>
     <message>
         <location filename="screens/setmaxpressureclinical.ui" line="322"/>
         <source>Set Max Pressure</source>
-        <translation type="unfinished">设置最大压力值</translation>
+        <translation>设置最大压力值</translation>
     </message>
 </context>
 <context>
@@ -1787,7 +1783,7 @@ and insert again</source>
     <message>
         <location filename="screens/setminpressureclinical.ui" line="50"/>
         <source>Accept</source>
-        <translation type="unfinished">接受</translation>
+        <translation>接受</translation>
     </message>
     <message>
         <location filename="screens/setminpressureclinical.ui" line="66"/>
@@ -1802,12 +1798,12 @@ and insert again</source>
     <message>
         <location filename="screens/setminpressureclinical.ui" line="132"/>
         <source>Cancel</source>
-        <translation type="unfinished">取消</translation>
+        <translation>取消</translation>
     </message>
     <message>
         <location filename="screens/setminpressureclinical.ui" line="174"/>
         <source>Reached to Set Max Pressure Limit</source>
-        <translation type="unfinished">设置最大压力限值</translation>
+        <translation>设置最大压力限值</translation>
     </message>
     <message>
         <location filename="screens/setminpressureclinical.ui" line="193"/>
@@ -1817,7 +1813,7 @@ and insert again</source>
     <message>
         <location filename="screens/setminpressureclinical.ui" line="221"/>
         <source>Set Min Pressure</source>
-        <translation type="unfinished">设置最小压力</translation>
+        <translation>设置最小压力</translation>
     </message>
     <message>
         <location filename="screens/setminpressureclinical.ui" line="287"/>
@@ -1845,7 +1841,7 @@ and insert again</source>
     <message>
         <location filename="screens/setpressureclinical.ui" line="107"/>
         <source>Set Pressure</source>
-        <translation type="unfinished">设定压力</translation>
+        <translation>设定压力</translation>
     </message>
     <message>
         <location filename="screens/setpressureclinical.ui" line="129"/>
@@ -1855,7 +1851,7 @@ and insert again</source>
     <message>
         <location filename="screens/setpressureclinical.ui" line="169"/>
         <source>Accept</source>
-        <translation type="unfinished">接受</translation>
+        <translation>接受</translation>
     </message>
     <message>
         <location filename="screens/setpressureclinical.ui" line="185"/>
@@ -1870,7 +1866,7 @@ and insert again</source>
     <message>
         <location filename="screens/setpressureclinical.ui" line="262"/>
         <source>Cancel</source>
-        <translation type="unfinished">取消</translation>
+        <translation>取消</translation>
     </message>
 </context>
 <context>
@@ -1883,12 +1879,12 @@ and insert again</source>
     <message>
         <location filename="screens/settingswindowbasic.ui" line="64"/>
         <source>Settings</source>
-        <translation type="unfinished">设定值</translation>
+        <translation>设定值</translation>
     </message>
     <message>
         <location filename="screens/settingswindowbasic.ui" line="152"/>
         <source>Debug BLE</source>
-        <translation type="unfinished"></translation>
+        <translation>调试蓝牙</translation>
     </message>
 </context>
 <context>
@@ -1919,14 +1915,14 @@ and insert again</source>
     <message>
         <location filename="screens/sleepreportmorewindowbasic.ui" line="128"/>
         <source>Days Used</source>
-        <translation type="unfinished">已使用天数</translation>
+        <translation>已使用天数</translation>
     </message>
     <message>
         <location filename="screens/sleepreportmorewindowbasic.ui" line="175"/>
         <location filename="screens/sleepreportmorewindowbasic.ui" line="268"/>
         <location filename="screens/sleepreportmorewindowbasic.ui" line="641"/>
         <source>Period</source>
-        <translation type="unfinished">时期</translation>
+        <translation>时期</translation>
     </message>
     <message>
         <location filename="screens/sleepreportmorewindowbasic.ui" line="221"/>
@@ -1936,23 +1932,23 @@ and insert again</source>
     <message>
         <location filename="screens/sleepreportmorewindowbasic.ui" line="314"/>
         <source>Average Usage</source>
-        <translation type="unfinished">平均使用时间</translation>
+        <translation>平均使用时间</translation>
     </message>
     <message>
         <location filename="screens/sleepreportmorewindowbasic.ui" line="361"/>
         <location filename="screens/sleepreportmorewindowbasic.ui" line="454"/>
         <source>Hours</source>
-        <translation type="unfinished"></translation>
+        <translation>小时</translation>
     </message>
     <message>
         <location filename="screens/sleepreportmorewindowbasic.ui" line="407"/>
         <source>Used Hours</source>
-        <translation type="unfinished">已使用小时数</translation>
+        <translation>已使用小时数</translation>
     </message>
     <message>
         <location filename="screens/sleepreportmorewindowbasic.ui" line="500"/>
         <source>Leak</source>
-        <translation type="unfinished">漏气</translation>
+        <translation>漏气</translation>
     </message>
     <message>
         <location filename="screens/sleepreportmorewindowbasic.ui" line="547"/>
@@ -1967,7 +1963,7 @@ and insert again</source>
     <message>
         <location filename="screens/sleepreportmorewindowbasic.ui" line="678"/>
         <source>Send Sleep Report</source>
-        <translation type="unfinished">发送睡眠报告</translation>
+        <translation>发送睡眠报告</translation>
     </message>
 </context>
 <context>
@@ -1980,12 +1976,12 @@ and insert again</source>
     <message>
         <location filename="screens/sleepreportwindowbasic.ui" line="111"/>
         <source>Sleep Report</source>
-        <translation type="unfinished">睡眠报告</translation>
+        <translation>睡眠报告</translation>
     </message>
     <message>
         <location filename="screens/sleepreportwindowbasic.ui" line="156"/>
         <source>Last Recorded Therapy</source>
-        <translation type="unfinished">上次记录的治疗</translation>
+        <translation>上次记录的治疗</translation>
     </message>
     <message>
         <location filename="screens/sleepreportwindowbasic.ui" line="178"/>
@@ -1995,7 +1991,7 @@ and insert again</source>
     <message>
         <location filename="screens/sleepreportwindowbasic.ui" line="218"/>
         <source>Usage Hours</source>
-        <translation type="unfinished">使用小时数</translation>
+        <translation>使用小时数</translation>
     </message>
     <message>
         <location filename="screens/sleepreportwindowbasic.ui" line="285"/>
@@ -2015,7 +2011,7 @@ and insert again</source>
     <message>
         <location filename="screens/sleepreportwindowbasic.ui" line="432"/>
         <source>Mask Fit</source>
-        <translation type="unfinished">面罩适配</translation>
+        <translation>面罩适配</translation>
     </message>
 </context>
 <context>
@@ -2028,23 +2024,22 @@ and insert again</source>
     <message>
         <location filename="screens/snoozeexitscreenbasic.ui" line="53"/>
         <source>Yes</source>
-        <translation type="unfinished"></translation>
+        <translation>是</translation>
     </message>
     <message>
         <location filename="screens/snoozeexitscreenbasic.ui" line="75"/>
         <source>Snooze</source>
-        <translation type="unfinished">休眠</translation>
+        <translation>休眠</translation>
     </message>
     <message>
         <location filename="screens/snoozeexitscreenbasic.ui" line="112"/>
         <source>No</source>
-        <translation type="unfinished"></translation>
+        <translation>否</translation>
     </message>
     <message>
         <location filename="screens/snoozeexitscreenbasic.ui" line="128"/>
-        <source>Do You really want to Exit 
-Snooz?</source>
-        <translation type="unfinished">是否退出休眠？</translation>
+        <source>Do You really want to Exit Snooz?</source>
+        <translation>是否退出休眠？</translation>
     </message>
 </context>
 <context>
@@ -2057,17 +2052,17 @@ Snooz?</source>
     <message>
         <location filename="screens/snoozetimesettingsbasic.ui" line="53"/>
         <source>Accept</source>
-        <translation type="unfinished">接受</translation>
+        <translation>接受</translation>
     </message>
     <message>
         <location filename="screens/snoozetimesettingsbasic.ui" line="69"/>
         <source>min</source>
-        <translation type="unfinished">分钟</translation>
+        <translation>分钟</translation>
     </message>
     <message>
         <location filename="screens/snoozetimesettingsbasic.ui" line="94"/>
         <source>Snooze Time</source>
-        <translation type="unfinished">休眠时间</translation>
+        <translation>休眠时间</translation>
     </message>
     <message>
         <location filename="screens/snoozetimesettingsbasic.ui" line="154"/>
@@ -2077,7 +2072,7 @@ Snooz?</source>
     <message>
         <location filename="screens/snoozetimesettingsbasic.ui" line="191"/>
         <source>Cancel</source>
-        <translation type="unfinished">取消</translation>
+        <translation>取消</translation>
     </message>
     <message>
         <location filename="screens/snoozetimesettingsbasic.ui" line="228"/>
@@ -2137,8 +2132,7 @@ Snooz?</source>
     </message>
     <message>
         <location filename="screens/therapywindowbasic.ui" line="404"/>
-        <source>Change 
-Parameter</source>
+        <source>Change Parameter</source>
         <translation>变更参数</translation>
     </message>
     <message>
@@ -2186,7 +2180,7 @@ Parameter</source>
     <message>
         <location filename="screens/therapywindowclinical.ui" line="39"/>
         <source>Therapy</source>
-        <translation type="unfinished">治疗</translation>
+        <translation>治疗</translation>
     </message>
 </context>
 <context>
@@ -2199,17 +2193,17 @@ Parameter</source>
     <message>
         <location filename="screens/timewindowclinical.ui" line="53"/>
         <source>Accept</source>
-        <translation type="unfinished">接受</translation>
+        <translation>接受</translation>
     </message>
     <message>
         <location filename="screens/timewindowclinical.ui" line="90"/>
         <source>Cancel</source>
-        <translation type="unfinished">取消</translation>
+        <translation>取消</translation>
     </message>
     <message>
         <location filename="screens/timewindowclinical.ui" line="112"/>
         <source>Time</source>
-        <translation type="unfinished"></translation>
+        <translation>时间</translation>
     </message>
 </context>
 <context>
@@ -2222,7 +2216,7 @@ Parameter</source>
     <message>
         <location filename="screens/warninginfoscreen.ui" line="98"/>
         <source>Close</source>
-        <translation type="unfinished">关闭</translation>
+        <translation>关闭</translation>
     </message>
 </context>
 </TS>

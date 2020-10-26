@@ -102,6 +102,10 @@ void HomeWindowClinical::timerClinicalTimeOut()
 
 void HomeWindowClinical::updateText()
 {
+////    QFont font("Roboto-Light",14);
+////    ui->clinicalMenuTitle->setFont(font);
+//    ui->clinicalMenuTitle->setText(tr("Clinical Menu"));
+
     setButtonProps(sleepReportButton,Providers::getTitleTextString(SLEEP_REPORT_STR),Providers::getIconString(SLEEP_REPORT_ICON));
     setButtonProps(settignsButton,Providers::getTitleTextString(SETTINGS_STR),Providers::getIconString(SETTINGS_ICON));
 }

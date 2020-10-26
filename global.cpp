@@ -3,6 +3,25 @@
 
 #include <QtMath>
 
+void Providers::LANGUAGE_SOURCE_AUTO_CHOOSE()
+{
+    if(globalVar.language == language_chinese)
+    {
+     globalVar.titleTextList_choose=titleTextList_ZH;
+    }
+    else if(globalVar.language==language_japanese)
+    {
+     globalVar.titleTextList_choose=titleTextList_JP;
+    }
+    //else if(globalVar.language==language_english)
+    else
+    {
+     globalVar.titleTextList_choose=titleTextList_EN;
+    }
+
+}
+
+
 Providers::Providers()
 {
 
@@ -13,11 +32,28 @@ const QStringList Providers::onOffText = {
     "On",
 };
 const QString & Providers::getOnOffStr(int index) {
+
+    LANGUAGE_SOURCE_AUTO_CHOOSE();
+
     if(index >= onOffText.count()){
         qWarning() << Q_FUNC_INFO << "Invalid count" << index;
         index = 0;
     }
-    return onOffText.at(index);
+
+    if(index==0)
+    {
+        index=OFF_STR;
+    }
+    else
+    {
+        index=ON_STR;
+    }
+
+
+     return globalVar.titleTextList_choose.at(index);
+
+
+    //return onOffText.at(index);
 }
 
 const QString Providers::autoStrText = "Auto";
@@ -28,16 +64,39 @@ const QString & Providers::getAutoStr() {
 const QStringList Providers::levelStrText = {
     "Level 1",
     "Level 2",
-    "Level 3",
+    "Level 3"
     "Level 4",
     "Level 5"
 };
 const QString & Providers::getlevelStr(int index) {
+
+    LANGUAGE_SOURCE_AUTO_CHOOSE();
+
+
     if(index >= levelStrText.count()){
         qWarning() << Q_FUNC_INFO << "Invalid count" << index;
         index = 0;
     }
-    return levelStrText.at(index);
+
+    if(index==0)
+    {
+        index=LEVEL_1_STR;
+    }
+    else if(index==1)
+    {
+        index=LEVEL_2_STR;
+    }
+    else if(index==2)
+    {
+        index=LEVEL_3_STR;
+    }
+    else
+    {
+        return levelStrText.at(index);
+    }
+
+    return globalVar.titleTextList_choose.at(index);
+
 }
 
 
@@ -84,14 +143,35 @@ const QStringList Providers::titleTextList_EN = {
     "Restore Defaults",
     "Erase Data",
     "Power Off",
-    "Manufacturing Option",
+    "Manufacturing Options",
     "Manufacturing Diagnosis",
     "Manufacturing Setup",
     "Blower Test Application",
     "Parameter Tune",
     "English",
     "Chinese",
-    "Japanese"
+    "Japanese",
+    "Nasal Pillow",
+    "Nasal Mask",
+    "On",
+    "Off",
+    "Level 1",
+    "Level 2",
+    "Level 3",
+    "Standard",
+    "HEPA",
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec"
 };
 
 
@@ -145,7 +225,28 @@ const QStringList Providers::titleTextList_ZH = {
     "参数调节",
     "英文",
     "中文",
-    "日文"
+    "日文",
+    "鼻罩",
+    "面罩",
+    "开",
+    "关",
+    "等级 1",
+    "等级 2",
+    "等级 3",
+    "标准",
+    "HEPA",
+    "1月",
+    "2月",
+    "3月",
+    "4月",
+    "5月",
+    "6月",
+    "7月",
+    "8月",
+    "9月",
+    "10月",
+    "11月",
+    "12月"
 };
 
 const QStringList Providers::titleTextList_JP = {
@@ -198,29 +299,32 @@ const QStringList Providers::titleTextList_JP = {
     "パラメータ調整",
     "英語",
     "中国語",
-    "日本語"
+    "日本語",
+    "ノーズマスク",
+    "マスク",
+    "開く",
+    "オフ",
+    "レベル 1",
+    "レベル 2",
+    "レベル 3",
+    "標準",
+    "HEPA",
+    "1月",
+    "2月",
+    "3月",
+    "4月",
+    "5月",
+    "6月",
+    "7月",
+    "8月",
+    "9月",
+    "10月",
+    "11月",
+    "12月"
 };
 
 const QString & Providers::getTitleTextString(int index) {
-    if(globalVar.language == language_chinese)
-    {
-        globalVar.titleTextList_choose=titleTextList_ZH;
-    }
-    else if(globalVar.language==language_japanese)
-    {
-        globalVar.titleTextList_choose=titleTextList_JP;
-    }
-    //else if(globalVar.language==language_english)
-    else
-    {
-        globalVar.titleTextList_choose=titleTextList_EN;
-    }
-
-//    if(index >= titleTextList.count()) {
-//        qWarning() << Q_FUNC_INFO << "Invalid count" << index;
-//        index = 0;
-//    }
-//    return titleTextList.at(index);
+    LANGUAGE_SOURCE_AUTO_CHOOSE();
 
     if(index >= globalVar.titleTextList_choose.count()) {
         qWarning() << Q_FUNC_INFO << "Invalid count" << index;
@@ -320,11 +424,25 @@ const QStringList Providers::airFilterTypeStr = {
     "HEPA"
 };
 const QString & Providers::getAirFilterTypeString(int index) {
+
+    LANGUAGE_SOURCE_AUTO_CHOOSE();
+
     if(index >= airFilterTypeStr.count()) {
         qWarning() << Q_FUNC_INFO << "Invalid count" << index;
         index = 0;
     }
-    return airFilterTypeStr.at(index);
+
+    if(index==0)
+    {
+        index=STANDART_STR;
+    }
+    else
+    {
+        index=HEPA_STR;
+    }
+
+    return globalVar.titleTextList_choose.at(index);
+//    return airFilterTypeStr.at(index);
 }
 
 
@@ -347,11 +465,15 @@ const QStringList Providers::monthStr = {
     "Aug","Sep","Oct","Nov","Dec"
 };
 const QString & Providers::getMonthsTextString(int index) {
+    LANGUAGE_SOURCE_AUTO_CHOOSE();
+
     if(index >= monthStr.count()) {
         qWarning() << Q_FUNC_INFO << "Invalid count" << index;
         index = 0;
     }
-    return monthStr.at(index);
+    index+=JAN_STR;
+    return globalVar.titleTextList_choose.at(index);
+//    return monthStr.at(index);
 }
 const QStringList & Providers::getMonthStringList(void) {
     return monthStr;
@@ -449,15 +571,34 @@ const QString & Providers::getLanguageString(int index) {
 }
 
 const QString & Providers::getMaskTypeString(int index) {
+
+    LANGUAGE_SOURCE_AUTO_CHOOSE();
+
     if(index >= maskString.count()) {
         qWarning() << Q_FUNC_INFO << "Invalid count" << index;
         index = 0;
     }
-    return maskString.at(index);
+
+
+    if(index==1) //Nasal Pillow
+    {
+        index=NASAL_PILLOW_STR;
+    }
+    else if(index==2) //Nasal Mask
+    {
+        index=NASAL_MASK_STR;
+    }
+    else
+    {
+        return maskString.at(index);  // return ""
+    }
+
+    return globalVar.titleTextList_choose.at(index);
+    //return maskString.at(index);
 }
 
 const QStringList Providers::deviceInformation = {
-    "HANCY001",
+    "Airbox",
     "0000-0001",
     QString("%1.%2").arg(FIRMWARE_MAJOR_VERSION).arg(FIRMWARE_MINOR_VERSION),
     QString("%1.%2").arg(SOFTWARE_MAJOR_VERSION).arg(SOFTWARE_MINOR_VERSION),

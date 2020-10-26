@@ -83,6 +83,7 @@ public:
     static const QString sdcardEdfLogFiles;
     static const QString softwareUpdateFiles;
     static const QString errorLogFiles;
+    static void LANGUAGE_SOURCE_AUTO_CHOOSE();
 };
 
 
@@ -136,7 +137,28 @@ enum TITLE_TEXT_STR_NO {
     PARAMETER_TUNE_STR,
     ENGLISH_STR,
     CHINESE_STR,
-    JAPANESE_STR
+    JAPANESE_STR,
+    NASAL_PILLOW_STR,
+    NASAL_MASK_STR,
+    ON_STR,
+    OFF_STR,
+    LEVEL_1_STR,
+    LEVEL_2_STR,
+    LEVEL_3_STR,
+    STANDART_STR,
+    HEPA_STR,
+    JAN_STR,
+    FEB_STR,
+    MAR_STR,
+    APR_STR,
+    MAY_STR,
+    JUN_STR,
+    JUL_STR,
+    AUG_STR,
+    SEP_STR,
+    OCT_STR,
+    NOV_STR,
+    DEC_STR
 };
 
 

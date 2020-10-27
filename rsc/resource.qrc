@@ -1,5 +1,6 @@
 <RCC>
     <qresource prefix="/">
+
         <file>icons/next.png</file>
         <file>icons/home.png</file>
         <file>icons/airplane_mode.png</file>

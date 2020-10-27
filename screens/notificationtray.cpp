@@ -118,7 +118,8 @@ void NotificationTray::updateTime(void)
     QString timeStr= QTime::currentTime().toString("hh : mm");
     ui->time->setText(timeStr);
 
-    QString dateStr = QDate::currentDate().toString("d MMM yyyy");
+//    QString dateStr = QDate::currentDate().toString("d MMM yyyy");
+    QString dateStr = QDate::currentDate().toString("yyyy/MM/dd");
     ui->date->setText(dateStr);
 
     globalVar.systemDate.month = QDate::currentDate().month();

@@ -160,18 +160,18 @@ const QStringList Providers::titleTextList_EN = {
     "Level 3",
     "Standard",
     "HEPA",
-    "Jan",
-    "Feb",
-    "Mar",
-    "Apr",
-    "May",
-    "Jun",
-    "Jul",
-    "Aug",
-    "Sep",
-    "Oct",
-    "Nov",
-    "Dec"
+//    "Jan",
+//    "Feb",
+//    "Mar",
+//    "Apr",
+//    "May",
+//    "Jun",
+//    "Jul",
+//    "Aug",
+//    "Sep",
+//    "Oct",
+//    "Nov",
+//    "Dec"
 };
 
 
@@ -235,18 +235,18 @@ const QStringList Providers::titleTextList_ZH = {
     "等级 3",
     "标准",
     "HEPA",
-    "1月",
-    "2月",
-    "3月",
-    "4月",
-    "5月",
-    "6月",
-    "7月",
-    "8月",
-    "9月",
-    "10月",
-    "11月",
-    "12月"
+//    "1月",
+//    "2月",
+//    "3月",
+//    "4月",
+//    "5月",
+//    "6月",
+//    "7月",
+//    "8月",
+//    "9月",
+//    "10月",
+//    "11月",
+//    "12月"
 };
 
 const QStringList Providers::titleTextList_JP = {
@@ -309,18 +309,18 @@ const QStringList Providers::titleTextList_JP = {
     "レベル 3",
     "標準",
     "HEPA",
-    "1月",
-    "2月",
-    "3月",
-    "4月",
-    "5月",
-    "6月",
-    "7月",
-    "8月",
-    "9月",
-    "10月",
-    "11月",
-    "12月"
+//    "1月",
+//    "2月",
+//    "3月",
+//    "4月",
+//    "5月",
+//    "6月",
+//    "7月",
+//    "8月",
+//    "9月",
+//    "10月",
+//    "11月",
+//    "12月"
 };
 
 const QString & Providers::getTitleTextString(int index) {
@@ -460,22 +460,30 @@ const QString & Providers::getEmojiIconString(int index) {
 return emojiIconString.at(index);
 }
 
+//const QStringList Providers::monthStr = {
+//    "Jan","Feb","Mar","Apr","May","Jun","Jul",
+//    "Aug","Sep","Oct","Nov","Dec"
+//};
+
 const QStringList Providers::monthStr = {
-    "Jan","Feb","Mar","Apr","May","Jun","Jul",
-    "Aug","Sep","Oct","Nov","Dec"
+    "1","2","3","4","5","6","7",
+    "8","9","10","11","12"
 };
+
 const QString & Providers::getMonthsTextString(int index) {
-    LANGUAGE_SOURCE_AUTO_CHOOSE();
+//    LANGUAGE_SOURCE_AUTO_CHOOSE();
 
     if(index >= monthStr.count()) {
         qWarning() << Q_FUNC_INFO << "Invalid count" << index;
         index = 0;
     }
-    index+=JAN_STR;
-    return globalVar.titleTextList_choose.at(index);
-//    return monthStr.at(index);
+//    index+=JAN_STR;
+//    return globalVar.titleTextList_choose.at(index);
+    return monthStr.at(index);
 }
 const QStringList & Providers::getMonthStringList(void) {
+    LANGUAGE_SOURCE_AUTO_CHOOSE();
+
     return monthStr;
 }
 

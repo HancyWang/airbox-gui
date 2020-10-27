@@ -33,20 +33,21 @@ DateWindowClinical::DateWindowClinical(QWidget *parent)
     int touch = 1;
 
     QFont font("Sans Serif",13);
-    m_dateWheel = new StringWheelWidget(touch,this);
-    m_dateWheel->setItems( Providers::getDateStringList() );
-    m_dateWheel->setTextFont(font);
-    ui->dateLayout->addWidget( m_dateWheel, 0, 0 );
+    m_yearWheel = new StringWheelWidget(touch,this);
+    m_yearWheel->setItems( Providers::getYearStringList() );
+    m_yearWheel->setTextFont(font);
+    ui->dateLayout->addWidget( m_yearWheel, 0, 0 );
 
     m_monthWheel = new StringWheelWidget(touch,this);
     m_monthWheel->setItems( Providers::getMonthStringList() );
     m_monthWheel->setTextFont(font);
     ui->dateLayout->addWidget( m_monthWheel, 0, 1 );
 
-    m_yearWheel = new StringWheelWidget(touch,this);
-    m_yearWheel->setItems( Providers::getYearStringList() );
-    m_yearWheel->setTextFont(font);
-    ui->dateLayout->addWidget( m_yearWheel, 0, 2 );
+    m_dateWheel = new StringWheelWidget(touch,this);
+    m_dateWheel->setItems( Providers::getDateStringList() );
+    m_dateWheel->setTextFont(font);
+    ui->dateLayout->addWidget( m_dateWheel, 0, 2 );
+
 
     connect(m_yearWheel,SIGNAL(valueChanged()),this,SLOT(yearChanged()));
     connect(m_monthWheel,SIGNAL(valueChanged()),this,SLOT(monthChanged()));

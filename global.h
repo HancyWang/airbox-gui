@@ -147,18 +147,18 @@ enum TITLE_TEXT_STR_NO {
     LEVEL_3_STR,
     STANDART_STR,
     HEPA_STR,
-    JAN_STR,
-    FEB_STR,
-    MAR_STR,
-    APR_STR,
-    MAY_STR,
-    JUN_STR,
-    JUL_STR,
-    AUG_STR,
-    SEP_STR,
-    OCT_STR,
-    NOV_STR,
-    DEC_STR
+//    JAN_STR,
+//    FEB_STR,
+//    MAR_STR,
+//    APR_STR,
+//    MAY_STR,
+//    JUN_STR,
+//    JUL_STR,
+//    AUG_STR,
+//    SEP_STR,
+//    OCT_STR,
+//    NOV_STR,
+//    DEC_STR
 };
 
 

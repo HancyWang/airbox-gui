@@ -108,6 +108,7 @@ ConfigurationWindowClinical::ConfigurationWindowClinical(QWidget *parent,
 
     timeUpdateTimer = new QTimer(this);
     connect(timeUpdateTimer, SIGNAL(timeout()), this, SLOT(timeUpdateTimerTimeout()));
+    timeUpdateTimer->start(500);
     updateText();
 }
 
@@ -285,7 +286,8 @@ void ConfigurationWindowClinical::updateLanguageInCurrentWindow(void)
 
 void ConfigurationWindowClinical::updateDateInCurrentWindow(void)
 {
-    QString dateStr = QString("%1 %2 %3").arg(globalVar.systemDate.date).arg(Providers::getMonthsTextString(globalVar.systemDate.month - 1)).arg(globalVar.systemDate.year);
+//    QString dateStr = QString("%1 %2 %3").arg(globalVar.systemDate.date).arg(Providers::getMonthsTextString(globalVar.systemDate.month - 1)).arg(globalVar.systemDate.year);
+    QString dateStr = QString("%1/%2/%3").arg(globalVar.systemDate.year).arg(Providers::getMonthsTextString(globalVar.systemDate.month - 1)).arg(globalVar.systemDate.date);
     dateButton->updateSubTitleText(dateStr);
 }
 
@@ -293,6 +295,7 @@ void ConfigurationWindowClinical::updateTimeInCurrentWindow(void)
 {
     QString timeStr = QString("%1:%2").arg(globalVar.systemTime.hour, 2, 10, QChar('0')).arg(globalVar.systemTime.minute, 2, 10, QChar('0'));
     timeButton->updateSubTitleText(timeStr);
+    ui->retranslateUi(this);
 }
 
 void ConfigurationWindowClinical::pressureUnit_released()

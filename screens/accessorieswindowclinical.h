@@ -39,6 +39,8 @@ private slots:
     void airFilterButton_released();
     void airFilterWindowClosed();
 
+
+
 private:
     Ui::AccessoriesWindowClinical *ui;
     SettingsWindowClinical * settingsClinicalScreen;

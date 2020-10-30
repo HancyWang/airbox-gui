@@ -69,10 +69,10 @@ void HomeWindowBasic::addHomeButtons(void)
     setButtonProps(settignsButton, tr("Settings"),Providers::getIconString(SETTINGS_ICON));
 
     /* Connect Button Pressed events to user defined functions */
-    connect(therapyButton, SIGNAL(released()),SLOT(therapyButton_released()));
-    connect(sleepReportButton, SIGNAL(released()),SLOT(sleepReportButton_released()));
-    connect(maskOptionButton, SIGNAL(released()),SLOT(maskOptionButton_released()));
-    connect(settignsButton, SIGNAL(released()),SLOT(settignsButton_released()));
+    connect(therapyButton, SIGNAL(clicked()),SLOT(therapyButton_released()));
+    connect(sleepReportButton, SIGNAL(clicked()),SLOT(sleepReportButton_released()));
+    connect(maskOptionButton, SIGNAL(clicked()),SLOT(maskOptionButton_released()));
+    connect(settignsButton, SIGNAL(clicked()),SLOT(settignsButton_released()));
 }
 void HomeWindowBasic::setButtonProps(Button3 * pButton,const QString &titleStr,const QString &imageStr)
 {
@@ -192,3 +192,5 @@ void HomeWindowBasic::changeEvent(QEvent* e)
 
     }
 }
+
+

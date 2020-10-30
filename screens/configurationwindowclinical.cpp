@@ -172,12 +172,12 @@ void ConfigurationWindowClinical::setupWindowParameters()
     QScroller::grabGesture(ui->scrollAreaConfiguration->viewport(),QScroller::LeftMouseButtonGesture);
 
     //Connect all press or release eventas to their specific slots
-    connect(languageButton, SIGNAL(released()),SLOT(languageButton_released()));
-    connect(dateButton, SIGNAL(released()),SLOT(dateButton_released()));
-    connect(timeButton, SIGNAL(released()),SLOT(timeButton_released()));
-    connect(pressureUnit, SIGNAL(released()),SLOT(pressureUnit_released()));
-    connect(restoreDefault, SIGNAL(released()),SLOT(restoreDefault_released()));
-    connect(eraseData, SIGNAL(released()),SLOT(eraseData_released()));
+    connect(languageButton, SIGNAL(clicked()),SLOT(languageButton_released()));
+    connect(dateButton, SIGNAL(clicked()),SLOT(dateButton_released()));
+    connect(timeButton, SIGNAL(clicked()),SLOT(timeButton_released()));
+    connect(pressureUnit, SIGNAL(clicked()),SLOT(pressureUnit_released()));
+    connect(restoreDefault, SIGNAL(clicked()),SLOT(restoreDefault_released()));
+    connect(eraseData, SIGNAL(clicked()),SLOT(eraseData_released()));
 
     updateConfigurationClinicalProcessBeforeShow();
 }

@@ -51,8 +51,8 @@ void HomeWindowClinical::addHomeButtons(void)
     setButtonProps(sleepReportButton,Providers::getTitleTextString(SLEEP_REPORT_STR),Providers::getIconString(SLEEP_REPORT_ICON));
     setButtonProps(settignsButton,Providers::getTitleTextString(SETTINGS_STR),Providers::getIconString(SETTINGS_ICON));
 
-    connect(sleepReportButton, SIGNAL(released()),SLOT(sleepReportButton_released()));
-    connect(settignsButton, SIGNAL(released()),SLOT(settignsButton_released()));
+    connect(sleepReportButton, SIGNAL(clicked()),SLOT(sleepReportButton_released()));
+    connect(settignsButton, SIGNAL(clicked()),SLOT(settignsButton_released()));
 }
 
 void HomeWindowClinical::setButtonProps(Button3 * pButton,const QString &titleStr,const QString &imageStr)
@@ -122,3 +122,5 @@ void HomeWindowClinical::changeEvent(QEvent* e)
 
     }
 }
+
+

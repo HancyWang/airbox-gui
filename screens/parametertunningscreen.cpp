@@ -263,7 +263,7 @@ ParameterTunningScreen::ParameterTunningScreen(QWidget *parent,
                                         "}\n"
                                         ""));
         tuneButtons[i]->raise();
-        connect(tuneButtons[i],SIGNAL(released()),
+        connect(tuneButtons[i],SIGNAL(clicked()),
                 this,SLOT(on_TuneButtonClicked()));
 
         ui->verticalLayout->addWidget(tuneButtons[i]);

@@ -105,9 +105,9 @@ void ReminderWindowSettingsClinical::setupWindowParameters()
     updateButton2Details(airFilterButton,Providers::getTitleTextString(AIR_FILTER_STR),Providers::getIconString(AIR_FILTER_ICON));
 
     //Connect all press or release eventas to their specific slots
-    connect(maskButton, SIGNAL(released()),SLOT(maskButton_released()));
-    connect(airTubeButton, SIGNAL(released()),SLOT(airTubeButton_released()));
-    connect(airFilterButton, SIGNAL(released()),SLOT(airFilterButton_released()));
+    connect(maskButton, SIGNAL(clicked()),SLOT(maskButton_released()));
+    connect(airTubeButton, SIGNAL(clicked()),SLOT(airTubeButton_released()));
+    connect(airFilterButton, SIGNAL(clicked()),SLOT(airFilterButton_released()));
 
     connect(maskButton->switchWidget       , SIGNAL(toggleSwitchClicked()),SLOT(maskButtonSwitch_clicked()));
     connect(airTubeButton->switchWidget    , SIGNAL(toggleSwitchClicked()),SLOT(airTubeButtonSwitch_clicked()));

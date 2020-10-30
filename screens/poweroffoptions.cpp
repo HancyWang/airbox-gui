@@ -58,7 +58,7 @@ void PowerOffOptions::addButtons(void)
     updateButton1Details(powerOffButton       ,Providers::getTitleTextString(POWER_OFF_STR),
                          Providers::getIconString(POWER_OFF_ICON),NULL);
 
-    connect(powerOffButton, SIGNAL(released()),SLOT(powerOffButton_released()));
+    connect(powerOffButton, SIGNAL(clicked()),SLOT(powerOffButton_released()));
 }
 
 void PowerOffOptions::updateButton1Details(Button1 * pButton,const QString &Title,const QString &imageLeft,const QString &imageRight)

@@ -109,11 +109,11 @@ void ManufacturingOptionsScreen::addButtonsManufacturingOptions(void)
     //Enable Scrolling mechanism for scroll area
     QScroller::grabGesture(ui->scrollAreaConfiguration->viewport(),QScroller::LeftMouseButtonGesture);
 
-    connect(menufacturingDiagButton, SIGNAL(released()),SLOT(menufacturingDiagButton_released()));
-    connect(menufacturingSetupButton, SIGNAL(released()),SLOT(menufacturingSetupButton_released()));
-//    connect(blowerTestButton, SIGNAL(released()),SLOT(blowerTestButton_released()));
-    connect(parameterTuneButton, SIGNAL(released()),SLOT(parameterTuneButton_released()));
-    connect(diagnosticData, SIGNAL(released()),SLOT(diagnosticData_released()));
+    connect(menufacturingDiagButton, SIGNAL(clicked()),SLOT(menufacturingDiagButton_released()));
+    connect(menufacturingSetupButton, SIGNAL(clicked()),SLOT(menufacturingSetupButton_released()));
+//    connect(blowerTestButton, SIGNAL(clicked()),SLOT(blowerTestButton_released()));
+    connect(parameterTuneButton, SIGNAL(clicked()),SLOT(parameterTuneButton_released()));
+    connect(diagnosticData, SIGNAL(clicked()),SLOT(diagnosticData_released()));
 }
 
 

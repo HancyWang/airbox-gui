@@ -36,6 +36,7 @@ public:
 
 private slots:
     void therapyButton_released();
+//    void therapyButton_clicked();
     void comfortButton_released();
     void accessoriesButton_released();
     void optionsButton_released();

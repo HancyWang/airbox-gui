@@ -93,7 +93,8 @@ void MaskDryOptionsBasic::updateStartStopButton(void)
 {
     if(maskDryStatus == true)
     {
-        ui->maskDryTestStartStop->setText("Stop");
+//        ui->maskDryTestStartStop->setText(tr("Stop"));
+        ui->maskDryTestStartStop->setText(Providers::getTitleTextString(STOP_STR));
         ui->maskDryProgressBar->setValue(0);
         ui->maskDryProgressBar->show();
         globalVar.therapyState = On;
@@ -103,7 +104,8 @@ void MaskDryOptionsBasic::updateStartStopButton(void)
     }
     else
     {
-        ui->maskDryTestStartStop->setText("Start");
+//        ui->maskDryTestStartStop->setText(tr("Start"));
+        ui->maskDryTestStartStop->setText(Providers::getTitleTextString(START_STR));
         ui->maskDryProgressBar->hide();
         globalVar.maskDryState = Off;
         globalVar.therapyState = Off;

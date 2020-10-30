@@ -117,9 +117,9 @@ void ComfortWindowClinical::addButtons(void)
     rampButton->updateUnitText(Providers::getUnitTextString(MINUTE_UNIT_STR));
 
     //Connect all press or release eventas to their specific slots
-    connect(goToSleepButton, SIGNAL(released()),SLOT(goToSleepButton_released()));
-    connect(rampButton, SIGNAL(released()),SLOT(rampButton_released()));
-    connect(exhaleComfortButton, SIGNAL(released()),SLOT(exhaleComfortButton_released()));
+    connect(goToSleepButton, SIGNAL(clicked()),SLOT(goToSleepButton_released()));
+    connect(rampButton, SIGNAL(clicked()),SLOT(rampButton_released()));
+    connect(exhaleComfortButton, SIGNAL(clicked()),SLOT(exhaleComfortButton_released()));
 
     connect(goToSleepButton->switchWidget, SIGNAL(toggleSwitchClicked()),SLOT(goToSleepButtonSwitch_clicked()));
     connect(rampButton->switchWidget, SIGNAL(toggleSwitchClicked()),SLOT(rampButtonSwitch_clicked()));

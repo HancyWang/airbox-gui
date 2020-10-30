@@ -96,12 +96,12 @@ void MaskOptionsBasic::addButtonsMaskFitOptions(void)
     maskDryButton->setGeometry(QRect(60,63,330,50));
 //    maskDryButton->setGeometry(QRect(60,118,330,50));
     setButtonProps(maskDryButton,Providers::getTitleTextString(MASK_DRY_STR),Providers::getIconString(MASK_DRY_ICON),Providers::getNavigationIconString(),NULL);
-    connect(maskDryButton, SIGNAL(released()),SLOT(maskDryButton_released()));
+    connect(maskDryButton, SIGNAL(clicked()),SLOT(maskDryButton_released()));
 
     maskFitTestButton = new Button4(this);
     maskFitTestButton->setGeometry(QRect(60,63,330,50));
     setButtonProps(maskFitTestButton,Providers::getTitleTextString(MASK_FIT_TEST_STR),Providers::getIconString(MASK_FIT_TEST_ICON),Providers::getNavigationIconString(),":/icons/good_icon.png");
-    connect(maskFitTestButton, SIGNAL(released()),SLOT(maskFitTestButton_released()));
+    connect(maskFitTestButton, SIGNAL(clicked()),SLOT(maskFitTestButton_released()));
 }
 
 void MaskOptionsBasic::setButtonProps(Button4 * pButton,const QString &title,const QString &imageLeft,const QString &imageRight,const QString &imageThird)

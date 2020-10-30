@@ -159,6 +159,8 @@ enum TITLE_TEXT_STR_NO {
 //    OCT_STR,
 //    NOV_STR,
 //    DEC_STR
+    START_STR,
+    STOP_STR
 };
 
 

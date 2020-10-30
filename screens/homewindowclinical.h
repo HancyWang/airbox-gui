@@ -37,6 +37,8 @@ private slots:
     void on_frescaLogo_released();
     void timerClinicalTimeOut();
 
+
+
 private:
     Ui::HomeWindowClinical *ui;
     HomeWindowBasic * homeScreenBasic;

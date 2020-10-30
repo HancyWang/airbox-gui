@@ -48,6 +48,8 @@ private slots:
     void on_frescaLogo_pressed();
     void on_frescaLogo_released();
 
+
+
 private:
     Ui::HomeWindowBasic *ui;
     PasswordCheckScreen * passwordScreen;

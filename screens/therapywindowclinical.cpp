@@ -119,11 +119,11 @@ void TherapyWindowClinical::addButtons(void)
     QScroller::grabGesture(ui->scrollAreaSettings->viewport(),QScroller::LeftMouseButtonGesture);
 
     //Connect all press or release eventas to their specific slots
-    connect(setPressureButton, SIGNAL(released()),SLOT(setPressureButton_released()));
-    connect(modeButton, SIGNAL(released()),SLOT(modeButton_released()));
-    connect(maskButton, SIGNAL(released()),SLOT(maskButton_released()));
-    connect(minPressureButton, SIGNAL(released()),SLOT(minPressureButton_released()));
-    connect(maxPressureButton, SIGNAL(released()),SLOT(maxPressureButton_released()));
+    connect(setPressureButton, SIGNAL(clicked()),SLOT(setPressureButton_released()));
+    connect(modeButton, SIGNAL(clicked()),SLOT(modeButton_released()));
+    connect(maskButton, SIGNAL(clicked()),SLOT(maskButton_released()));
+    connect(minPressureButton, SIGNAL(clicked()),SLOT(minPressureButton_released()));
+    connect(maxPressureButton, SIGNAL(clicked()),SLOT(maxPressureButton_released()));
 
     updateTherapyWindowProcessBeforeShow();
 }

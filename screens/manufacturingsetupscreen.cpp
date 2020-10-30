@@ -136,12 +136,12 @@ void ManufacturingSetupScreen::setupWindowParameters(void)
     QScroller::grabGesture(ui->scrollAreaManufacturingSetup->viewport(),QScroller::LeftMouseButtonGesture);
 
     //Connect all press or release eventas to their specific slots
-    connect(brightnessOffsetButton, SIGNAL(released()),SLOT(brightnessOffsetButton_released()));
-    connect(pressureSensorOffsetButton, SIGNAL(released()),SLOT(pressureSensorOffsetButton_released()));
-    connect(flowSensorSlopButton, SIGNAL(released()),SLOT(flowSensorSlopButton_released()));
-    connect(serialNumberButton, SIGNAL(released()),SLOT(serialNumberButton_released()));
-    connect(dateButton, SIGNAL(released()),SLOT(dateButton_released()));
-    connect(timeButton, SIGNAL(released()),SLOT(timeButton_released()));
+    connect(brightnessOffsetButton, SIGNAL(clicked()),SLOT(brightnessOffsetButton_released()));
+    connect(pressureSensorOffsetButton, SIGNAL(clicked()),SLOT(pressureSensorOffsetButton_released()));
+    connect(flowSensorSlopButton, SIGNAL(clicked()),SLOT(flowSensorSlopButton_released()));
+    connect(serialNumberButton, SIGNAL(clicked()),SLOT(serialNumberButton_released()));
+    connect(dateButton, SIGNAL(clicked()),SLOT(dateButton_released()));
+    connect(timeButton, SIGNAL(clicked()),SLOT(timeButton_released()));
 }
 
 void ManufacturingSetupScreen::updateButton1Details(Button1 * pButton,const QString &Title,const QString &imageRight)

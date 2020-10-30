@@ -219,13 +219,13 @@ void SettingsWindowBasic::setupWindowParameters(void)
     QScroller::grabGesture(ui->scrollAreaSettings->viewport(),QScroller::LeftMouseButtonGesture);
 
     //Connect all press or release eventas to their specific slots
-    connect(goToSleepButton, SIGNAL(released()),SLOT(goToSleepButton_released()));
-    connect(rampButton, SIGNAL(released()),SLOT(rampButton_released()));
-    connect(bluetoothButton, SIGNAL(released()),SLOT(bluetoothButton_released()));
-    connect(displaySettingsButton, SIGNAL(released()),SLOT(displaySettingsButton_released()));
-    connect(deviceInfoButton, SIGNAL(released()),SLOT(deviceInfoButton_released()));
-    connect(snoozeButton, SIGNAL(released()),SLOT(snoozeButton_released()));
-    connect(maskButton, SIGNAL(released()),SLOT(maskButton_released()));
+    connect(goToSleepButton, SIGNAL(clicked()),SLOT(goToSleepButton_released()));
+    connect(rampButton, SIGNAL(clicked()),SLOT(rampButton_released()));
+    connect(bluetoothButton, SIGNAL(clicked()),SLOT(bluetoothButton_released()));
+    connect(displaySettingsButton, SIGNAL(clicked()),SLOT(displaySettingsButton_released()));
+    connect(deviceInfoButton, SIGNAL(clicked()),SLOT(deviceInfoButton_released()));
+    connect(snoozeButton, SIGNAL(clicked()),SLOT(snoozeButton_released()));
+    connect(maskButton, SIGNAL(clicked()),SLOT(maskButton_released()));
 
     connect(goToSleepButton->switchWidget, SIGNAL(toggleSwitchClicked()),SLOT(goToSleepButtonSwitch_clicked()));
     connect(rampButton->switchWidget, SIGNAL(toggleSwitchClicked()),SLOT(rampButtonSwitch_clicked()));

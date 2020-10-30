@@ -98,8 +98,8 @@ SleepReportMoreWindowBasic::SleepReportMoreWindowBasic(QWidget *parent,
     backToHomeButton->setImage(":/icons/back_home_button.png");
     backToHomeButton->setBackgroundColor(0x3B3B3B,0x606060);
 
-    connect(backToHomeButton, SIGNAL(released()),SLOT(backToHomeButton_released()));
-    connect(periodSelection, SIGNAL(released()),SLOT(periodSelection_released()));
+    connect(backToHomeButton, SIGNAL(clicked()),SLOT(backToHomeButton_released()));
+    connect(periodSelection, SIGNAL(clicked()),SLOT(periodSelection_released()));
 
     updateSleepReportMoreAsPerMode(globalVar.clinicalMode);
 

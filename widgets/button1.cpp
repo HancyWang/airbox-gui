@@ -203,8 +203,8 @@ void Button1::mousePressEvent(QMouseEvent *e)
 */
 void Button1::mouseReleaseEvent(QMouseEvent *e)
 {
-//    QAbstractButton::mouseReleaseEvent(e);
-    animateClick();
+    QAbstractButton::mouseReleaseEvent(e);
+//    animateClick();
 }
 
 

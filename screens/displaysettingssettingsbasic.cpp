@@ -83,8 +83,8 @@ void DisplaySettingsSettingsBasic::addButtonsToScreen(void)
     updateButton1Details(dimDurationDisplaySettings,Providers::getTitleTextString(DISPLAY_DIM_DURATION_STR),
                          Providers::getIconString(DISPLAY_DIM_DURATION_ICON),Providers::getNavigationIconString());
 
-    connect(brightnessDisplaySettings, SIGNAL(released()),SLOT(brightnessDisplaySettings_released()));
-    connect(dimDurationDisplaySettings, SIGNAL(released()),SLOT(dimDurationDisplaySettings_released()));
+    connect(brightnessDisplaySettings, SIGNAL(clicked()),SLOT(brightnessDisplaySettings_released()));
+    connect(dimDurationDisplaySettings, SIGNAL(clicked()),SLOT(dimDurationDisplaySettings_released()));
 
     brightnessDisplaySettings->updateUnitText(Providers::getUnitTextString(PERCENTAGE_UNIT_STR));
 

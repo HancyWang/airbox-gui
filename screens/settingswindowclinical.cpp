@@ -86,14 +86,14 @@ void SettingsWindowClinical::addButtons(void)
     QScroller::grabGesture(ui->scrollAreaSettings->viewport(),QScroller::LeftMouseButtonGesture);
 
     //Connect all press or release eventas to their specific slots
-    connect(therapyButton, SIGNAL(released()),SLOT(therapyButton_released()));
-    connect(comfortButton, SIGNAL(released()),SLOT(comfortButton_released()));
-    connect(accessoriesButton, SIGNAL(released()),SLOT(accessoriesButton_released()));
-    connect(optionsButton, SIGNAL(released()),SLOT(optionsButton_released()));
-    connect(remindersButton, SIGNAL(released()),SLOT(remindersButton_released()));
-    connect(configurationButton, SIGNAL(released()),SLOT(configurationButton_released()));
-    connect(deviceInfoButton, SIGNAL(released()),SLOT(deviceInfoButton_released()));
-    connect(menufacturingOptionsButton, SIGNAL(released()),SLOT(menufacturingOptionsButton_released()));
+    connect(therapyButton, SIGNAL(clicked()),SLOT(therapyButton_released()));
+    connect(comfortButton, SIGNAL(clicked()),SLOT(comfortButton_released()));
+    connect(accessoriesButton, SIGNAL(clicked()),SLOT(accessoriesButton_released()));
+    connect(optionsButton, SIGNAL(clicked()),SLOT(optionsButton_released()));
+    connect(remindersButton, SIGNAL(clicked()),SLOT(remindersButton_released()));
+    connect(configurationButton, SIGNAL(clicked()),SLOT(configurationButton_released()));
+    connect(deviceInfoButton, SIGNAL(clicked()),SLOT(deviceInfoButton_released()));
+    connect(menufacturingOptionsButton, SIGNAL(clicked()),SLOT(menufacturingOptionsButton_released()));
 }
 
 void SettingsWindowClinical::updateButton1Details(Button1 * pButton,const QString &Title,const QString &imageLeft,const QString &imageRight)
@@ -144,6 +144,7 @@ void SettingsWindowClinical::updateSettingsWindowClinicalBeforeShow(void)
     tScrollBar->setValue(0);
 }
 
+//void SettingsWindowClinical::therapyButton_clicked(bool b)
 void SettingsWindowClinical::therapyButton_released()
 {
     emit showTherapyClinicalScreen();

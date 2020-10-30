@@ -71,7 +71,7 @@ void AccessoriesWindowClinical::addButtons(void)
     airFilterButton->updateSubTitleText(Providers::getAirFilterTypeString(globalVar.airFilter));
 
     //Connect all press or release eventas to their specific slots
-    connect(airFilterButton, SIGNAL(released()),SLOT(airFilterButton_released()));
+    connect(airFilterButton, SIGNAL(clicked()),SLOT(airFilterButton_released()));
 }
 
 void AccessoriesWindowClinical::updateButton1Details(Button1 * pButton,const QString &Title,const QString &imageLeft,const QString &imageRight)
@@ -141,3 +141,5 @@ void AccessoriesWindowClinical::changeEvent(QEvent* e)
 
     }
 }
+
+

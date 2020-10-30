@@ -144,8 +144,8 @@ void Button3::mousePressEvent(QMouseEvent *e)
 */
 void Button3::mouseReleaseEvent(QMouseEvent *e)
 {
-//    QAbstractButton::mouseReleaseEvent(e);
-    animateClick();
+    QAbstractButton::mouseReleaseEvent(e);
+//    animateClick();
 }
 
 

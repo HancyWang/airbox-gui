@@ -150,7 +150,7 @@ TherapyWindowBasic::TherapyWindowBasic(QWidget *parent,
     startStopTherapyButton->setImage(iconTherapyStateStr.at(0));
     startStopTherapyButton->setBackgroundColor(0x3B3B3B,0x606060);
 
-    connect(startStopTherapyButton, SIGNAL(released()),SLOT(startStopTherapyButton_released()));
+    connect(startStopTherapyButton, SIGNAL(clicked()),SLOT(startStopTherapyButton_released()));
 
     QFont title("Roboto-Light",12);
     ui->therapyTitle->setFont(title);

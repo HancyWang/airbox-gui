@@ -147,8 +147,8 @@ void Button5::mousePressEvent(QMouseEvent *e)
 */
 void Button5::mouseReleaseEvent(QMouseEvent *e)
 {
-//    QAbstractButton::mouseReleaseEvent(e);
-    animateClick();
+    QAbstractButton::mouseReleaseEvent(e);
+//    animateClick();
 }
 
 

@@ -91,15 +91,18 @@ int main(int argc, char *argv[])
 //    globalVar.language = language_chinese;
     QString qm_str;
 
+    QFontDatabase::addApplicationFont(":/fonts/Roboto/Roboto-Light.ttf");
+    QFontDatabase::addApplicationFont(":/fonts/Roboto/Roboto-Regular.ttf");
+    QFontDatabase::addApplicationFont(":/fonts/Roboto/Roboto-Thin.ttf");
     // Setup the translations and fonts based on the language
     if(globalVar.language == language_chinese)
     {
         // Chinese
         // Asian Languages
-        /*
-        QFontDatabase::addApplicationFont(":/fonts/Roboto/Roboto-Light.ttf");
-        QFontDatabase::addApplicationFont(":/fonts/Roboto/Roboto-Regular.ttf");
-        QFontDatabase::addApplicationFont(":/fonts/Roboto/Roboto-Thin.ttf");*/
+
+//        QFontDatabase::addApplicationFont(":/fonts/Roboto/Roboto-Light.ttf");
+//        QFontDatabase::addApplicationFont(":/fonts/Roboto/Roboto-Regular.ttf");
+//        QFontDatabase::addApplicationFont(":/fonts/Roboto/Roboto-Thin.ttf");
 
         if(globalVar.b_enable_compile_airbox_arm_code)
         {
@@ -157,11 +160,11 @@ int main(int argc, char *argv[])
     {
         // Spanish
         // Latin Languages
-        QFontDatabase::addApplicationFont(":/fonts/Roboto/Roboto-Light.ttf");
-        QFontDatabase::addApplicationFont(":/fonts/Roboto/Roboto-Regular.ttf");
-        QFontDatabase::addApplicationFont(":/fonts/Roboto/Roboto-Thin.ttf");
-        // insertSubstitution - Appears to not work on embedded
-        //QFont::insertSubstitution("Roboto", "Droid Sans");
+//        QFontDatabase::addApplicationFont(":/fonts/Roboto/Roboto-Light.ttf");
+//        QFontDatabase::addApplicationFont(":/fonts/Roboto/Roboto-Regular.ttf");
+//        QFontDatabase::addApplicationFont(":/fonts/Roboto/Roboto-Thin.ttf");
+//        // insertSubstitution - Appears to not work on embedded
+//        //QFont::insertSubstitution("Roboto", "Droid Sans");
 
         qDebug() << "Main: Set Spanish";
         // Load the translation file
@@ -187,9 +190,9 @@ int main(int argc, char *argv[])
         // Do nothing
         /* Add Fonts in Application */
         // Latin Languages
-        QFontDatabase::addApplicationFont(":/fonts/Roboto/Roboto-Light.ttf");
-        QFontDatabase::addApplicationFont(":/fonts/Roboto/Roboto-Regular.ttf");
-        QFontDatabase::addApplicationFont(":/fonts/Roboto/Roboto-Thin.ttf");
+//        QFontDatabase::addApplicationFont(":/fonts/Roboto/Roboto-Light.ttf");
+//        QFontDatabase::addApplicationFont(":/fonts/Roboto/Roboto-Regular.ttf");
+//        QFontDatabase::addApplicationFont(":/fonts/Roboto/Roboto-Thin.ttf");
     }
 
     // Install the Translator if not english

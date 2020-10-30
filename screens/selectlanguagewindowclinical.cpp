@@ -159,6 +159,11 @@ void SelectLanguageWindowClinical::updateLanguageAfterSelected()
     }
 
     globalVar.nTranslator =new QTranslator;
+
+    QFontDatabase::addApplicationFont(":/fonts/Roboto/Roboto-Light.ttf");
+    QFontDatabase::addApplicationFont(":/fonts/Roboto/Roboto-Regular.ttf");
+    QFontDatabase::addApplicationFont(":/fonts/Roboto/Roboto-Thin.ttf");
+
     if(globalVar.language == language_chinese)
     {
         // Chinese
@@ -212,11 +217,11 @@ void SelectLanguageWindowClinical::updateLanguageAfterSelected()
     {
         // Spanish
         // Latin Languages
-        QFontDatabase::addApplicationFont(":/fonts/Roboto/Roboto-Light.ttf");
-        QFontDatabase::addApplicationFont(":/fonts/Roboto/Roboto-Regular.ttf");
-        QFontDatabase::addApplicationFont(":/fonts/Roboto/Roboto-Thin.ttf");
-        // insertSubstitution - Appears to not work on embedded
-        //QFont::insertSubstitution("Roboto", "Droid Sans");
+//        QFontDatabase::addApplicationFont(":/fonts/Roboto/Roboto-Light.ttf");
+//        QFontDatabase::addApplicationFont(":/fonts/Roboto/Roboto-Regular.ttf");
+//        QFontDatabase::addApplicationFont(":/fonts/Roboto/Roboto-Thin.ttf");
+//        // insertSubstitution - Appears to not work on embedded
+//        //QFont::insertSubstitution("Roboto", "Droid Sans");
 
         if(globalVar.b_enable_compile_airbox_arm_code)
         {
@@ -237,13 +242,13 @@ void SelectLanguageWindowClinical::updateLanguageAfterSelected()
     }
     else
     {
-        // English - or default to english on bad setting
-        // Do nothing
-        /* Add Fonts in Application */
-        // Latin Languages
-        QFontDatabase::addApplicationFont(":/fonts/Roboto/Roboto-Light.ttf");
-        QFontDatabase::addApplicationFont(":/fonts/Roboto/Roboto-Regular.ttf");
-        QFontDatabase::addApplicationFont(":/fonts/Roboto/Roboto-Thin.ttf");
+//        // English - or default to english on bad setting
+//        // Do nothing
+//        /* Add Fonts in Application */
+//        // Latin Languages
+//        QFontDatabase::addApplicationFont(":/fonts/Roboto/Roboto-Light.ttf");
+//        QFontDatabase::addApplicationFont(":/fonts/Roboto/Roboto-Regular.ttf");
+//        QFontDatabase::addApplicationFont(":/fonts/Roboto/Roboto-Thin.ttf");
 
         qDebug() << "select language: Set English";
         bTranslationLoaded = true;

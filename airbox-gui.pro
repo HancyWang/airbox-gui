@@ -7,11 +7,11 @@
 QT       += core gui bluetooth widgets # webkitwidgets
 
 CONFIG += c++11
-
+TEMPLATE = lib
+CONFIG  += plugin
 
 # Enable IPC related routines
 DEFINES += ENABLE_IPC
-
 # Enable Hardware related routines
 DEFINES += ENABLE_HARDWARE
 

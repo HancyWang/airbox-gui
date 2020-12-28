@@ -9,6 +9,7 @@
 #include <QPainter>
 
 #include "therapy_widget.h"
+#include "shareddata.h"
 
 TherapyWidget::TherapyWidget(QWidget *parent)
     : QWidget(parent),
@@ -138,8 +139,16 @@ void TherapyWidget::setSubValue(int val)
     if(subValueInt != val)
     {
         subValueInt = val;
-        QString s = QString::number(subValueInt);
-        subValue->setText(s);
+
+#ifdef CHANGE_PRESSURE_STEP_TO_05
+    QString str_integer=QString::number(subValueInt/100);
+    QString str_decimals=QString::number(subValueInt%100/10);
+    QString str=str_integer+"."+str_decimals;
+#else
+    QString str = QString::number(subValueInt);
+#endif
+
+        subValue->setText(str);
     }
 }
 
@@ -205,7 +214,12 @@ void TherapyWidget::setFillBarVisibleState(bool state)
 
 void TherapyWidget::setmaxPressure(int max)
 {
+#ifdef CHANGE_PRESSURE_STEP_TO_05
+    int tMaxValue = max;
+#else
     int tMaxValue = max * 100;
+#endif
+
     if(maxPressure != tMaxValue)
     {
 //        qDebug() << Q_FUNC_INFO << maxPressure << tMaxValue;

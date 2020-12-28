@@ -135,7 +135,11 @@ TherapyWindowBasic::TherapyWindowBasic(QWidget *parent,
     therapyPressure->setPressure(globalVar.pressure.currentPressure);
 //    therapyPressure->setPressure(25);
 //    therapyPressure->setmaxPressure(globalVar.pressure.apapMaxPressure);
+#ifdef CHANGE_PRESSURE_STEP_TO_05
+    therapyPressure->setmaxPressure(globalVar.pressure.apapMaxPressure);
+#else
     therapyPressure->setmaxPressure(globalVar.pressure.apapMaxPressure  * 100);
+#endif
     therapyPressure->setFillBarVisibleState(true);
     therapyPressure->setFillBarColor(THERAPY_NORMAL_FILL_COLOR);
     therapyPressure->setBlankBarColor(THERAPY_NORMAL_BLANK_COLOR);

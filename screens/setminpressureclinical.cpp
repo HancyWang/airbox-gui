@@ -51,11 +51,24 @@ SetMinPressureClinical::~SetMinPressureClinical()
 void SetMinPressureClinical::updateMinPressureProcessBeforeShow(void)
 {
     setPres = globalVar.pressure.apapMinPressure;
+#ifdef CHANGE_PRESSURE_STEP_TO_05
+    validMaxPressure = globalVar.pressure.apapMaxPressure - 50;
+    ui->setMinPressureSlider->setRange(PRESSURE_VALUE_2_SLIDER_VALUE(TARGET_PRESSURE_MIN),PRESSURE_VALUE_2_SLIDER_VALUE(validMaxPressure));
+    ui->setMinPressureSlider->setValue(PRESSURE_VALUE_2_SLIDER_VALUE(setPres));
+#else
     validMaxPressure = globalVar.pressure.apapMaxPressure - 1;
     ui->setMinPressureSlider->setRange(TARGET_PRESSURE_MIN,validMaxPressure);
     ui->setMinPressureSlider->setValue(setPres);
+#endif
 
+
+#ifdef CHANGE_PRESSURE_STEP_TO_05
+    QString str_integer=QString::number(globalVar.pressure.apapMaxPressure/100);
+    QString str_decimals=QString::number(globalVar.pressure.apapMaxPressure%100/10);
+    QString maxStr=str_integer+"."+str_decimals;
+#else
     QString maxStr = QString::number(globalVar.pressure.apapMaxPressure);
+#endif
     ui->setMaxPressure->setText(maxStr);
 
     updateValueText(setPres);
@@ -86,8 +99,15 @@ void SetMinPressureClinical::on_setMinPressureCancel_released()
 void SetMinPressureClinical::on_setMinPressureIncrement_pressed()
 {
     if(setPres < validMaxPressure){
+#ifdef CHANGE_PRESSURE_STEP_TO_05
+        setPres+=PRESSURE_SET_STEP;
+        ui->setMinPressureSlider->setValue(PRESSURE_VALUE_2_SLIDER_VALUE(setPres));
+#else
         setPres++;
         ui->setMinPressureSlider->setValue(setPres);
+#endif
+
+
         updateValueText(setPres);
     }
     processWarningShowHide();
@@ -96,22 +116,34 @@ void SetMinPressureClinical::on_setMinPressureIncrement_pressed()
 void SetMinPressureClinical::on_setMinPressureDecrement_pressed()
 {
     if(setPres > TARGET_PRESSURE_MIN){
+#ifdef CHANGE_PRESSURE_STEP_TO_05
+        setPres-=PRESSURE_SET_STEP;
+        ui->setMinPressureSlider->setValue(PRESSURE_VALUE_2_SLIDER_VALUE(setPres));
+#else
         setPres--;
         ui->setMinPressureSlider->setValue(setPres);
+#endif
+
+
         updateValueText(setPres);
     }
 }
 
 void SetMinPressureClinical::on_setMinPressureSlider_sliderPressed()
 {
-    setPres = ui->setMinPressureSlider->value();
+    setPres = SLIDER_VALUE_2_PRESSURE_VAL(ui->setMinPressureSlider->value());
     updateValueText(setPres);
     processWarningShowHide();
 }
 
 void SetMinPressureClinical::on_setMinPressureSlider_valueChanged(int value)
 {
+#ifdef CHANGE_PRESSURE_STEP_TO_05
+    setPres = SLIDER_VALUE_2_PRESSURE_VAL(value);
+#else
     setPres = value;
+#endif
+
     updateValueText(setPres);
     processWarningShowHide();
 }
@@ -126,7 +158,13 @@ void SetMinPressureClinical::processWarningShowHide(void)
 
 void SetMinPressureClinical::updateValueText(int value)
 {
+#ifdef CHANGE_PRESSURE_STEP_TO_05
+    QString str_integer=QString::number(value/100);
+    QString str_decimals=QString::number(value%100/10);
+    QString str=str_integer+"."+str_decimals;
+#else
     QString str = QString::number(value);
+#endif
     ui->setMinPressureValue->setText(str);
 }
 

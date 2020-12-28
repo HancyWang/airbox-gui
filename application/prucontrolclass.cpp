@@ -173,10 +173,17 @@ void PruControlClass::beforeStartTherapyProcedure(void)
     pruMemory[eIPC_MASK_DRY_ENABLE] = globalVar.maskDryState;
 
     int controlPressure =0;
+#ifdef CHANGE_PRESSURE_STEP_TO_05
+    if(globalVar.therapyMode == cpapMode)
+        controlPressure = globalVar.pressure.targetedPressure;
+    else
+        controlPressure = globalVar.pressure.apapMinPressure;
+#else
     if(globalVar.therapyMode == cpapMode)
         controlPressure = globalVar.pressure.targetedPressure * 100;
     else
         controlPressure = globalVar.pressure.apapMinPressure * 100;
+#endif
 
 //    Providers::pBackgroundScreen->parameterTuneScreen->sendTunningParameterToPRU();
 
@@ -190,8 +197,13 @@ void PruControlClass::beforeStartTherapyProcedure(void)
 
     pruMemory[eIPC_SETTINGS_SET_PRESSURE] = 0;
     pruMemory[eIPC_SETTINGS_TARGET_PRESSURE] = controlPressure;
+#ifdef CHANGE_PRESSURE_STEP_TO_05
+    pruMemory[eIPC_SETTINGS_MIN_PRESSURE_APAP] = globalVar.pressure.apapMinPressure;
+    pruMemory[eIPC_SETTINGS_MAX_PRESSURE_APAP] = globalVar.pressure.apapMaxPressure;
+#else
     pruMemory[eIPC_SETTINGS_MIN_PRESSURE_APAP] = globalVar.pressure.apapMinPressure * 100;
     pruMemory[eIPC_SETTINGS_MAX_PRESSURE_APAP] = globalVar.pressure.apapMaxPressure * 100;
+#endif
 //    qDebug() << "Pressure" << pruMemory[eIPC_SETTINGS_SET_PRESSURE]
 //                            << pruMemory[eIPC_SETTINGS_TARGET_PRESSURE]
 //                            << pruMemory[eIPC_SETTINGS_MIN_PRESSURE_APAP]
@@ -269,6 +281,8 @@ void PruControlClass::beforeStartTherapyProcedure(void)
 //    qDebug() << "Snooze" << tSnoozeState << tSnoozeTime << tSnoozeCount;
 
     pruMemory[eIPC_SETTINGS_FLOW_IE_THRESHOLD_PERCENTAGE] = 25;
+    //this should be 75%,according "Calculate current flow value is at 75% of maximum flow in this breath" in BLOWER_PRU0
+//    pruMemory[eIPC_SETTINGS_FLOW_IE_THRESHOLD_PERCENTAGE] = 75;
     pruMemory[eIPC_SETTINGS_FLOW_EI_THRESHOLD] = globalVar.flow.threshold;//420;
 
     pruMemory[eIPC_EVENT_TYPE1] = 0;

@@ -241,17 +241,35 @@ void TherapyWindowClinical::on_backTherapy_released()
 }
 void TherapyWindowClinical::updateSetPressureInTherapyWindow(void)
 {
+#ifdef CHANGE_PRESSURE_STEP_TO_05
+    QString str_integer=QString::number(globalVar.pressure.targetedPressure/100);
+    QString str_decimals=QString::number(globalVar.pressure.targetedPressure%100/10);
+    QString str=str_integer+"."+str_decimals;
+#else
     QString str = QString::number(globalVar.pressure.targetedPressure);
+#endif
     setPressureButton->updateSubTitleText(str);
 }
 void TherapyWindowClinical::updateSetMinPressureInTherapyWindow(void)
 {
+#ifdef CHANGE_PRESSURE_STEP_TO_05
+    QString str_integer=QString::number(globalVar.pressure.apapMinPressure/100);
+    QString str_decimals=QString::number(globalVar.pressure.apapMinPressure%100/10);
+    QString str=str_integer+"."+str_decimals;
+#else
     QString str = QString::number(globalVar.pressure.apapMinPressure);
+#endif
     minPressureButton->updateSubTitleText(str);
 }
 void TherapyWindowClinical::updateSetMaxPressureInTherapyWindow(void)
 {
+#ifdef CHANGE_PRESSURE_STEP_TO_05
+    QString str_integer=QString::number(globalVar.pressure.apapMaxPressure/100);
+    QString str_decimals=QString::number(globalVar.pressure.apapMaxPressure%100/10);
+    QString str=str_integer+"."+str_decimals;
+#else
     QString str = QString::number(globalVar.pressure.apapMaxPressure);
+#endif
     maxPressureButton->updateSubTitleText(str);
 }
 void TherapyWindowClinical::updateModeInTherapyWindow(void)

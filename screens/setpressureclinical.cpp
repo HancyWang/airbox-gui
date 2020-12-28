@@ -40,7 +40,13 @@ SetPressureClinical::SetPressureClinical(QWidget *parent,
     QFont valueFont("Roboto-Thin",26);
     ui->setPressureValue->setFont(valueFont);
 
+#ifdef CHANGE_PRESSURE_STEP_TO_05
+    ui->setPressureSlider->setRange(PRESSURE_VALUE_2_SLIDER_VALUE(globalVar.pressure.globalMinPressure),
+                                    PRESSURE_VALUE_2_SLIDER_VALUE(globalVar.pressure.globalMaxPressure));
+#else
     ui->setPressureSlider->setRange(globalVar.pressure.globalMinPressure,globalVar.pressure.globalMaxPressure);
+#endif
+
     updatePressureProcessBeforeShow();
 }
 
@@ -52,7 +58,12 @@ SetPressureClinical::~SetPressureClinical()
 void SetPressureClinical::updatePressureProcessBeforeShow(void)
 {
     setPres = globalVar.pressure.targetedPressure;
+#ifdef CHANGE_PRESSURE_STEP_TO_05
+    ui->setPressureSlider->setValue(PRESSURE_VALUE_2_SLIDER_VALUE(setPres));
+#else
     ui->setPressureSlider->setValue(setPres);
+#endif
+
 
     updatePressureValueText(setPres);
 }
@@ -60,8 +71,14 @@ void SetPressureClinical::updatePressureProcessBeforeShow(void)
 void SetPressureClinical::on_setPressureDecrement_pressed()
 {
     if(setPres > globalVar.pressure.globalMinPressure){
+#ifdef CHANGE_PRESSURE_STEP_TO_05
+        setPres-=PRESSURE_SET_STEP;
+        ui->setPressureSlider->setValue(PRESSURE_VALUE_2_SLIDER_VALUE(setPres));
+#else
         setPres--;
         ui->setPressureSlider->setValue(setPres);
+#endif
+
         updatePressureValueText(setPres);
     }
 }
@@ -77,8 +94,14 @@ void SetPressureClinical::showSetPressureScreen()
 void SetPressureClinical::on_setPressureIncrement_pressed()
 {
     if(setPres < globalVar.pressure.globalMaxPressure){
+#ifdef CHANGE_PRESSURE_STEP_TO_05
+        setPres+=PRESSURE_SET_STEP;
+        ui->setPressureSlider->setValue(PRESSURE_VALUE_2_SLIDER_VALUE(setPres));
+#else
         setPres++;
         ui->setPressureSlider->setValue(setPres);
+#endif
+
         updatePressureValueText(setPres);
     }
 }
@@ -106,20 +129,36 @@ void SetPressureClinical::on_setPressureCancel_released()
 
 void SetPressureClinical::on_setPressureSlider_sliderPressed()
 {
+#ifdef CHANGE_PRESSURE_STEP_TO_05
+    setPres = SLIDER_VALUE_2_PRESSURE_VAL(ui->setPressureSlider->value());
+#else
     setPres = ui->setPressureSlider->value();
+#endif
+
     updatePressureValueText(setPres);
 }
 
 
 void SetPressureClinical::on_setPressureSlider_valueChanged(int value)
 {
+#ifdef CHANGE_PRESSURE_STEP_TO_05
+    setPres = SLIDER_VALUE_2_PRESSURE_VAL(value);
+#else
     setPres = value;
+#endif
+
     updatePressureValueText(setPres);
 }
 
 void SetPressureClinical::updatePressureValueText(int value)
 {
+#ifdef CHANGE_PRESSURE_STEP_TO_05
+    QString str_integer=QString::number(value/100);
+    QString str_decimals=QString::number(value%100/10);
+    QString str=str_integer+"."+str_decimals;
+#else
     QString str = QString::number(value);
+#endif
     ui->setPressureValue->setText(str);
 }
 

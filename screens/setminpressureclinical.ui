@@ -53,8 +53,8 @@ border-radius:3px;
   <widget class="QLabel" name="setMinPressureUnit">
    <property name="geometry">
     <rect>
-     <x>116</x>
-     <y>102</y>
+     <x>82</x>
+     <y>111</y>
      <width>50</width>
      <height>20</height>
     </rect>
@@ -72,9 +72,9 @@ border-radius:3px;
   <widget class="QLabel" name="setMinPressureValue">
    <property name="geometry">
     <rect>
-     <x>116</x>
-     <y>55</y>
-     <width>50</width>
+     <x>50</x>
+     <y>64</y>
+     <width>111</width>
      <height>44</height>
     </rect>
    </property>
@@ -182,7 +182,7 @@ border-radius: 5px;</string>
      <rect>
       <x>160</x>
       <y>80</y>
-      <width>50</width>
+      <width>71</width>
       <height>20</height>
      </rect>
     </property>
@@ -245,6 +245,15 @@ border-radius: 5px;</string>
    </property>
    <property name="maximum">
     <number>20</number>
+   </property>
+   <property name="singleStep">
+    <number>1</number>
+   </property>
+   <property name="pageStep">
+    <number>1</number>
+   </property>
+   <property name="value">
+    <number>4</number>
    </property>
    <property name="orientation">
     <enum>Qt::Horizontal</enum>

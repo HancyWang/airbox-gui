@@ -1,7 +1,7 @@
 #ifndef CONSTANTS_H
 #define CONSTANTS_H
 
-
+#include "shareddata.h"
 
 
 #define DEBUG_AIRBOX_APP    1
@@ -38,8 +38,15 @@
  *
  */
 
+#ifdef CHANGE_PRESSURE_STEP_TO_05
+//2020-12-28,400 means 4cmH2O,2000 means 20cmH2O
+#define TARGET_PRESSURE_MIN     400
+#define TARGET_PRESSURE_MAX     2000
+#else
 #define TARGET_PRESSURE_MIN     4
 #define TARGET_PRESSURE_MAX     20
+#endif
+
 
 #define AIR_FILTER_TYPE_MIN     0
 #define AIR_FILTER_TYPE_MAX     1

@@ -696,12 +696,21 @@ void DataValidation::factoryDefaultVariables(void)
 
     globalVar.pressureUnit = cmh2o;
     globalVar.pressure.currentPressure = 0;
+#ifdef CHANGE_PRESSURE_STEP_TO_05
+    globalVar.pressure.setPressure = 400;
+    globalVar.pressure.targetedPressure = 400;
+    globalVar.pressure.apapMinPressure = 700;
+    globalVar.pressure.apapMaxPressure = 1400;
+    globalVar.pressure.globalMinPressure = TARGET_PRESSURE_MIN;
+    globalVar.pressure.globalMaxPressure = TARGET_PRESSURE_MAX;
+#else
     globalVar.pressure.setPressure = 4;
     globalVar.pressure.targetedPressure = 4;
     globalVar.pressure.apapMinPressure = 7;
     globalVar.pressure.apapMaxPressure = 14;
     globalVar.pressure.globalMinPressure = TARGET_PRESSURE_MIN;
     globalVar.pressure.globalMaxPressure = TARGET_PRESSURE_MAX;
+#endif
 
     globalVar.flow.threshold = 150;
 

@@ -2,6 +2,8 @@
 #include "ui_manufacturingoptionsscreen.h"
 #include "ex_variables.h"
 
+//#define ENABLE_DEBUG_BLOWER
+
 ManufacturingOptionsScreen::ManufacturingOptionsScreen(QWidget *parent,
                                                        PasswordCheckScreen * passwordCheckBackend,
                                                        SettingsWindowClinical * settingsClinicalBackend,
@@ -81,16 +83,19 @@ void ManufacturingOptionsScreen::addButtonsManufacturingOptions(void)
 {
     menufacturingDiagButton = new Button1(this);
     menufacturingSetupButton = new Button1(this);
-//    blowerTestButton = new Button1(this);
+#ifdef ENABLE_DEBUG_BLOWER
+    blowerTestButton = new Button1(this);
+#endif
     parameterTuneButton = new Button1(this);
     diagnosticData = new Button1(this);
-/*
+#ifdef ENABLE_DEBUG_BLOWER
     menufacturingDiagButton->setGeometry(QRect(60,63,330,50));
     menufacturingSetupButton->setGeometry(QRect(60,118,330,50));
     parameterTuneButton->setGeometry(QRect(60,173,330,50));
-//    blowerTestButton->setGeometry(QRect(60,173,330,50));
+    blowerTestButton->setGeometry(QRect(60,173,330,50));
     diagnosticData->setGeometry(QRect(60,228,330,50));
-*/
+#endif
+
     ui->scrollAreaWidgetContentsConfiguration->setLayout(ui->verticalLayoutConfiguration);
     ui->scrollAreaConfiguration->setStyleSheet(QStringLiteral("border:none;"));
 
@@ -103,7 +108,9 @@ void ManufacturingOptionsScreen::addButtonsManufacturingOptions(void)
 
     updateButton1Details(menufacturingDiagButton    ,Providers::getTitleTextString(MANUFACTURING_DIAGNOSIS_STR),Providers::getIconString(MANUFACTURING_DIAGNOSIS),Providers::getNavigationIconString());
     updateButton1Details(menufacturingSetupButton   ,Providers::getTitleTextString(MANUFACTURING_SETUP_STR),Providers::getIconString(MANUFACTURING_SETUP),Providers::getNavigationIconString());
-//    updateButton1Details(blowerTestButton    ,Providers::getTitleTextString(BLOWER_TEST_APPLICATION_STR),Providers::getIconString(MASK_DRY_ICON),Providers::getNavigationIconString());
+#ifdef ENABLE_DEBUG_BLOWER
+    updateButton1Details(blowerTestButton    ,Providers::getTitleTextString(BLOWER_TEST_APPLICATION_STR),Providers::getIconString(MASK_DRY_ICON),Providers::getNavigationIconString());
+#endif
     updateButton1Details(parameterTuneButton    ,Providers::getTitleTextString(PARAMETER_TUNE_STR),Providers::getIconString(MASK_DRY_ICON),Providers::getNavigationIconString());
     updateButton1Details(diagnosticData  ,Providers::getTitleTextString(DIAGNOSTIC_DATA_STR),Providers::getIconString(DIAGNOSTIC_DATA_ICON),Providers::getNavigationIconString());
     //Enable Scrolling mechanism for scroll area
@@ -111,7 +118,9 @@ void ManufacturingOptionsScreen::addButtonsManufacturingOptions(void)
 
     connect(menufacturingDiagButton, SIGNAL(clicked()),SLOT(menufacturingDiagButton_released()));
     connect(menufacturingSetupButton, SIGNAL(clicked()),SLOT(menufacturingSetupButton_released()));
-//    connect(blowerTestButton, SIGNAL(clicked()),SLOT(blowerTestButton_released()));
+#ifdef ENABLE_DEBUG_BLOWER
+    connect(blowerTestButton, SIGNAL(clicked()),SLOT(blowerTestButton_released()));
+#endif
     connect(parameterTuneButton, SIGNAL(clicked()),SLOT(parameterTuneButton_released()));
     connect(diagnosticData, SIGNAL(clicked()),SLOT(diagnosticData_released()));
 }
@@ -212,7 +221,9 @@ void ManufacturingOptionsScreen::updateManufacturingOptionsProcessBeforeShow(voi
 void ManufacturingOptionsScreen::updateText()
 {
     updateButton1Details(menufacturingSetupButton   ,Providers::getTitleTextString(MANUFACTURING_SETUP_STR),Providers::getIconString(MANUFACTURING_SETUP),Providers::getNavigationIconString());
-//    updateButton1Details(blowerTestButton    ,Providers::getTitleTextString(BLOWER_TEST_APPLICATION_STR),Providers::getIconString(MASK_DRY_ICON),Providers::getNavigationIconString());
+#ifdef ENABLE_DEBUG_BLOWER
+    updateButton1Details(blowerTestButton    ,Providers::getTitleTextString(BLOWER_TEST_APPLICATION_STR),Providers::getIconString(MASK_DRY_ICON),Providers::getNavigationIconString());
+#endif
     updateButton1Details(parameterTuneButton    ,Providers::getTitleTextString(PARAMETER_TUNE_STR),Providers::getIconString(MASK_DRY_ICON),Providers::getNavigationIconString());
     updateButton1Details(diagnosticData  ,Providers::getTitleTextString(DIAGNOSTIC_DATA_STR),Providers::getIconString(DIAGNOSTIC_DATA_ICON),Providers::getNavigationIconString());
 }

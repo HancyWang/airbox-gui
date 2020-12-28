@@ -1,6 +1,44 @@
 #ifndef _SHARED_DATA_H_
 #define _SHARED_DATA_H_
 
+//2020-12-28
+//change pressure set step to 0.5cmH2O(original step is 1)
+#define CHANGE_PRESSURE_STEP_TO_05
+
+#ifdef CHANGE_PRESSURE_STEP_TO_05
+//pressure set step is 0.5cmH20
+#define PRESSURE_SET_STEP           50
+
+//if change pressure set step to 0.5cmH2O
+//WE NEED TO set setMaxPressureSlider,setMinPressureSlider,setPressureSlider like below:
+// 4.0cmH20    400
+//20.0cmH20    2000
+// slider range : 4-36 ,which mapped to 4.0-20.0, step is 0.5
+//
+//   4                          20
+//   |--------------------------|
+//   |__________________________|
+//
+//  4.0 4.5  5.0  5.5          20.0       pressure value(cmH20)
+//   |   |    |    |     ...... |
+//   4   5    6    7            36        slider value
+//   |   |    |    |            |
+// 400  450  500  550          2000       (these value are used in our code,let's say there are y)
+//
+//
+// HOW to get y value via slider value?
+// y=400+(slider_value-4)*50
+// example: 2000=400+(36-4)*50
+//
+// HOW to get slider value via y?
+// slider_value=(y-400)/50+4
+// example: 5=(450-400)/50+4
+#define PRESSURE_VALUE_2_SLIDER_VALUE(val) ((val-400)/PRESSURE_SET_STEP+4)
+#define SLIDER_VALUE_2_PRESSURE_VAL(val) (400+(val-4)*PRESSURE_SET_STEP)
+#endif
+
+
+
 
 /* Define any one build */
 //#define FRESCA_REV_X1       1

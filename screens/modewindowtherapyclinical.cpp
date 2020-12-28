@@ -43,11 +43,16 @@ void ModeWindowTherapyClinical::on_modeAccept_released()
     emit dialogClose();
     parentEffect->setEnabled(false);
 
+
     if(globalVar.therapyMode == apapMode)
     {
         if(globalVar.pressure.targetedPressure > globalVar.pressure.apapMaxPressure)
         {
+#ifdef CHANGE_PRESSURE_STEP_TO_05
+            globalVar.pressure.targetedPressure = globalVar.pressure.apapMaxPressure - 50;
+#else
             globalVar.pressure.targetedPressure = globalVar.pressure.apapMaxPressure - 1;
+#endif
             globalVar.pressure.apapMinPressure = globalVar.pressure.targetedPressure;
 
             if(globalVar.pressure.apapMinPressure < TARGET_PRESSURE_MIN)
@@ -58,6 +63,7 @@ void ModeWindowTherapyClinical::on_modeAccept_released()
             }
         }
     }
+
 
     // Update Data to EEPROM
     emit writeParameterToEeprom();

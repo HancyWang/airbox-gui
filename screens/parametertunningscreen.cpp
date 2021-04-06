@@ -424,7 +424,7 @@ void ParameterTunningScreen::updateTunningParametersFromEeprom(QStringList & lis
         readTuneData += valueParam[i] + " ";
     }
 
-    qDebug() << "Tunning data" //<< readTuneData << " <== List ==> " << listTuneData;
+    qDebug() << "Tunning data" //<< readTuneData << " <== List ==> " << listTuneData
                 << valueParam[TUNE_BUFFER_SIZE] << valueParam[TUNE_APNEA] << valueParam[TUNE_PRECURSOR]
                 << valueParam[TUNE_W1] << valueParam[TUNE_W2] << valueParam[TUNE_VARIABLE1]
                 << valueParam[TUNE_FLOW_COFF] << valueParam[TUNE_MAX_ENABLE_TIME] << valueParam[TUNE_EN_IF_STABLE]

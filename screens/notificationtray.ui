@@ -22,10 +22,10 @@
      <x>1</x>
      <y>1</y>
      <width>481</width>
-     <height>21</height>
+     <height>26</height>
     </rect>
    </property>
-   <layout class="QHBoxLayout" name="horizontalLayout" stretch="5,5,3,3,3,1,1,1,1,1,1,1,1">
+   <layout class="QHBoxLayout" name="horizontalLayout" stretch="5,5,3,3,3,1,0,1,1,1,1,1,1">
     <property name="spacing">
      <number>3</number>
     </property>
@@ -103,6 +103,9 @@
     </item>
     <item>
      <widget class="QLabel" name="stableUnstable">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
       <property name="styleSheet">
        <string notr="true">color: rgb(204, 0, 0);</string>
       </property>

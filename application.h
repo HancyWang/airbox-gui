@@ -241,6 +241,7 @@ struct ApplicationVariables {
     //QApplication* app;
     QStringList titleTextList_choose;
     bool b_enable_compile_airbox_arm_code;
+    bool b_disable_password;
     QTranslator* nTranslator;
     pressureParam pressure;
     flowSensorDara flow;

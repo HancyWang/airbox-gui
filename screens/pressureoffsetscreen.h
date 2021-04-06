@@ -49,6 +49,8 @@ private slots:
 
     void updatePressureSensorOffset(int offset);
 
+//    void on_pressureOffsetAuto_clicked();
+
 private:
     Ui::PressureOffsetScreen *ui;
     PruControlClass * m_IpcManager;

@@ -53,8 +53,8 @@
 #define FRESCA_REV      FRESCA_REV_X3
 #endif
 
-#define SOFTWARE_MAJOR_VERSION       2
-#define SOFTWARE_MINOR_VERSION       0
+#define SOFTWARE_MAJOR_VERSION       0
+#define SOFTWARE_MINOR_VERSION       80
 
 
 #define FIRMWARE_MAJOR_VERSION       0

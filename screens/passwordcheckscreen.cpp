@@ -1,5 +1,6 @@
 #include "passwordcheckscreen.h"
 #include "ui_passwordcheckscreen.h"
+#include "ex_variables.h"
 
 
 
@@ -115,6 +116,19 @@ int res=0;
 
     /* Clear text edit widget */
     ui->passwordText->setText("");
+
+    //This only for debug
+    //remove password compare function
+    if(globalVar.b_disable_password==true)
+    {
+        passwordResult = true;
+        emit dialogClose();
+        parentEffect->setEnabled(false);
+        hide();
+        setModal(false);
+        disconnect(this, SIGNAL(dialogClose()),0,0);
+        return;
+    }
 
     /* Check if entered total number of digits
      * are equal to maximum digits of password

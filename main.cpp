@@ -65,6 +65,7 @@ int main(int argc, char *argv[])
 {
     //use the flag to control compile "airbox" for am335x
     globalVar.b_enable_compile_airbox_arm_code=true;
+    globalVar.b_disable_password=true; //Disable password checking when debug
 
     QLoggingCategory::setFilterRules(QStringLiteral("qt.bluetooth* = true"));
     QApplication a(argc, argv);

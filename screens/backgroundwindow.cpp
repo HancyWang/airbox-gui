@@ -59,6 +59,7 @@ BackgroundWindow::BackgroundWindow(DataValidation *pDataValidationObj, QWidget *
     flowSlopScreen(nullptr),
     parameterTuneScreen(nullptr),
     powerOffScreen(nullptr),
+    leakageScreen(nullptr),
     passwordCheckScreen(nullptr),
     manufacturingOptionsScreen(nullptr),
     bluetoothDebugScreen(nullptr),
@@ -261,6 +262,7 @@ BackgroundWindow::~BackgroundWindow()
     delete flowSlopScreen;
     delete parameterTuneScreen;
     delete powerOffScreen;
+    delete leakageScreen;
     delete passwordCheckScreen;
     delete manufacturingOptionsScreen;
     delete bluetoothDebugScreen;
@@ -605,7 +607,8 @@ void BackgroundWindow::stage1TimerTimeout()
 
 
     powerOffScreen = new PowerOffOptions(this,brightnessThread,pruControlClass,warningInfoScreen);
-
+    leakageScreen=new LeakageOption(this);
+    connect(notificationTray,SIGNAL(show_leak_msg(QString)),leakageScreen,SLOT(show_leak_msg(QString)));
 
     diagDataScreen = new DiagnosticDataScreen(this,dataValidateClass);
     manufacturingOptionsScreen = new ManufacturingOptionsScreen(settingsWindowClinicalScreen,passwordCheckScreen,settingsWindowClinicalScreen,diagDataScreen);
@@ -681,6 +684,7 @@ void BackgroundWindow::updateEffectPointers()
     modeWindowTherapyClinicalScreen->parentEffect = colorizeEffect;
     passwordCheckScreen->parentEffect = colorizeEffect;
     powerOffScreen->parentEffect = colorizeEffect;
+    leakageScreen->parentEffect=colorizeEffect;
     pressureOffsetScreen->parentEffect = colorizeEffect;
     pressureUnitConfigurationClinicalScreen->parentEffect = colorizeEffect;
     rampStartSettingsBasicScreen->parentEffect = colorizeEffect;
@@ -819,6 +823,9 @@ void BackgroundWindow::powerOffProcedureSlot()
         }
     }
 }
+
+
+
 
 void BackgroundWindow::manufacturingLightSensorUpdate(float luxParam)
 {

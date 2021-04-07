@@ -23,6 +23,8 @@ public:
 
     bool checkSdcardVisible();
     void changeEvent(QEvent* e);
+signals:
+    void show_leak_msg(QString str);
 public slots:
     void updateTime(void);
 

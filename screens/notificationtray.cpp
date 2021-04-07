@@ -106,6 +106,7 @@ NotificationTray::NotificationTray(QWidget *parent,
     timer = new QTimer(this);
     connect(timer, SIGNAL(timeout()), this, SLOT(updateTime()));
     timer->start(1000);
+
 }
 
 NotificationTray::~NotificationTray()
@@ -235,15 +236,20 @@ void NotificationTray::updateMaskLeakStatus(unsigned int tLeakState)
 //            break;
         case EVENT_TYPE_LEAK:
             ui->maskOffLeak->setText("L1");
+            emit show_leak_msg("L1");
             break;
         case EVENT_TYPE_LEAK2:
             ui->maskOffLeak->setText("L2");
+            emit show_leak_msg("L2");
             break;
         case EVENT_TYPE_NONE:
             ui->maskOffLeak->setText(" ");
+            emit show_leak_msg(" ");
             break;
     }
 }
+
+
 
 void NotificationTray::updatebreathCount(int count)
 {

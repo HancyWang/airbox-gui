@@ -163,7 +163,7 @@
     <message>
         <location filename="screens/airtubewindowreminderclinical.ui" line="75"/>
         <source>-</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">-</translation>
     </message>
     <message>
         <location filename="screens/airtubewindowreminderclinical.ui" line="97"/>
@@ -188,7 +188,7 @@
     <message>
         <location filename="screens/airtubewindowreminderclinical.ui" line="215"/>
         <source>+</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">+</translation>
     </message>
     <message>
         <location filename="screens/airtubewindowreminderclinical.ui" line="252"/>
@@ -234,7 +234,7 @@
         <location filename="screens/blowertestapplication.ui" line="121"/>
         <location filename="screens/blowertestapplication.ui" line="772"/>
         <source>-</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">-</translation>
     </message>
     <message>
         <location filename="screens/blowertestapplication.ui" line="148"/>
@@ -282,7 +282,7 @@
         <location filename="screens/blowertestapplication.ui" line="665"/>
         <location filename="screens/blowertestapplication.ui" line="799"/>
         <source>+</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">+</translation>
     </message>
     <message>
         <location filename="screens/blowertestapplication.ui" line="690"/>
@@ -330,12 +330,12 @@
     <message>
         <location filename="screens/bluetoothdebugscreen.ui" line="109"/>
         <source>+</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">+</translation>
     </message>
     <message>
         <location filename="screens/bluetoothdebugscreen.ui" line="125"/>
         <source>-</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">-</translation>
     </message>
     <message>
         <location filename="screens/bluetoothdebugscreen.ui" line="148"/>
@@ -401,12 +401,12 @@
     <message>
         <location filename="screens/brightnessadjustbrightnesssettingsbasic.ui" line="249"/>
         <source>+</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">+</translation>
     </message>
     <message>
         <location filename="screens/brightnessadjustbrightnesssettingsbasic.ui" line="286"/>
         <source>-</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">-</translation>
     </message>
 </context>
 <context>
@@ -434,12 +434,12 @@
     <message>
         <location filename="screens/brightnessoffsetscreen.ui" line="178"/>
         <source>+</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">+</translation>
     </message>
     <message>
         <location filename="screens/brightnessoffsetscreen.ui" line="215"/>
         <source>-</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">-</translation>
     </message>
     <message>
         <location filename="screens/brightnessoffsetscreen.ui" line="252"/>
@@ -626,12 +626,12 @@
     <message>
         <location filename="screens/displaydimbrightnesssettingsbasic.ui" line="206"/>
         <source>+</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">+</translation>
     </message>
     <message>
         <location filename="screens/displaydimbrightnesssettingsbasic.ui" line="243"/>
         <source>-</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">-</translation>
     </message>
     <message>
         <location filename="screens/displaydimbrightnesssettingsbasic.ui" line="265"/>
@@ -855,12 +855,12 @@ Erase All Data?</source>
     <message>
         <location filename="screens/flowslopscreen.ui" line="132"/>
         <source>-</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">-</translation>
     </message>
     <message>
         <location filename="screens/flowslopscreen.ui" line="169"/>
         <source>+</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">+</translation>
     </message>
     <message>
         <location filename="screens/flowslopscreen.ui" line="192"/>
@@ -903,12 +903,12 @@ Erase All Data?</source>
     <message>
         <location filename="screens/gotosleepsettingsbasic.ui" line="165"/>
         <source>+</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">+</translation>
     </message>
     <message>
         <location filename="screens/gotosleepsettingsbasic.ui" line="202"/>
         <source>-</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">-</translation>
     </message>
     <message>
         <location filename="screens/gotosleepsettingsbasic.ui" line="224"/>
@@ -964,6 +964,19 @@ Erase All Data?</source>
         <location filename="screens/homewindowclinical.ui" line="68"/>
         <source>Clinical Menu</source>
         <translation type="unfinished">臨床メニュー</translation>
+    </message>
+</context>
+<context>
+    <name>LeakageOption</name>
+    <message>
+        <location filename="screens/leakageoption.ui" line="14"/>
+        <source>Dialog</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="screens/leakageoption.ui" line="64"/>
+        <source>OK</source>
+        <translation type="unfinished">OK</translation>
     </message>
 </context>
 <context>
@@ -1056,12 +1069,12 @@ Erase All Data?</source>
     <message>
         <location filename="screens/manufacturingdiagnosisscreen.ui" line="821"/>
         <source>+</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">+</translation>
     </message>
     <message>
         <location filename="screens/manufacturingdiagnosisscreen.ui" line="857"/>
         <source>-</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">-</translation>
     </message>
     <message>
         <location filename="screens/manufacturingdiagnosisscreen.ui" line="881"/>
@@ -1071,7 +1084,7 @@ Erase All Data?</source>
     <message>
         <location filename="screens/manufacturingdiagnosisscreen.ui" line="907"/>
         <source>Blower Speed</source>
-        <translation type="unfinished">ブローワー回転速度　</translation>
+        <translation type="unfinished">ブローワー回転速度&#x3000;</translation>
     </message>
     <message>
         <location filename="screens/manufacturingdiagnosisscreen.ui" line="956"/>
@@ -1227,7 +1240,7 @@ Erase All Data?</source>
     <message>
         <location filename="screens/maskwindowreminderclinical.ui" line="171"/>
         <source>+</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">+</translation>
     </message>
     <message>
         <location filename="screens/maskwindowreminderclinical.ui" line="193"/>
@@ -1252,7 +1265,7 @@ Erase All Data?</source>
     <message>
         <location filename="screens/maskwindowreminderclinical.ui" line="314"/>
         <source>-</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">-</translation>
     </message>
 </context>
 <context>
@@ -1339,12 +1352,12 @@ Erase All Data?</source>
     <message>
         <location filename="screens/parametertunningscreen.ui" line="101"/>
         <source>+</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">+</translation>
     </message>
     <message>
         <location filename="screens/parametertunningscreen.ui" line="138"/>
         <source>-</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">-</translation>
     </message>
     <message>
         <location filename="screens/parametertunningscreen.ui" line="160"/>
@@ -1478,12 +1491,12 @@ Erase All Data?</source>
     <message>
         <location filename="screens/pressureoffsetscreen.ui" line="166"/>
         <source>-</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">-</translation>
     </message>
     <message>
         <location filename="screens/pressureoffsetscreen.ui" line="203"/>
         <source>+</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">+</translation>
     </message>
     <message>
         <location filename="screens/pressureoffsetscreen.ui" line="241"/>
@@ -1549,7 +1562,7 @@ Erase All Data?</source>
     <message>
         <location filename="screens/rampstartsettingsbasic.ui" line="100"/>
         <source>+</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">+</translation>
     </message>
     <message>
         <location filename="screens/rampstartsettingsbasic.ui" line="116"/>
@@ -1564,7 +1577,7 @@ Erase All Data?</source>
     <message>
         <location filename="screens/rampstartsettingsbasic.ui" line="190"/>
         <source>-</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">-</translation>
     </message>
     <message>
         <location filename="screens/rampstartsettingsbasic.ui" line="227"/>
@@ -1731,7 +1744,7 @@ and insert again</source>
     <message>
         <location filename="screens/setmaxpressureclinical.ui" line="50"/>
         <source>+</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">+</translation>
     </message>
     <message>
         <location filename="screens/setmaxpressureclinical.ui" line="66"/>
@@ -1741,7 +1754,7 @@ and insert again</source>
     <message>
         <location filename="screens/setmaxpressureclinical.ui" line="106"/>
         <source>-</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">-</translation>
     </message>
     <message>
         <location filename="screens/setmaxpressureclinical.ui" line="148"/>
@@ -1764,12 +1777,12 @@ and insert again</source>
         <translation type="unfinished">キャンセル</translation>
     </message>
     <message>
-        <location filename="screens/setmaxpressureclinical.ui" line="297"/>
+        <location filename="screens/setmaxpressureclinical.ui" line="309"/>
         <source>10</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="screens/setmaxpressureclinical.ui" line="322"/>
+        <location filename="screens/setmaxpressureclinical.ui" line="334"/>
         <source>Set Max Pressure</source>
         <translation type="unfinished">最大圧力を設定する</translation>
     </message>
@@ -1817,14 +1830,14 @@ and insert again</source>
         <translation type="unfinished">最小圧力を設定する</translation>
     </message>
     <message>
-        <location filename="screens/setminpressureclinical.ui" line="287"/>
+        <location filename="screens/setminpressureclinical.ui" line="296"/>
         <source>+</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">+</translation>
     </message>
     <message>
-        <location filename="screens/setminpressureclinical.ui" line="324"/>
+        <location filename="screens/setminpressureclinical.ui" line="333"/>
         <source>-</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">-</translation>
     </message>
 </context>
 <context>
@@ -1835,37 +1848,37 @@ and insert again</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="screens/setpressureclinical.ui" line="85"/>
+        <location filename="screens/setpressureclinical.ui" line="100"/>
         <source>+</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">+</translation>
     </message>
     <message>
-        <location filename="screens/setpressureclinical.ui" line="107"/>
+        <location filename="screens/setpressureclinical.ui" line="122"/>
         <source>Set Pressure</source>
         <translation type="unfinished">設定圧力</translation>
     </message>
     <message>
-        <location filename="screens/setpressureclinical.ui" line="129"/>
+        <location filename="screens/setpressureclinical.ui" line="144"/>
         <source>5</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="screens/setpressureclinical.ui" line="169"/>
+        <location filename="screens/setpressureclinical.ui" line="184"/>
         <source>Accept</source>
         <translation type="unfinished">受入</translation>
     </message>
     <message>
-        <location filename="screens/setpressureclinical.ui" line="185"/>
+        <location filename="screens/setpressureclinical.ui" line="200"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;cmH&lt;span style=&quot; vertical-align:sub;&quot;&gt;2&lt;/span&gt;O&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="screens/setpressureclinical.ui" line="225"/>
+        <location filename="screens/setpressureclinical.ui" line="240"/>
         <source>-</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">-</translation>
     </message>
     <message>
-        <location filename="screens/setpressureclinical.ui" line="262"/>
+        <location filename="screens/setpressureclinical.ui" line="277"/>
         <source>Cancel</source>
         <translation type="unfinished">キャンセル</translation>
     </message>
@@ -2069,7 +2082,7 @@ Snooz?</source>
     <message>
         <location filename="screens/snoozetimesettingsbasic.ui" line="154"/>
         <source>+</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">+</translation>
     </message>
     <message>
         <location filename="screens/snoozetimesettingsbasic.ui" line="191"/>
@@ -2079,7 +2092,7 @@ Snooz?</source>
     <message>
         <location filename="screens/snoozetimesettingsbasic.ui" line="228"/>
         <source>-</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">-</translation>
     </message>
     <message>
         <location filename="screens/snoozetimesettingsbasic.ui" line="250"/>
@@ -2155,20 +2168,21 @@ Parameter</source>
     </message>
     <message>
         <location filename="screens/therapywindowbasic.cpp" line="132"/>
+        <location filename="screens/therapywindowbasic.cpp" line="542"/>
         <source>Set Pressure</source>
         <translation type="unfinished">設定圧力</translation>
     </message>
     <message>
-        <location filename="screens/therapywindowbasic.cpp" line="148"/>
-        <location filename="screens/therapywindowbasic.cpp" line="179"/>
-        <location filename="screens/therapywindowbasic.cpp" line="312"/>
-        <location filename="screens/therapywindowbasic.cpp" line="535"/>
+        <location filename="screens/therapywindowbasic.cpp" line="152"/>
+        <location filename="screens/therapywindowbasic.cpp" line="183"/>
+        <location filename="screens/therapywindowbasic.cpp" line="316"/>
+        <location filename="screens/therapywindowbasic.cpp" line="539"/>
         <source>Start Therapy</source>
         <translation type="unfinished">治療を開始します</translation>
     </message>
     <message>
-        <location filename="screens/therapywindowbasic.cpp" line="176"/>
-        <location filename="screens/therapywindowbasic.cpp" line="306"/>
+        <location filename="screens/therapywindowbasic.cpp" line="180"/>
+        <location filename="screens/therapywindowbasic.cpp" line="310"/>
         <source>Stop Therapy</source>
         <translation type="unfinished">治療をやめる</translation>
     </message>

@@ -160,6 +160,8 @@ const QStringList Providers::titleTextList_EN = {
     "Level 3",
     "Standard",
     "HEPA",
+    "Leak L1",
+    "Leak L2",
 
 //    "Jan",
 //    "Feb",
@@ -239,6 +241,8 @@ const QStringList Providers::titleTextList_ZH = {
     "Level 3",
     "标准",
     "HEPA",
+    "漏气 L1",
+    "漏气 L2",
 
 //    "1月",
 //    "2月",
@@ -317,6 +321,8 @@ const QStringList Providers::titleTextList_JP = {
     "Level 3",
     "標準",
     "HEPA",
+    "空気が漏れる L1",
+    "空気が漏れる L2",
 
 
 //    "1月",

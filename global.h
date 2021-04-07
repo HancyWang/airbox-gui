@@ -147,6 +147,8 @@ enum TITLE_TEXT_STR_NO {
     LEVEL_3_STR,
     STANDART_STR,
     HEPA_STR,
+    LEAK_1_STR,
+    LEAK_2_STR,
 //    JAN_STR,
 //    FEB_STR,
 //    MAR_STR,

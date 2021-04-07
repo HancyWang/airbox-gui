@@ -58,6 +58,7 @@
 #include "screens/parametertunningscreen.h"
 #include "screens/enterserialnumber.h"
 #include "screens/poweroffoptions.h"
+#include "screens/leakageoption.h"
 #include "screens/passwordcheckscreen.h"
 #include "screens/manufacturingoptionsscreen.h"
 #include "screens/bluetoothdebugscreen.h"
@@ -170,6 +171,7 @@ public:
     FlowSlopScreen * flowSlopScreen;
     ParameterTunningScreen * parameterTuneScreen;
     PowerOffOptions * powerOffScreen;
+    LeakageOption*  leakageScreen;
     PasswordCheckScreen * passwordCheckScreen;
     ManufacturingOptionsScreen * manufacturingOptionsScreen;
     BluetoothDebugScreen * bluetoothDebugScreen;

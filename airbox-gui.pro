@@ -114,7 +114,8 @@ SOURCES += main.cpp \
     ble/blepacketdelaycommand.cpp \
     ble/blecommand.cpp \
     ble/blecancelcommand.cpp \
-    ble/airboxfiletransferservice.cpp
+    ble/airboxfiletransferservice.cpp \
+    screens/leakageoption.cpp
 
 FORMS += \
     screens/backgroundwindow.ui \
@@ -177,7 +178,8 @@ FORMS += \
     screens/resetreminderwarning.ui \
     screens/sdcardformatscreen.ui \
     screens/warninginfoscreen.ui \
-    screens/flowslopscreen.ui
+    screens/flowslopscreen.ui \
+    screens/leakageoption.ui
 
 HEADERS += \
     screens/backgroundwindow.h \
@@ -275,7 +277,8 @@ HEADERS += \
     ble/airboxfiletransferservice.h \
     ble/airboxdeviceinformationservice.h \
     application.h \
-    shareddata.h
+    shareddata.h \
+    screens/leakageoption.h
 
 
 target.path += /home/root
